@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React  from 'react';
 
 // Layout
 //import Header from "../layout/header";
@@ -14,11 +14,17 @@ import ScheduleServiceSection from "../elements/schedule-service";
 import TeamOneSection from "../elements/team-1";
 import TestimonialSection from "../elements/testimonial";
 import LatestBlogSection from "../elements/latest-blog-slider";
+import { useTranslation } from 'react-i18next';
 
-class Index extends Component{
+function Index() {
+
+	const { t, i18n } = useTranslation();
+
+
+	const changeLanguage = (lng) => {
+		i18n.changeLanguage(lng);
+	};
 	
-	
-	render(){
 		
 		return (
 			<>
@@ -26,6 +32,13 @@ class Index extends Component{
 				<Header />
 				
 				<SliderOneSection />
+
+				<h1>{t('welcome')}</h1>
+
+				    <div>
+					<button onClick={() => changeLanguage('en')}>English</button>
+					<button onClick={() => changeLanguage('ar')}>Arabic</button>
+					</div>
 				
 				<AboutUsOneSection />
 				
@@ -45,7 +58,6 @@ class Index extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default Index;
