@@ -9,6 +9,7 @@ import logoWhite from "../../images/swissmainlogo.png";
 
 class aboutSection extends Component{
 	
+	
 	componentDidMount(){
 		
 		// Mobile Menu Open
@@ -18,10 +19,12 @@ class aboutSection extends Component{
 		
 		menuIcon.addEventListener('click',function(){
 			menuLinks.classList.add("show")
+			document.body.classList.add("ActivePanel");
 		})
 
 		menuClose.addEventListener('click',function(){
 			menuLinks.classList.remove("show")
+			document.body.classList.remove("ActivePanel");
 		})
 		
 		// Mobile Submenu Open Close Function
