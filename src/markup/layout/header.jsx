@@ -16,15 +16,23 @@ class aboutSection extends Component{
 		var menuIcon = document.querySelector(".menuicon")
 		var menuLinks = document.querySelector(".menu-links")
 		var menuClose = document.getElementById("menuClose")
+		var menuDeskOpen = document.getElementById("HamberMenuClick")
+		var menuDeskClose = document.getElementById("HamberMenuClose")
+		
+		menuDeskOpen.addEventListener('click',function(){
+			document.body.classList.add("ActivePanel");
+		})
+		
+		menuDeskClose.addEventListener('click',function(){
+			document.body.classList.remove("ActivePanel");
+		})
 		
 		menuIcon.addEventListener('click',function(){
 			menuLinks.classList.add("show")
-			document.body.classList.add("ActivePanel");
 		})
 
 		menuClose.addEventListener('click',function(){
 			menuLinks.classList.remove("show")
-			document.body.classList.remove("ActivePanel");
 		})
 		
 		// Mobile Submenu Open Close Function
@@ -78,7 +86,7 @@ class aboutSection extends Component{
 					<div class="SideNav">
 						<div class="SideNavContent">
 							<span class="CloseClick">
-								<span class="CloseBtn1">&nbsp;</span>
+								<span class="CloseBtn1" id='HamberMenuClose'>&nbsp;</span>
 							</span>
 							<div class="NavBox">
 								<a href="/">Home</a>
@@ -109,7 +117,7 @@ class aboutSection extends Component{
 								<div className="secondary-menu">
 									<Link to="/login" className="btn btn-language">عربي<span className="flag1">&nbsp;</span></Link>
 									<Link to="/booking" className="btn btn-primary ms-3">Book Appointment</Link>
-									<div className='HamberMenuClick' onClick="sideNav();">&nbsp;</div>
+									<div className='HamberMenuClick' id='HamberMenuClick' onClick="sideNav();">&nbsp;</div>
 								</div>
 								<div className="menu-links navbar-collapse collapse justify-content-center" id="menuDropdown">
 									<div className="menu-logo">
