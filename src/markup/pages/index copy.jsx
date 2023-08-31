@@ -18,12 +18,11 @@ import { useTranslation } from 'react-i18next';
 
 function Index() {
 
-	const { t } = useTranslation();
+	const { t, i18n } = useTranslation();
 
 
-
-	const handleRefresh = (url) => {
-		window.location.href = url;
+	const changeLanguage = (lng) => {
+		i18n.changeLanguage(lng);
 	};
 	
 		
@@ -36,9 +35,10 @@ function Index() {
 
 				<h1>{t('welcome')}</h1>
 
-
-					<button onClick={()=>handleRefresh("/en")}>English</button>
-					<button onClick={()=>handleRefresh("/ar")}>Arabic</button>
+				    <div>
+					<button onClick={() => changeLanguage('en')}>English</button>
+					<button onClick={() => changeLanguage('ar')}>Arabic</button>
+					</div>
 				
 				<AboutUsOneSection />
 				
