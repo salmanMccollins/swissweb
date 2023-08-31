@@ -47,24 +47,21 @@ function App() {
     .init({
       resources,
       fallbackLng,
-
-      detection: {
-        checkWhitelist: true,
-      },
-
       debug: false,
-
       whitelist: availableLanguages,
-
       interpolation: {
         escapeValue: false,
+      },
+      detection: {
+        order: ["path"],
+        lookupFromPathIndex: 0,
       },
     });
   return (
     <I18nextProvider i18n={i18n}>
       <Suspense fallback={<div>Loading...</div>}>
         <div className="page-wraper">
-          <Markup />
+          <Markup i18n={i18n} />
         </div>
       </Suspense>
     </I18nextProvider>

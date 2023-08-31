@@ -37,12 +37,14 @@ import ServiceTireAndWheelServices from './pages/service-tire-and-wheel-services
 import Team from './pages/team';
 import TeamDetails from './pages/team-details';
 import Error from './pages/error-404';
+import { withTranslation } from "react-i18next";
 
 class Markup extends Component{
 	render(){
+		
 		return(
 			<>
-				<BrowserRouter basename={'/react/'}>
+				<BrowserRouter basename={`/${this.props.i18n.language}`}>
 				
 					<Switch>
 					
@@ -91,4 +93,4 @@ class Markup extends Component{
 	}
 }
 
-export default Markup;
+export default withTranslation()(Markup);
