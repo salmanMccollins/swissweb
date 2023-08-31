@@ -13,6 +13,37 @@
 		color: #fff;
 	}
 }
+.btn-language{
+	background-color: #fff;
+	color: $secondary;
+	position: relative;
+	padding-right: 40px;
+	display: inline-block;
+	font-family: 'Cairo', sans-serif;
+	.flag1{
+		background-image: url(../../images/flag1.png);
+		width: 25px;
+		height: 15px;
+		display: inline-block;
+		background-size: 100% 100%;
+		border-radius: 5px;
+		position: absolute;
+		top: 12px;
+  		right: 10px;
+	}
+	&:hover{
+		background-color: $secondary;
+		color: #fff;
+	}
+}
+
+header .active {
+	.btn-language{
+		background-color: $secondary !important;
+		color: #fff !important;
+	}
+}
+
 .btn-outline-primary{
 	&:hover{
 		color: #fff;

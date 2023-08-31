@@ -1,3 +1,133 @@
+.announcement-bar{
+	background-color: $primary;
+	color: #fff;
+	padding: 10px 0px;
+}
+.AnnouncementIcons{
+	display: flex;
+  justify-content: space-between;
+  width: 100%;
+	.AnnonceLink1{
+		color: #fff;
+		display: inline-block;
+		position: relative;
+		padding-left: 28px;
+		&::before{
+			content: "";
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			background-size: 100% 100%;
+			position: absolute;
+			top: 2px;
+			left: 0;
+		}
+		&.call{
+			&::before{
+				background-image: url(../../images/new-icons/aacall.png);
+			}
+		}
+		&.whatsapp{
+			&::before{
+				background-image: url(../../images/new-icons/aawhatsapp.png);
+			}
+		}
+		&.location{
+			&::before{
+				background-image: url(../../images/new-icons/aalocation.png);
+			}
+		}
+		&.email{
+			&::before{
+				background-image: url(../../images/new-icons/aaemail.png);
+			}
+		}
+	}
+}
+.HamberMenuClick{
+	width: 30px;
+	height: 30px;
+	background-image: url(../../images/new-icons/whitemenu.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+	margin-left: 15px;
+	display: inline-block;
+}
+header .active .HamberMenuClick{
+	background-image: url(../../images/new-icons/blackmenu.png);
+}
+.menudrop {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 22;
+	display: none;
+	cursor: pointer;
+  }
+
+  .SideNav {
+	position: fixed;
+	right: -200%;
+	top: 0;
+	width: 500px;
+	padding: 60px 70px;
+	-webkit-backdrop-filter: blur(9px);
+	backdrop-filter: blur(9px);
+	height: 100%;
+	background: #0000004f;
+	z-index: 99;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	transition: 0.4s;
+	
+  }
+ 
+  .SideNavContent {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+  }
+  .CloseClick {
+	width: 30px;
+	position: absolute;
+	top: -45px;
+	right: -45px;
+	height: 30px;
+	display: inline-block;
+	cursor: pointer;
+  }
+  .CloseBtn1 {
+	background-image: url(../../images/new-icons/close.png);
+	width: 25px;
+	height: 25px;
+	background-size: 100% 100%;
+	display: inline-block;
+  }
+  .NavBox {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 30px;
+  }
+  .NavBox a {
+	color: #fff;
+	font-weight: 900;
+	font-size: 30px;
+	display: block;
+	text-align: right;
+	padding: 7px 0px;
+  }
+  .ActivePanel .menudrop {
+	display: block;
+  }
+  .ActivePanel .SideNav {
+	right: 0;
+  }
 // Header Logo
 .menu-logo {
     display: table;

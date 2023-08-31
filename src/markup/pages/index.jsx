@@ -33,13 +33,6 @@ function Index() {
 				
 				<SliderOneSection />
 
-				<h1>{t('welcome')}</h1>
-
-				    <div>
-					<button onClick={() => changeLanguage('en')}>English</button>
-					<button onClick={() => changeLanguage('ar')}>Arabic</button>
-					</div>
-				
 				<AboutUsOneSection />
 				
 				<ServicesSection />
