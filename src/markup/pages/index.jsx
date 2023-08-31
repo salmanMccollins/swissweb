@@ -15,6 +15,7 @@ import TeamOneSection from "../elements/team-1";
 import TestimonialSection from "../elements/testimonial";
 import LatestBlogSection from "../elements/latest-blog-slider";
 import { useTranslation } from 'react-i18next';
+import HeroBanner from '../elements/widget/HeroBanner';
 
 function Index() {
 
@@ -32,13 +33,13 @@ function Index() {
 			
 				<Header />
 				
-				<SliderOneSection />
+				<HeroBanner />
 
-				<h1>{t('welcome')}</h1>
+				{/* <h1>{t('welcome')}</h1>
 
 
 					<button onClick={()=>handleRefresh("/en")}>English</button>
-					<button onClick={()=>handleRefresh("/ar")}>Arabic</button>
+					<button onClick={()=>handleRefresh("/ar")}>Arabic</button> */}
 				
 				<AboutUsOneSection />
 				
