@@ -24,11 +24,11 @@ class Gallery2 extends Component{
 					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
-								<h1><span>Our Gallery 2</span></h1>
+								<h1><span>Our Gallery</span></h1>
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Our Gallery 2</li>
+										<li className="breadcrumb-item active" aria-current="page">Our Gallery</li>
 									</ul>
 								</nav>
 							</div>

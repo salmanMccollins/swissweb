@@ -115,18 +115,7 @@ class JobCareer extends Component{
 								</div>
 								<div className="col-lg-4 col-md-5 mb-20">
 									<aside className="sticky-top">
-										<div className="widget">
-											<h5 className="widget-title">Our Inner Pages</h5>
-											<ul className="service-menu style-1">
-												<li><a href="about-1.html">About Us <i className="las la-question-circle"></i></a></li>
-												<li><a href="service-1.html">Our Services <i className="las la-cog"></i></a></li>
-												<li className="active"><a href="job-career.html">Job & Career<i className="las la-user-plus"></i></a></li>
-												<li><a href="pricing-plan.html">Pricing<i className="las la-table"></i></a></li>
-												<li><a href="team.html">Our Team<i className="las la-user-tie"></i></a></li>
-												<li><a href="booking.html">Booking<i className="lab la-wpforms"></i></a></li>
-												<li><a href="faq-1.html">Faq<i className="las la-quote-left"></i></a></li>
-											</ul>
-										</div>
+										
 										
 										<WidgetContact />
 										

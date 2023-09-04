@@ -32,7 +32,7 @@ class Booking extends Component{
 						</div>
 					</div>
 					
-					<section className="section-area section-sp1">
+					<section className="section-area section-sp1 bg-light">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-8 col-md-7 mb-30 mb-md-50">
@@ -169,13 +169,12 @@ class Booking extends Component{
 										<div className="widget">
 											<h5 className="widget-title">Our Inner Pages</h5>
 											<ul className="service-menu style-1">
-												<li><Link to="/about-1">About Us <i className="las la-question-circle"></i></Link></li>
-												<li><Link to="/service-1">Our Services <i className="las la-cog"></i></Link></li>
-												<li><Link to="/job-career">Job & Career<i className="las la-user-plus"></i></Link></li>
-												<li><Link to="/pricing-plan">Pricing<i className="las la-table"></i></Link></li>
-												<li><Link to="/team">Our Team<i className="las la-user-tie"></i></Link></li>
+												<li><Link to="/aboutus">About Us <i className="las la-question-circle"></i></Link></li>
+												<li><Link to="/services">Our Services <i className="las la-cog"></i></Link></li>
+												<li><Link to="/careers">Job & Career<i className="las la-user-plus"></i></Link></li>
+												<li><Link to="/ourbrands">Our Partners<i className="las la-user-tie"></i></Link></li>
 												<li className="active"><Link to="/booking">Booking<i className="lab la-wpforms"></i></Link></li>
-												<li><Link to="/faq-1">Faq<i className="las la-quote-left"></i></Link></li>
+												<li><Link to="/faq">Faq<i className="las la-quote-left"></i></Link></li>
 											</ul>
 										</div>
 									</aside>

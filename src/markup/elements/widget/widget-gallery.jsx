@@ -33,18 +33,18 @@ const content = [
 const options = {
 	settings: {
 		overlayColor: "rgba(0,0,0,0.9)",
-		backgroundColor: "#f42222",
+		backgroundColor: "#e01424",
 		slideAnimationType: 'slide',
 	},
 	buttons: {
-		backgroundColor: "#f42222",
+		backgroundColor: "#e01424",
 		iconColor: "rgba(255, 255, 255, 1)",
 		showDownloadButton: false,
 		showAutoplayButton: false,
 		showThumbnailsButton: false,
 	},
 	caption: {
-		captionColor: "#f42222",
+		captionColor: "#e01424",
 		captionFontFamily: "Raleway, sans-serif",
 		captionFontWeight: "300",
 		captionTextTransform: "uppercase",

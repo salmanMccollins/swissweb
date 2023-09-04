@@ -6,8 +6,6 @@ import Footer from "../layout/footer";
 
 // Elements
 import Header from "../layout/header";
-import SliderOneSection from "../elements/home-slider/slider1";
-import AboutUsOneSection from "../elements/about-us-1";
 import ServicesSection from "../elements/services-1";
 import ChooseUsSection from "../elements/choose-us";
 import ScheduleServiceSection from "../elements/schedule-service";
@@ -16,6 +14,8 @@ import TestimonialSection from "../elements/testimonial";
 import LatestBlogSection from "../elements/latest-blog-slider";
 import { useTranslation } from 'react-i18next';
 import HeroBanner from '../elements/widget/HeroBanner';
+import AboutUsFourSection from "../elements/about-us-4";
+import AboutUsThreeSection from "../elements/about-us-3";
 
 function Index() {
 
@@ -40,14 +40,18 @@ function Index() {
 
 					<button onClick={()=>handleRefresh("/en")}>English</button>
 					<button onClick={()=>handleRefresh("/ar")}>Arabic</button> */}
+				<AboutUsFourSection/>
 				
-				<AboutUsOneSection />
+				
 				
 				<ServicesSection />
+
+				<AboutUsThreeSection/>
 				
 				<ChooseUsSection />
 				
 				<ScheduleServiceSection />
+				
 				
 				<TeamOneSection />
 				

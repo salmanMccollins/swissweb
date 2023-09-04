@@ -160,3 +160,171 @@
 		}
 	}
 }
+.BrandBoxMega{
+	padding: 20px;
+	width: 100%;
+	padding-bottom: 0;
+	.row{
+		.col-md-2{
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			padding: 15px;
+			border-right: 1px solid rgba(0, 0, 0, 0.1);
+			flex: 0 0 auto;
+    		width: 14.28%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			a{
+				display: block;
+			}
+			img{
+				max-width: 100%;
+				height: 60px;
+				object-fit: contain;
+				padding: 15px;
+			}
+		}
+	}
+}
+.page-banner{
+height: 100vh;
+}
+.BrandFaq{
+	background-color: #f7f7f7;
+	padding: 60px 0px;
+}
+.header-transparent .menu-links .nav > li:hover > a{
+	color: $primary;
+}
+
+.BrandPageBox {
+	margin-top: 40px;
+	.BrandBoxMega{
+		padding: 0px;
+		
+		.row{
+			border-top: 1px solid rgba(0, 0, 0, 0.1);
+		border-left: 1px solid rgba(0, 0, 0, 0.1);
+			.col-md-2{
+				width: 20%;
+				background-color: #fff;
+				img{
+					height: 80px;
+				}
+			}
+		}
+
+	}
+}
+.feature-bx1 {
+	.ttr-tilte{
+		font-size: 19px;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+}
+.bg-light{
+	background-color: #efefef !important;
+}
+.mob-only{
+	display: none;
+}
+.halo-sticky-toolbar-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+    box-shadow: 0 0 9px #0000001f;
+    transition: transform .6s;
+    background: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+  }
+  .bottom-bar {
+    padding: 3px 15px;
+    min-height: 60px;
+  }
+  .bottom-bar--list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+  }
+  .bottom-bar--list li > a {
+    padding: 7px 2px;
+    display: block;
+    pointer-events: auto;
+    text-align: center;
+    color: #212121;
+  }
+  .bottom-bar--list .icon img {
+    max-width: 25px;
+  }
+  .bottom-bar--list .icon + .text {
+    margin-top: 6px;
+    line-height: 1;
+    font-size: 11px;
+  }
+@media only screen and (max-width: 1000px) {
+	.desk-only{
+		display: none;
+	}
+	.mob-only{
+		display: block;
+	}
+	body, html {
+		position: relative;
+	  }
+	  html {
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+	  }
+	  body {
+		overflow-x: hidden !important;
+	  }
+	  .VideoBanner .BannerContent .container .T1{
+		font-size: 25px;
+	  }
+	  .VideoBanner .BannerContent .container .T2 {
+		font-size: 14px;
+	  }
+	  .BannerContent .btn-secondary{
+		margin-top: 15px !important;
+		margin-left: 0 !important;
+	  }
+	  .feature-bx1 .ttr-tilte {
+		font-size: 17px;
+		-webkit-line-clamp: 5;
+	  }
+	  .section-sp2 {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	  }
+	 .BrandBoxMega .row .col-md-2 img {
+		height: auto;
+		padding: 0;
+		width: 100%;
+	  }
+	 .BrandBoxMega .row .col-md-2 {
+		width: 25%;
+		background-color: #fff;
+	  }
+	  .BrandPageBox {
+		margin-top: 10px;
+
+	  }
+	  .BrandBoxMega{
+		padding: 0;
+		background-color: #fff;
+	  }
+	  .BrandFaq {
+		background-color: #f7f7f7;
+		padding: 20px 0px;
+	  }
+}
