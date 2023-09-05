@@ -112,7 +112,7 @@ class aboutSection extends Component{
 										<div className="ft-content">
 											<i className="fa fa-phone"></i>
 											<span>Talk To Our Support</span>
-											<h4>+22 123 456 7890 </h4>
+											<h4>+971 80 079477 </h4>
 										</div>
 									</div>
 								</div>
@@ -120,18 +120,18 @@ class aboutSection extends Component{
 									<div className="widget widget-link-2">
 										<h5 className="footer-title">Our Solutions</h5>
 										<ul>
-											<li><Link to="/about-us">About Us</Link></li>
-											<li><Link to="#">Engine Services</Link></li>
+											<li><Link to="/">Home</Link></li>
+											<li><Link to="/ourbrands">Brands</Link></li>
+											<li><Link to="/services">Services</Link></li>
+											<li><Link to="/packages">Packages</Link></li>
+											<li><Link to="/aboutus">Who we are</Link></li>
+											<li><Link to="/careers">Careers</Link></li>
 											<li><Link to="/booking">Booking</Link></li>
-											<li><Link to="#">Oil And Filters</Link></li>
-											<li><Link to="/services">Our Services</Link></li>
-											<li><Link to="#">Belts And Hoses</Link></li>
-											<li><Link to="/pricing-plan">Pricing Plan</Link></li>
-											<li><Link to="#">Brake Repair</Link></li>
-											<li><Link to="/team">Out Team</Link></li>
+											<li><Link to="/blogs">Media Center</Link></li>
+											<li><Link to="/gallery">Snap Shots</Link></li>
 											<li><Link to="#">Air Conditioning</Link></li>
-											<li><Link to="/contact-us">Contact Us</Link></li>
-											<li><Link to="#">Tire And Wheel</Link></li>
+											<li><Link to="/faq">FAQ</Link></li>
+											<li><Link to="/contact">Contact Us</Link></li>
 										</ul>							
 									</div>
 								</div>
@@ -192,15 +192,15 @@ class aboutSection extends Component{
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
-									<p className="mb-0">© Copyright Serfix 2022. All right reserved.</p>
+									<p className="mb-0">© Copyright Swiss Auto 2023. All right reserved.</p>
 								</div>
 								<div className="col-lg-6 col-md-6 col-sm-12 text-center text-md-end">
 									<ul className="widget-link">
-										<li><Link to="/index">Home</Link></li>
-										<li><Link to="/about-us">About</Link></li>
-										<li><Link to="/faq-1">FAQs</Link></li>
+										<li><Link to="/">Home</Link></li>
+										<li><Link to="/aboutus">About</Link></li>
+										<li><Link to="/faq">FAQs</Link></li>
 										<li><Link to="/services">Services</Link></li>
-										<li><Link to="/contact-us">Contact</Link></li>
+										<li><Link to="/contact">Contact</Link></li>
 									</ul>
 								</div>
 							</div>
