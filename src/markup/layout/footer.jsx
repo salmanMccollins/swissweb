@@ -129,7 +129,7 @@ class aboutSection extends Component{
 											<li><Link to="/booking">Booking</Link></li>
 											<li><Link to="/blogs">Media Center</Link></li>
 											<li><Link to="/gallery">Snap Shots</Link></li>
-											<li><Link to="#">Air Conditioning</Link></li>
+											<li><Link to="/services">Our Services</Link></li>
 											<li><Link to="/faq">FAQ</Link></li>
 											<li><Link to="/contact">Contact Us</Link></li>
 										</ul>							
