@@ -293,7 +293,16 @@ height: 100vh;
 		}
 		&.row1{
 			
-
+			&::before{
+				content: "";
+				width: 100px;
+				height: 100px;
+				background-size: 100% 100%;
+				background-image: url(../images/quality.png);
+				position: absolute;
+				bottom: 20px;
+				right: 20px;
+			}
 		}
 		&.row2{
 			background-image: url(../images/row2.jpg);
@@ -301,6 +310,16 @@ height: 100vh;
 		}
 		&.row3{
 			background-color: $secondary;
+			&::before{
+				content: "";
+				width: 100px;
+				height: 100px;
+				background-size: 100% 100%;
+				background-image: url(../images/service.png);
+				position: absolute;
+				bottom: 20px;
+				right: 20px;
+			}
 		}
 		&.row4{
 			background-image: url(../images/row4.jpg);
