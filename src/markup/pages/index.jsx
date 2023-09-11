@@ -45,15 +45,10 @@ function Index() {
 				
 				
 				<ServicesSection />
-
-				<AboutUsThreeSection/>
 				
 				<ChooseUsSection />
 				
 				<ScheduleServiceSection />
-				
-				
-				<TeamOneSection />
 				
 				<TestimonialSection />
 				
