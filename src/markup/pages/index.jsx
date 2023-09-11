@@ -15,8 +15,7 @@ import LatestBlogSection from "../elements/latest-blog-slider";
 import { useTranslation } from 'react-i18next';
 import HeroBanner from '../elements/widget/HeroBanner';
 import AboutUsFourSection from "../elements/about-us-4";
-import AboutUsThreeSection from "../elements/about-us-3";
-
+import ServicesNew from '../elements/widget/Services-new';
 function Index() {
 
 	const { t } = useTranslation();
@@ -44,11 +43,12 @@ function Index() {
 				
 				
 				
-				<ServicesSection />
+				<ServicesNew />
 				
-				<ChooseUsSection />
+				
 				
 				<ScheduleServiceSection />
+				<ChooseUsSection />
 				
 				<TestimonialSection />
 				
