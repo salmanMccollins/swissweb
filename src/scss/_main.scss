@@ -425,10 +425,18 @@ height: 100vh;
 			flex: 0 0 50%;
 			max-width: 50%;
 			min-height: 280px;
+			&::before{
+				content: none !important;
+			}
 			.DiBox1{
 				padding: 0px;
+				text-align: center;
 				.DiBox1T1{
 					font-size: 20px;
+				}
+				.DiBox1T3{
+					margin-top: 15px;
+					padding: 7px;
 				}
 				
 			}
