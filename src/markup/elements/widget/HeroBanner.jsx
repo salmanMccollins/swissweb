@@ -18,22 +18,24 @@ const HeroBanner = (props) => {
           </video>
           <div className="BannerContent">
             <div className="container">
-              <div className="T1">
-                <span> YOUR BEST ALTERNATE TO DEALERSHIP QUALITY SERVICES</span>
-              </div>
-              <div className="T2">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable
-              </div>
-              <div>
-                <Link class="btn btn-primary" href="/en/booking">
-                  Book Appointment
-                </Link>
-                <Link class="btn btn-secondary ms-3" href="/en/services">
-                  View Services
-                </Link>
+              <div className="ContentBoxt">
+                <div className="T1">
+                  <span> YOUR BEST ALTERNATE TO DEALERSHIP QUALITY SERVICES</span>
+                </div>
+                <div className="T2">
+                  There are many variations of passages of Lorem Ipsum available,
+                  but the majority have suffered alteration in some form, by
+                  injected humour, or randomised words which don't look even
+                  slightly believable
+                </div>
+                <div>
+                  <Link class="btn btn-primary" to="/booking">
+                    Book Appointment
+                  </Link>
+                  <Link class="btn btn-secondary ms-3" to="/services">
+                    View Services
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -47,7 +49,7 @@ const HeroBanner = (props) => {
                   <div className="DiBox1T2">
                     We use only genuine parts for replacement
                   </div>
-                  <Link class="DiBox1T3" href="/en/services">
+                  <Link class="DiBox1T3" to="/services">
                     Book Now
                   </Link>
                 </div>
@@ -58,7 +60,7 @@ const HeroBanner = (props) => {
                   <div className="DiBox1T2">
                   Latest equipment and our expert technicians are trained on each brand
                   </div>
-                  <Link class="DiBox1T3" href="/en/services">
+                  <Link class="DiBox1T3" to="/services">
                     Enquire Now
                   </Link>
                 </div>
@@ -69,7 +71,7 @@ const HeroBanner = (props) => {
                   <div className="DiBox1T2">
                   All your car services and warranty needs taken care of
                   </div>
-                  <Link class="DiBox1T3" href="/en/services">
+                  <Link class="DiBox1T3" to="/services">
                     Book Now
                   </Link>
                 </div>
@@ -80,7 +82,7 @@ const HeroBanner = (props) => {
                   <div className="DiBox1T2">
                   We come to you no matter where you are in the UAE
                   </div>
-                  <Link class="DiBox1T3" href="/en/services">
+                  <Link class="DiBox1T3" to="/services">
                     Book Now
                   </Link>
                 </div>

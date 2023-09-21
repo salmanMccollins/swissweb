@@ -6,8 +6,8 @@ import Count from '../elements/counter-sensor';
 
 // Images
 import bg1 from "../../images/background/bg1.png";
-import aboutPic1 from "../../images/about/about2/pic1.jpg";
-import aboutPic2 from "../../images/about/about2/pic2.jpg";
+import aboutPic1 from "../../images/about/about2/500x650.webp";
+import aboutPic2 from "../../images/about/about2/500x511.webp";
 
 class AboutUsFourSection extends Component{
 	render(){

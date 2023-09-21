@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
 // Import Images
-import bg1 from "../../images/background/bg1.jpg"
+import bg1 from "../../images/1920x1080.webp"
 import testPic1 from "../../images/testimonials/pic1.jpg"
 import testPic2 from "../../images/testimonials/pic2.jpg"
 import testPic3 from "../../images/testimonials/pic3.jpg"

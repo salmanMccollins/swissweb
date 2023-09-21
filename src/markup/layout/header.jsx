@@ -6,8 +6,8 @@ import Sticky from 'react-stickynode';
 import SwissBrands from '../elements/widget/Swiss-Brands';
 
 // Images
-import logo from "../../images/swissmainlogo.png";
-import logoWhite from "../../images/swissmainlogo.png";
+import logo from "../../images/swissautologo.png";
+import logoWhite from "../../images/swissautologo.png";
 
 
 
@@ -213,9 +213,14 @@ class aboutSection extends Component{
 											<Link to="/booking">Book Appointment <i className="fa fa-chevron-down"></i></Link>
 											
 										</li>
-										<li className='mob-only'>
+										<li>
 											
-											<Link to="/blogs">Blogs & News<i className="fa fa-chevron-down"></i></Link>
+											<Link to="/blogs">Blogs & News</Link>
+											
+										</li>
+										<li>
+											
+											<Link to="/gallery">Our Gallery</Link>
 											
 										</li>
 										<li className='mob-only'>

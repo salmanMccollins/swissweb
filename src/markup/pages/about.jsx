@@ -46,8 +46,6 @@ class AboutUs extends Component{
 					
 					<ScheduleServiceSection />
 					
-					<PricingTableSection />
-					
 					<TestimonialSection />
 					
 					<LatestBlogSection />

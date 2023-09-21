@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import logo2 from '../../images/swissmainlogowhite.png';
+import logo2 from '../../images/whitelogo.png';
 import icon1 from '../../images/icon/contact/icon1.png';
 import icon2 from '../../images/icon/contact/icon2.png';
 import icon3 from '../../images/icon/contact/icon3.png';

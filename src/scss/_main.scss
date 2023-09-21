@@ -111,6 +111,7 @@
 		margin: 0;
 		padding: 0;
 	}
+	
 	.BannerContent{
 		position: absolute;
 		left: 0;
@@ -124,7 +125,10 @@
 		z-index: 2;
 		text-align: center;
 		.container{
-			max-width: 1000px;
+			text-align: left;
+			.ContentBoxt{
+				max-width: 1000px;
+			}
 			.T1{
 				font-weight: 600;
 				font-size: 55px;
@@ -136,7 +140,7 @@
 					display: inline-block;
 					&::after{
 						content: "//";
-						color: #e01424;
+						color: #e72533;
 						font-weight: 900;
 						transform: scale(0.98) translateY(-3%);
 						display: inline-block;
@@ -144,7 +148,7 @@
 					}
 					&::before{
 						content: "//";
-						color: #e01424;
+						color: #e72533;
 						font-weight: 900;
 						transform: scale(0.98) translateY(-3%);
 						display: inline-block;
@@ -186,9 +190,7 @@
 		}
 	}
 }
-.page-banner{
-height: 100vh;
-}
+
 .BrandFaq{
 	background-color: #f7f7f7;
 	padding: 60px 0px;
@@ -292,37 +294,20 @@ height: 100vh;
 			top: 0;
 		}
 		&.row1{
-			
-			&::before{
-				content: "";
-				width: 100px;
-				height: 100px;
-				background-size: 100% 100%;
-				background-image: url(../images/quality.png);
-				position: absolute;
-				bottom: 20px;
-				right: 20px;
-			}
+			background-image: url(../images/hundredpercentage-min.jpg);
+			background-size: cover;
+		
 		}
 		&.row2{
-			background-image: url(../images/row2.jpg);
+			background-image: url(../images/Dealership-Quality-Repair-min.jpg);
 			background-size: cover;
 		}
 		&.row3{
-			background-color: $secondary;
-			&::before{
-				content: "";
-				width: 100px;
-				height: 100px;
-				background-size: 100% 100%;
-				background-image: url(../images/service.png);
-				position: absolute;
-				bottom: 20px;
-				right: 20px;
-			}
+			background-image: url(../images/Service-Contract-&-Warranty-Plans-min.jpg);
+			background-size: cover;
 		}
 		&.row4{
-			background-image: url(../images/row4.jpg);
+			background-image: url(../images/Pick-up-across-saudi-min.jpg);
 			background-size: cover;
 		}
 		.DiBox1{
@@ -407,6 +392,15 @@ height: 100vh;
 			height: auto;
 			width: auto;
 		}
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.container{
+		max-width: 100%;
+	}
+	.menu-links .nav > li > a {
+		font-size: 15px;
+		padding: 27px 6px 27px 6px;
 	}
 }
 @media only screen and (max-width: 1000px) {
@@ -515,3 +509,6 @@ height: 100vh;
 		font-size: 28px;
 	  }
 }
+.sticky-header.active .menu-bar .menu-bar {
+	background-color: #ffc50a !important;
+  }

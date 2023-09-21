@@ -1,11 +1,11 @@
 
 // Colors
-$primary   : #e01424;
+$primary   : #e72533;
 $secondary : #171a1e !default;
 $success   : #10d876 !default;
 $info      : #2754e6 !default;
-$warning   : #ffdb3d !default;
-$danger    : #e01424 !default;
+$warning   : #ffc50a !default;
+$danger    : #e72533 !default;
 $light     : #f7f7f7 !default;
 $dark      : #262F5A;
 
@@ -42,7 +42,7 @@ $grid-breakpoints    : (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl:
 $container-max-widths: (sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1199px) !default;
+  xl: 1399px) !default;
 
 $input-btn-focus-width: 0rem !default;
 $border-radius-base   : 4px !default;
