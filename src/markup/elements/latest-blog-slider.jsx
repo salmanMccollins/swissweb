@@ -77,6 +77,7 @@ class LatestBlogSection extends Component{
 			speed: 1000,
 			slidesToShow: 3,
 			slidesToScroll: 1,
+			centerMode:true,
 			responsive: [
 				{
 					breakpoint: 1191,
