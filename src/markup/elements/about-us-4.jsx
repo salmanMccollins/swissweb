@@ -13,7 +13,7 @@ class AboutUsFourSection extends Component{
 	render(){
 		return(
 			<>
-				<section className="section-area about-wraper1 bg-gray section-sp1" style={{backgroundImage: "url("+bg1+")", backgroundRepeat: "no-repeat"}}>
+				<section className="section-area about-wraper1 bg-gray section-sp2" style={{backgroundImage: "url("+bg1+")", backgroundRepeat: "no-repeat"}}>
 					<div className="container">
 						<div className="row">
 							<div className="col-lg-6 about-media mb-30">

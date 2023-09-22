@@ -20,7 +20,7 @@ class ServicesNew extends Component {
     return (
       <>
         <section
-          className="section-area section-sp1 bg-gray pt-0"
+          className="section-area section-sp2 bg-gray"
           style={{
             backgroundImage: "url(" + bg2 + ")",
             backgroundRepeat: "no-repeat",

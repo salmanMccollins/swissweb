@@ -16,6 +16,8 @@ import { useTranslation } from 'react-i18next';
 import HeroBanner from '../elements/widget/HeroBanner';
 import AboutUsFourSection from "../elements/about-us-4";
 import ServicesNew from '../elements/widget/Services-new';
+import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
+
 function Index() {
 
 	const { t } = useTranslation();
@@ -44,6 +46,7 @@ function Index() {
 				
 				
 				<ServicesNew />
+				<OurBrandsLayout/>
 				
 				
 				
@@ -53,6 +56,7 @@ function Index() {
 				<TestimonialSection />
 				
 				<LatestBlogSection />
+				
 				
 				<Footer />
 				

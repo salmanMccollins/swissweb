@@ -97,7 +97,7 @@ class LatestBlogSection extends Component{
 		return(
 			<>
 				
-				<section className="section-area section-sp2 bg-gray ov-hidden">
+				<section className="section-area section-sp2 bg-gray ov-hidden BlogWrap1">
 					<div className="container">
 						<div className="heading-bx text-center">
 							<h6 className="title-ext text-primary">Latest BLOGS</h6>

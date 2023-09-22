@@ -512,3 +512,24 @@
 .sticky-header.active .menu-bar .menu-bar {
 	background-color: #ffc50a !important;
   }
+  .OurBrandsRow{
+	background-image:url(../images/background/bg-map.png);
+	background-repeat: repeat;
+	.BrandBoxMega .row .col-md-2 img{
+		height: 80px;
+	}
+	.BrandBoxMega{
+		border-left: 1px solid rgba(0, 0, 0, 0.1);
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+}
+.about-wraper1 ,.BlogWrap1{
+	background-image:url(../images/background/bg-map.png) !important;
+	background-repeat: repeat !important;
+}
+
+@media only screen and (max-width: 1000px) {
+	.OurBrandsRow .BrandBoxMega .row .col-md-2 img {
+		height: 50px;
+	  }
+}
