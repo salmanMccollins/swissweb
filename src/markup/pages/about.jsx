@@ -43,10 +43,10 @@ class AboutUs extends Component{
 					<AboutUsTwoSection />
 					
 					<ServicesSection />
-					
+					<TestimonialSection />
 					<ScheduleServiceSection />
 					
-					<TestimonialSection />
+					
 					
 					<LatestBlogSection />
 				
