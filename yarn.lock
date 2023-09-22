@@ -9999,6 +9999,11 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-elfsight-widget@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-elfsight-widget/-/react-elfsight-widget-1.1.1.tgz#9bc98f12d316e23aa88b4784c339850aa0b1e50f"
+  integrity sha512-f6r0gC9266yRcNZak8sKev/UwkAP5RYpcEt5X5eeYqHo8agXCQzdYwA0+8HDz5pSPHb0/C54o6oWv+Ukf2GO9w==
+
 react-error-overlay@^6.0.9:
   version "6.0.9"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"

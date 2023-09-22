@@ -527,7 +527,7 @@
 		padding: 20px;
 	}
 }
-.about-wraper1 ,.BlogWrap1{
+.about-wraper1 ,.BlogWrap1 , .cstBg{
 	background-image:url(../images/background/bg-map.png) !important;
 	background-repeat: repeat !important;
 }
@@ -539,4 +539,7 @@
 	  .OurBrandsRow .BrandBoxMega .row .col-md-2 {
 		padding: 15px;
 	  }
+}
+.TestWrap .es-main-container > a{
+	display: none !important;
 }

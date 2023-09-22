@@ -51,9 +51,10 @@ function Index() {
 				
 				
 				<ScheduleServiceSection />
+				<TestimonialSection />
 				<ChooseUsSection />
 				
-				<TestimonialSection />
+				
 				
 				<LatestBlogSection />
 				
