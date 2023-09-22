@@ -17,6 +17,7 @@ import HeroBanner from '../elements/widget/HeroBanner';
 import AboutUsFourSection from "../elements/about-us-4";
 import ServicesNew from '../elements/widget/Services-new';
 import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
+import InstagramBox from '../elements/widget/InstagramBox';
 
 function Index() {
 
@@ -56,9 +57,9 @@ function Index() {
 				
 				
 				
-				<LatestBlogSection />
+				{/* <LatestBlogSection /> */}
 				
-				
+				<InstagramBox/>
 				<Footer />
 				
 			</>
