@@ -25,6 +25,7 @@ import ScheduleServiceSection from '../elements/schedule-service';
 import TestimonialSection from '../elements/testimonial';
 import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
 import ChooseUsSection from '../elements/choose-us';
+import InstagramBox from '../elements/widget/InstagramBox';
 const content = [
 	{ 
 		thumb: blogGridPic1,
@@ -141,7 +142,8 @@ class Offers extends Component{
                     <TestimonialSection/>
                     <ChooseUsSection/>
                     <OurBrandsLayout/>
-				
+                    <InstagramBox/>
+                                                
 				</div>
 				
 				<Footer />

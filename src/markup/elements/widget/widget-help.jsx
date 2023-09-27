@@ -26,7 +26,7 @@ class widgetHelp extends Component{
 							</svg>
 							<h5 className="title mt-20">How Can We Help</h5>
 							<p>If you need any helps, please free to contact us.</p>
-							<Link to="/contact-1" className="btn btn-primary">Contact Us</Link>
+							<Link to="/booking" className="btn btn-primary">Contact Us</Link>
 						</div>
 					</div>
 				</div>

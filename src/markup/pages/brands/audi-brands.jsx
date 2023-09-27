@@ -11,7 +11,8 @@ import WidgetBrochure from "../../elements/widget/widget-brochure";
 import WidgetHelp from "../../elements/widget/widget-help";
 import ScheduleServiceSection from '../../elements/schedule-service';
 import TestimonialSection from '../../elements/testimonial';
-import ChooseUsSection from '../../elements/choose-us';
+import InstagramBox from '../../elements/widget/InstagramBox';
+import OurBrandsLayout from '../../elements/widget/OurBrandsLayout';
 
 // Images
 import bnrImg from "../../../images/banner/bnr1.jpg";
@@ -29,7 +30,7 @@ class BrandsAudi extends Component{
 					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
-								<h1><span>Royal Swiss Auto – A Trusted Audi Service Center in Dubai</span></h1>
+								<h1><span>ROYAL SWISS AUTO - A SPECIALIZED AUDI SERVICE CENTER IN SAUDI ARABIA</span></h1>
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
@@ -63,12 +64,14 @@ class BrandsAudi extends Component{
 											</div>
 										</div>
 										<div className="col-xl-6">
-											<h4 className="title mb-10">SERVICES BENEFITS</h4>
-											<p className="mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+											<h4 className="title mb-10">OUR AUDI SERVICE BENEFITS</h4>
+											<p className="mb-20">We know about your vehicle needs, so the perfect care that your Audi deserves is guaranteed.</p>
 											<ul className="list-check-squer mb-30">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>These eiusmod tempor incididunt</li>
+												<li>Dealership alternative Audi service in Saudi Arabia</li>
+												<li>Competitive pricing</li>
+												<li>Independently owned & operated</li>
+												<li>Faster turnaround time</li>
+												<li>100% satisfaction</li>
 											</ul>
 										</div>
 									</div>
@@ -295,7 +298,8 @@ class BrandsAudi extends Component{
                 
                 <ScheduleServiceSection/>
 				<TestimonialSection/>
-                <ChooseUsSection/>
+                <OurBrandsLayout/>
+				<InstagramBox/>
 				<Footer />
 				
 			</>
