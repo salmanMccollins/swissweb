@@ -29,7 +29,7 @@ const HeroBanner = (props) => {
                   injected humour, or randomised words which don't look even
                   slightly believable
                 </div>
-                <div>
+                <div className="BtnMobile">
                   <Link class="btn btn-primary" to="/booking">
                     Book Appointment
                   </Link>
