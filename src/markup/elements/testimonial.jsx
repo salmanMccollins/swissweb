@@ -62,7 +62,7 @@ class TestimonialSection extends Component{
 		return(
 			<>
 				
-				<section className='section-area section-sp2 bg-gray ov-hidden cstBg TestWrap'>
+				<section className='section-area section-sp2 ov-hidden TestWrap position-relative MaskWrap bg-gray'>
 					<div className='container'>
 					<div className="heading-bx text-center">
 							<h6 className="title-ext text-primary">Our Reviews</h6>
@@ -71,7 +71,7 @@ class TestimonialSection extends Component{
 						</div>
 						<ElfsightWidget widgetId={"27667d34-8b84-4b11-8a87-f4198485ba57"} lazy />
 					</div>
-					{/* <ElfsightWidget widgetId={"4d5c4a86-db7a-46b3-9d85-a65483b969c1"} lazy /> */}
+					<div className='Mask'>&nbsp;</div>
 				</section>
 				
 			</>

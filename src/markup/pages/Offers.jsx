@@ -20,6 +20,11 @@ import authorThumbPic4 from "../../images/testimonials/pic4.jpg";
 import authorThumbPic5 from "../../images/testimonials/pic5.jpg";
 import authorThumbPic6 from "../../images/testimonials/pic6.jpg";
 
+import HeroMainRow from '../elements/widget/HeroMainRow';
+import ScheduleServiceSection from '../elements/schedule-service';
+import TestimonialSection from '../elements/testimonial';
+import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
+import ChooseUsSection from '../elements/choose-us';
 const content = [
 	{ 
 		thumb: blogGridPic1,
@@ -102,6 +107,7 @@ class Offers extends Component{
 							</div>
 						</div>
 					</div>
+                    
 					
 					<section className="section-area section-sp2 cstBg">
 					   <div className="container">
@@ -129,6 +135,12 @@ class Offers extends Component{
 							
 						</div>
 					</section>
+                    <HeroMainRow/>
+                    <ScheduleServiceSection/>
+
+                    <TestimonialSection/>
+                    <ChooseUsSection/>
+                    <OurBrandsLayout/>
 				
 				</div>
 				

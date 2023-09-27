@@ -41,11 +41,13 @@ class aboutSection extends Component{
 		})
 		
 		menuIcon.addEventListener('click',function(){
-			menuLinks.classList.add("show")
+			menuLinks.classList.add("show");
+			document.body.classList.add("No-index");
 		})
 
 		menuClose.addEventListener('click',function(){
-			menuLinks.classList.remove("show")
+			menuLinks.classList.remove("show");;
+			document.body.classList.remove("No-index");
 		})
 		
 		// Mobile Submenu Open Close Function

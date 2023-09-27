@@ -48,7 +48,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service1">
                     <div>
                       <div className="SerT1">Mechanical Services</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -59,7 +59,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service2">
                     <div>
                       <div className="SerT1">Electrical Service</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -70,7 +70,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service3">
                     <div>
                       <div className="SerT1">Programming & Retrofit</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -81,7 +81,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service4">
                     <div>
                       <div className="SerT1">Engine Repair & Service</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -92,7 +92,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service5">
                     <div>
                       <div className="SerT1">Bodyshop</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -103,7 +103,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service1">
                     <div>
                       <div className="SerT1">Car Warranty</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -114,7 +114,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service2">
                     <div>
                       <div className="SerT1">Service Contract</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
@@ -125,7 +125,7 @@ class ServicesNew extends Component {
                   <div className="ServiceBoxR1 service3">
                     <div>
                       <div className="SerT1">Mechanical Services</div>
-                      <div className="SerT3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus ex animi deleniti omnis, totam non ullam ab tenetur pariatur, et libero ipsum rem. Ut blanditiis consequatur illo, porro ea autem.</div>
+                      
                       <Link class="SerT2 btn btn-primary" href="/services">
                         View More
                       </Link>
