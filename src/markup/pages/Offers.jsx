@@ -101,7 +101,7 @@ class Offers extends Component{
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Blog Grid</li>
+										<li className="breadcrumb-item active" aria-current="page">Latest Offers</li>
 									</ul>
 								</nav>
 							</div>
