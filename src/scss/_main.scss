@@ -531,7 +531,12 @@
 	background-image:url(../images/background/bg-map.png) !important;
 	background-repeat: repeat !important;
 }
-
+.BrandBoxMega .row .col-md-2 img{
+	transition: 0.4s;
+}
+.BrandBoxMega .row .col-md-2 img:hover{
+	transform: scale(1.05);
+}
 @media only screen and (max-width: 1000px) {
 	.OurBrandsRow .BrandBoxMega .row .col-md-2 img {
 		height: 45px;

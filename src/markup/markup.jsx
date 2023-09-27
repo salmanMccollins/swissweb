@@ -83,6 +83,8 @@ import MajorServices from './pages/Our-Packages/MajorServices';
 
 import AboutUs from './pages/about';
 
+import Offers from './pages/Offers';
+
 
 class Markup extends Component{
 	render(){
@@ -169,6 +171,7 @@ class Markup extends Component{
 						<Route path='/contact' exact component={ContactUs} />
 						<Route path='/faq' exact component={Faq1} />
 						<Route path='/gallery' exact component={Gallery2} />
+						<Route path='/offers' exact component={Offers} />
 						
 						<Route component={Error} />
 						
