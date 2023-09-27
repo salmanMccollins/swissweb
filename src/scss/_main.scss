@@ -571,3 +571,8 @@
 .No-index .halo-sticky-toolbar-mobile{
 	z-index:9 !important;
 }
+@media only screen and (max-width: 1000px) {
+	.Mask{
+		height: 30px;
+	}
+}
