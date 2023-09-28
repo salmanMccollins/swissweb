@@ -561,7 +561,10 @@
 	background-image:url(../images/background/n.png) !important;
 	background-repeat: repeat !important;
 }
-
+.mbg1{
+	background-image:url(../images/background/n.png) !important;
+	background-repeat: repeat !important;
+}
 .header-transparent .sticky-header.active .menu-bar ,
 .sticky-inner-wrapper,
 .header-transparent,
@@ -588,4 +591,33 @@
 		padding: 10px 5px;
 	}
 
+}
+.ContentBox2 {
+	b{
+		font-weight: 800;
+	}
+}
+.ServiceBox1{
+	background-image:url(../images/background/bg-map.png);
+	background-repeat: repeat;
+	background-color: #f7f7f7;
+	.row{
+		margin: 0 -5px !important;
+		.col-12{
+			padding: 0 5px !important;
+			.counter{
+				
+			}
+			.counter-text{
+				font-weight: 400;
+			}
+		}
+	}
+	.heading-bx.text-center{
+		max-width: 900px;
+	}
+	.counter-style-1{
+		background-color: #fff;
+		margin-bottom: 15px;
+	}
 }
