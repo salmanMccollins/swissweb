@@ -621,3 +621,9 @@
 		margin-bottom: 15px;
 	}
 }
+.ActivePanel .halo-sticky-toolbar-mobile, 
+.ActivePanel .header-transparent, 
+.ActivePanel .header-transparent .sticky-header.active .menu-bar, 
+.ActivePanel .sticky-inner-wrapper{
+z-index: 9 !important;
+}
