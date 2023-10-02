@@ -8,9 +8,36 @@ import Footer from "../layout/footer";
 // Images
 import bnrImg from "../../images/banner/bnr1.jpg";
 
-class ContactUs extends Component{
+function ContactUs() {
+
+	const handleSubmit = async (event) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Extract form data here and format it as needed
+    const formData = new FormData(event.target);
+
+    // Send the data to the Google Apps Script
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycbyaRgMpAMcvnPaCO-NPk8_h67cs_601LYaNZNW6zmcvzavlkyYpliHI3aDWkEfXSHW-_g/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    // Handle the response if needed
+    if (response.ok) {
+      // Successful submission
+      console.log("Form submitted successfully");
+	  alert("Form submitted")
+      event.target.reset();
+      // Reset the form or perform other actions
+    } else {
+      // Handle errors
+      console.error("Form submission failed");
+    }
+  }
 	
-	render(){
 		return (
 			<>
 				
@@ -76,7 +103,7 @@ class ContactUs extends Component{
 						<div className="container">		
 							<div className="row">
 								<div className="col-lg-12 col-md-12">
-									<form className="contact-form ajax-form" action="script/contact.php">
+									<form className="contact-form ajax-form" onSubmit={handleSubmit}>
 										<div className="heading-bx mb-20">
 											<h6 className="title-ext text-primary">Contact Form</h6>
 											<h2 className="title mb-0">DO YOU HAVE ANY<br/> QUESTIONS</h2>
@@ -126,7 +153,6 @@ class ContactUs extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default ContactUs;

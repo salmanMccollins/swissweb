@@ -25,55 +25,22 @@ import authorThumbPic3 from "../../images/testimonials/pic3.jpg";
 import authorThumbPic4 from "../../images/testimonials/pic4.jpg";
 import authorThumbPic5 from "../../images/testimonials/pic5.jpg";
 import authorThumbPic6 from "../../images/testimonials/pic6.jpg";
+import { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 
-const content = [
-	{ 
-		thumb: blogGridPic1,
-		authorThumb: authorThumbPic1,
-		authorName: "Mark John",
-		title: "The Number Of Electric Vehicles In Doubled",
-		blogText: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-	},
-	{ 
-		thumb: blogGridPic2,
-		authorThumb: authorThumbPic2,
-		authorName: "Merry Desulva",
-		title: "Make Your Auto Clean As Before Like New",
-		blogText: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-	},
-	{ 
-		thumb: blogGridPic3,
-		authorThumb: authorThumbPic3,
-		authorName: "Thomas deo",
-		title: "Interior Cleaning with a Steam Generator",
-		blogText: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-	},
-	{ 
-		thumb: blogGridPic4,
-		authorThumb: authorThumbPic4,
-		authorName: "Merry Desulva",
-		title: "Types of Portal Sinks and their Advantages",
-		blogText: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-	},
-	{ 
-		thumb: blogGridPic5,
-		authorThumb: authorThumbPic5,
-		authorName: "Thomas deo",
-		title: "Excellent Customer Service Car Repair",
-		blogText: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-	},
-	{ 
-		thumb: blogGridPic6,
-		authorThumb: authorThumbPic6,
-		authorName: "Mark John",
-		title: "Classification of Car Wash Types by Service Type",
-		blogText: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
-	},
-]
+const BlogGridSidebar = () => {
 
-class BlogGridSidebar extends Component{
+	const [content, setContent] = useState()
+
+	useEffect(() => {
+    axios.get("https://swiss-backend.vercel.app/api/blogs/blog").then((response) => {
+      setContent(response.data.data);
+	  console.log(content);
+    });
+	}, [])
 	
-	render(){
+	
 		return (
 			<>
 				
@@ -100,20 +67,22 @@ class BlogGridSidebar extends Component{
 							<div className="row">
 								<div className="col-md-12 col-lg-8 col-xl-8 mb-30 mb-md-50">
 									<div className="row">
-										{content.map((item) =>(
+										{content && content.map((item) =>(
 											<div className="col-xl-6 col-lg-12 col-md-6">
 												<div className="blog-card style-1 bg-white shadow">
 													<div className="post-media">
-														<a href="blog-details.html"><img src={item.thumb} alt=""/></a>
+														<a href="blog-details.html"><img src={item.photo} alt=""/></a>
 													</div>
 													<div className="post-info">
-														<h4 className="post-title"><Link to="/blog-details">{item.title}</Link></h4>
+														<h4 className="post-title"><Link to={`/blog-details/${item.blogUrl}`}>{item.title}</Link></h4>
 														<div className="post-content">
-															<p className="mb-0">{item.blogText}</p>
+															<p className="mb-0">{item.shortContent}</p>
 														</div>
 														<ul className="post-meta">
-															<li className="author"><img src={item.authorThumb} alt=""/>By <Link to="#">{item.authorName}</Link></li>
-															<li className="date"><Link to="#">15 Aug 2021</Link></li>
+															<li className="author">
+																{/* <img src={item.authorThumb} alt=""/> */}
+																By {item.author}</li>
+															<li className="date">{item.date}</li>
 														</ul>
 													</div>
 												</div>
@@ -157,8 +126,7 @@ class BlogGridSidebar extends Component{
 				<Footer />
 				
 			</>
-		);
-	}
+		)
 }
 
 export default BlogGridSidebar;
