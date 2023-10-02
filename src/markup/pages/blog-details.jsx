@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 // Layout
 import Header from "../layout/header";
@@ -20,10 +20,34 @@ import testPic1 from "../../images/testimonials/pic1.jpg";
 import defaultPic1 from "../../images/blog/default/pic1.jpg";
 import galleryPic2 from "../../images/gallery/pic2.jpg";
 import galleryPic5 from "../../images/gallery/pic5.jpg";
+import { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 
-class BlogDetails extends Component{
+const BlogDetails = () =>{
 	
-	render(){
+ const { blogUrl } = useParams(); // Get the blogUrl from the URL
+  const [content, setContent] = useState([]);
+  const [blogData, setBlogData] = useState(null);
+
+  useEffect(() => {
+    axios.get('https://swiss-backend.vercel.app/api/blogs/blog').then((response) => {
+      setContent(response.data);
+    });
+  }, []);
+
+  useEffect(() => {
+    // Filter the content array to find the matching blog object
+    const matchingBlog = content.find((blog) => blog.blogUrl === blogUrl);
+    setBlogData(matchingBlog);
+	console.log(matchingBlog);
+  }, [content, blogUrl]);
+
+  if (!blogData) {
+    // If the blog data is not found, you can handle this case here
+    return <div>Loading...</div>;
+  }
+
 		return (
 			<>
 				
@@ -31,10 +55,10 @@ class BlogDetails extends Component{
 				
 				<div className="page-content bg-white">
 					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
+					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+blogData.photo+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
-								<h1><span>Blog Details</span></h1>
+								<h1><span>{blogData.title}</span></h1>
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
@@ -50,38 +74,33 @@ class BlogDetails extends Component{
 							<div className="row">
 								<div className="col-md-12 col-lg-8 col-xl-8 mb-30 mb-md-60">
 									<div className="blog-lg blog-single">
-										<div className="action-box blog-lg">
+										{/* <div className="action-box blog-lg">
 											<img src={defaultPic1} alt=""/>
-										</div>
+										</div> */}
 										<div className="info-bx">
 											<ul className="post-meta">
-												<li className="author"><img src={testPic1} alt=""/>By <Link to="#">Mark John</Link></li>
-												<li className="date"><Link to="#">15 Aug 2021</Link></li>
+												<li className="author"><img src={testPic1} alt=""/>By <Link to="#">{blogData.author}</Link></li>
+												<li className="date"><Link to="#">{blogData.date}</Link></li>
 											</ul>
 											<div className="ttr-post-title">
-												<h3 className="post-title">Why every startup should adopt Amazon’s Hot Air. Why every startup should adopt.</h3>
+												<h3 className="post-title">{blogData.title}</h3>
 											</div>
 											<div className="ttr-post-text">
-												<p>You just need to enter the keyword and select the keyword type to generate a list of 6 title ideas and suggestions. If you’re not satisfied with the results, you can always hit the refresh button to generate a new list of unique titles.</p>
-												<blockquote className="wp-block-quote">
-													<p>Once you’ve gotten all the titles and have chosen the best one, the next thing you need to do is to craft a magnetic content. Great content marketers excel at creating content.</p>
-												</blockquote>
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-												<ul className="wp-block-gallery columns-6 is-cropped">
-													<li className="blocks-gallery-item"><img alt="" src={galleryPic2}/></li>
-													<li className="blocks-gallery-item"><img alt="" src={galleryPic5}/></li>
-												</ul>
-												<p>You just need to enter the keyword and select the keyword type to generate a list of 6 title ideas and suggestions. If you’re not satisfied with the results, you can always hit the refresh button to generate a new list of unique titles.</p>
-												<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+												{blogData.video && (
+													<>
+													<video autoplay controls src={blogData.video} width={"100%"} />
+													</>
+												)}
+												{blogData.description}
 											</div>
 											<div className="ttr-post-footer">
 												<div className="post-tags">
 													<strong>TAGS:</strong>
-													<Link to="#">PAINTING</Link> 
-													<Link to="#">REPAIRING</Link> 
-													<Link to="#">TECHNICIALS</Link> 
+													<Link to="#">{blogData.tags}</Link> 
+													{/* <Link to="#">REPAIRING</Link> 
+													<Link to="#">TECHNICIALS</Link>  */}
 												</div>
-												<div className="share-post ms-auto">
+												{/* <div className="share-post ms-auto">
 													<ul className="social-media">
 														<li><strong>SHARE:</strong></li>
 														<li><a target="_blank" href="https://www.facebook.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-facebook"></i></a></li>
@@ -89,14 +108,14 @@ class BlogDetails extends Component{
 														<li><a target="_blank" href="https://www.linkedin.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-linkedin"></i></a></li>
 														<li><a target="_blank" href="https://twitter.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-twitter"></i></a></li>
 													</ul>
-												</div>
+												</div> */}
 											</div>
 										</div>
 									</div>
 									
-									<AuthorProfile />
+									{/* <AuthorProfile /> */}
 									
-									<div className="clear" id="comment-list">
+									{/* <div className="clear" id="comment-list">
 										<div className="comments-area" id="comments">
 											<h5 className="widget-title">8 Comments</h5>
 											<div className="clearfix">
@@ -107,18 +126,18 @@ class BlogDetails extends Component{
 												
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</div>
 								<div className="col-md-12 col-lg-4 col-xl-4 mb-30">
 									<aside className="side-bar sticky-top aside-bx">
 										
 										<WidgetSearch />
 										
-										<WidgetRecentPosts />
+										{/* <WidgetRecentPosts /> */}
 										
 										<WidgetGallery />
 										
-										<WidgetTag />
+										{/* <WidgetTag /> */}
 										
 									</aside>
 								</div>
@@ -132,7 +151,6 @@ class BlogDetails extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default BlogDetails;

@@ -35,8 +35,8 @@ const BlogGridSidebar = () => {
 
 	useEffect(() => {
     axios.get("https://swiss-backend.vercel.app/api/blogs/blog").then((response) => {
-      setContent(response.data.data);
-	  console.log(content);
+      setContent(response.data);
+	  console.log(response.data);
     });
 	}, [])
 	
@@ -71,7 +71,7 @@ const BlogGridSidebar = () => {
 											<div className="col-xl-6 col-lg-12 col-md-6">
 												<div className="blog-card style-1 bg-white shadow">
 													<div className="post-media">
-														<a href="blog-details.html"><img src={item.photo} alt=""/></a>
+														<Link to={`/blog-details/${item.blogUrl}`}><img src={item.photo} alt=""/></Link>
 													</div>
 													<div className="post-info">
 														<h4 className="post-title"><Link to={`/blog-details/${item.blogUrl}`}>{item.title}</Link></h4>

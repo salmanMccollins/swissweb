@@ -165,7 +165,7 @@ class Markup extends Component{
 						<Route path='/brands/volks-wagen' exact component={VolksWagen} />
 
 						<Route path='/about-1' exact component={AboutUs} />
-						<Route path='/blog-details' exact component={BlogDetails} />
+						<Route path='/blog-details/:blogUrl' exact component={BlogDetails} />
 						<Route path='/blogs' exact component={BlogGridSidebar} />
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/contact' exact component={ContactUs} />
