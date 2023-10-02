@@ -64,7 +64,7 @@ class JobCareer extends Component{
 													<li>Intermediate understanding of coding SEO-friendly sites</li>
 												</ul>
 												<p><strong>Soft Skills:</strong> It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-												<Link to="/contact-1" className="btn btn-primary mt-10">Apply Now</Link>
+												<Link to="/booking" className="btn btn-primary mt-10">Apply Now</Link>
 											</div>
 										</div>
 										<div className="col-md-12 mb-30">
@@ -86,7 +86,7 @@ class JobCareer extends Component{
 													<li>Intermediate understanding of coding SEO-friendly sites</li>
 												</ul>
 												<p><strong>Soft Skills:</strong> It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-												<Link t="/contact-1" className="btn btn-primary mt-10">Apply Now</Link>
+												<Link t="/booking" className="btn btn-primary mt-10">Apply Now</Link>
 											</div>
 										</div>
 										<div className="col-md-12 mb-30">
@@ -108,7 +108,7 @@ class JobCareer extends Component{
 													<li>Intermediate understanding of coding SEO-friendly sites</li>
 												</ul>
 												<p><strong>Soft Skills:</strong> It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-												<Link to="/contact-1" className="btn btn-primary mt-10">Apply Now</Link>
+												<Link to="/booking" className="btn btn-primary mt-10">Apply Now</Link>
 											</div>
 										</div>
 									</div>

@@ -71,7 +71,7 @@ class AboutUsTwoSection extends Component{
 									</div>
 								</div>
 								<div className="mt-15 mt-md-0">
-									<Link to="/contact-1" className="btn btn-primary me-3">Contact Us</Link>
+									<Link to="/booking" className="btn btn-primary me-3">Contact Us</Link>
 									<Link to="/booking" className="btn btn-outline-secondary">Book Now</Link>
 								</div>
 							</div>

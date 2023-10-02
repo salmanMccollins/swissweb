@@ -41,11 +41,13 @@ class aboutSection extends Component{
 		})
 		
 		menuIcon.addEventListener('click',function(){
-			menuLinks.classList.add("show")
+			menuLinks.classList.add("show");
+			document.body.classList.add("No-index");
 		})
 
 		menuClose.addEventListener('click',function(){
-			menuLinks.classList.remove("show")
+			menuLinks.classList.remove("show");;
+			document.body.classList.remove("No-index");
 		})
 		
 		// Mobile Submenu Open Close Function
@@ -205,6 +207,7 @@ class aboutSection extends Component{
 										<li><Link to="/aboutus">Who We Are <i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu left">
 												<li><Link to="/aboutus"><span>About Us</span></Link></li>
+												<li><Link to="/gallery"><span>Our Gallery</span></Link></li>
 												<li><Link to="/careers"><span>Careers</span></Link></li>
 												</ul>
 										</li>
@@ -215,12 +218,12 @@ class aboutSection extends Component{
 										</li>
 										<li>
 											
-											<Link to="/blogs">Blogs & News</Link>
+											<Link to="/blogs">Blogs</Link>
 											
 										</li>
 										<li>
 											
-											<Link to="/gallery">Our Gallery</Link>
+											<Link to="/offers">Offers</Link>
 											
 										</li>
 										<li className='mob-only'>

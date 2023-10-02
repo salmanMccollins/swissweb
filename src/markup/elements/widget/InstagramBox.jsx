@@ -31,7 +31,7 @@ class InstagramBox extends Component{
 		return(
 			<>
 				
-				<section className='section-area section-sp2 bg-gray ov-hidden cstBg TestWrap'>
+				<section className='section-area section-sp2 bg-gray ov-hidden cstBg TestWrap MaskWrap'>
 					<div className='container'>
 					<div className="heading-bx text-center">
 							<h6 className="title-ext text-primary">Our Feeds</h6>
@@ -40,7 +40,7 @@ class InstagramBox extends Component{
 						</div>
 						<ElfsightWidget widgetId={"9fb2aae0-0f80-4e25-b739-146573a7766a"} lazy />
 					</div>
-					
+					<div className='Mask'>&nbsp;</div>
 				</section>
 				
 			</>
