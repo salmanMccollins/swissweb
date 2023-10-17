@@ -18,7 +18,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 import bnrImg from "../../../images/banner/bnr1.jpg";
 import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
 
-class RangeRover extends Component {
+class Bugatti extends Component {
   render() {
     return (
       <>
@@ -33,7 +33,7 @@ class RangeRover extends Component {
               <div className="page-banner-entry text-center">
                 <h1>
                   <span>
-				  ROYAL SWISS AUTO - A MODERNIZED RANGE ROVER SERVICE CENTER IN SAUDI ARABIA
+                  ROYAL SWISS AUTO - BEST BUGATTI SERVICE CENTER IN SAUDI ARABIA
                   </span>
                 </h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
@@ -49,7 +49,7 @@ class RangeRover extends Component {
                       </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Range Rover
+                    Bugatti
                     </li>
                   </ul>
                 </nav>
@@ -75,13 +75,13 @@ class RangeRover extends Component {
                       </div>
                     </div>
                     <div className="col-xl-6">
-                      <h4 className="title mb-10">OUR RANGE ROVER SERVICE BENEFITS</h4>
+                      <h4 className="title mb-10 text-uppercase">OUR BUGATTI SERVICE BENEFITS</h4>
                       <p className="mb-20">
-					  Thanks to our years of experience in auto repair, your Range Rover will receive the attention it deserves.
+                      Protect your hard-earned investment with our Bugatti service center in Saudi Arabia.
                       </p>
                       <ul className="list-check-squer mb-30">
                         <li>
-						Dealership alternative Range Rover service in Saudi Arabia
+                        Dealership alternative Bugatti service in Saudi Arabia
                         </li>
                         <li>Competitive pricing</li>
                         <li>Independently owned & operated</li>
@@ -94,47 +94,53 @@ class RangeRover extends Component {
                   <div className="mb-10 ContentBox2">
                     <div className="head-text mb-30">
                       <h4 className="title mb-15">
-					  RANGE ROVER SPECIALISTS IN SAUDI ARABIA THAT KEEP YOUR CAR PRISTINE
+                      EXPERIENCE THE MOST COMPREHENSIVE BUGATTI SERVICE & REPAIR IN SAUDI ARABIA WITH US
                       </h4>
                       <h5 className="mb-15">
                         <b>
-                          “The epitome of sophisticated elegance & uncompromising performance.”
+                          “Bugatti - The car with the heightened unmatched luxury in it”
                         </b>
                       </h5>
                       <p className="mb-15">
-					  Range Rover has all such unique characteristics that require the care of nothing less but the specialists. We at Royal Swiss Auto Services, provide that special kind of service and repair by combining the knowledge and experience of our team of technicians. The unmatched quality of Range Rover service & repair in Saudi Arabia with greater transparency has earned us a good customer base in a short time.
+                      We all know how proper maintenance is important to extend the lifespan of such a sporty car but choosing the best workshop in your locality is also important to provide your Bugatti with a high standard of service at competitive prices.
                       </p>
                       <p className="mb-15">
-					  Saudi Arabia is a vast area covering various cities like Riyadh, Dammam and Jeddah , our branch opening in Saudi Arabia will provide the better Range Rover auto repair services to make it easier for our customers.
+                      Saudi Arabia is a vast area covering various cities like Riyadh, Dammam and Jeddah , our branch opening in Saudi Arabia will provide better Bugatti services & repairs to make it easier for our customers.
+                      </p>
+                      <p className="mb-15">
+                      We provide all auto repair services for your Bugatti as per the manufacturer guidelines with the greatest precision, so that your car continues to impress others on the roads with its flawless performance.
+                      </p>
+                      <p className="mb-15">
+                      We understand all the Bugatti models are unique, which is why our technicians are highly trained to handle them with greater care.
                       </p>
                       <h5 className="mb-15">
-                        <b>In KSA, we are the industry leader for Range Rover servicing & repairs</b>
+                        <b>All Bugatti models are perfectly serviced by us</b>
                       </h5>
                       <p className="mb-15">
-					  Being the cost-effective solution for providing the most comprehensive Range Rover servicing & repair without compromising the quality of the workmanship, we have curated all our service and repair protocols accordingly.
-                      </p>
-					  <p className="mb-15">
-					  We are ready to service various models like Range Rover Sport, Range Rover Velar, Range Rover Evoque, Range Rover Defender, Range Rover Discovery and others. Whenever you visit us at our Range Rover service center in Saudi Arabia to get the routine maintenance done for your car, the progress of the works will be kept informed to you and any additional services or repairs needed will be recommended based on the complete inspection of your car, so that you can be at peace of mind. When you get back to your car you may definitely notice its flawless performance on the roads
+                      At our Bugatti workshop in KSA, we have highly-qualified technicians and the latest diagnostic tools to work on various Bugatti models like Veyron, Chiron, Divo, Royale or others. If you want to keep your Bugatti well-maintained and enjoy every bit of riding it, then visit our Bugatti workshop in the Kingdom of Saudi Arabia without any second thoughts.
                       </p>
                     </div>
                     <div className="row">
                       <h5 className="mb-15">
-                        <b>Why should you choose our Range Rover workshop in Saudi Arabia?</b>
+                        <b>What makes Royal Swiss Auto Services ideal for Bugatti service in Saudi Arabia?</b>
                       </h5>
                       <div className="col-xl-12">
                         <ul className="list-check-squer">
                           <li>
-						  The ultra-modern, state-of-the-art Range Rover workshop in Saudi Arabia
+                          The ultra-modern, state-of-the-art Bugatti workshop in Saudi Arabia
                           </li>
                           <li>
-						  Engine room dedicated to engine repair, engine refurbishment, or engine replacement
+                            Engine room dedicated to engine repair, engine
+                            refurbishment, or engine replacement
                           </li>
                           <li>
-						  Highly qualified and certified technicians specialized in the brands we serve.
+                            Highly qualified and certified technicians
+                            specialized in the brands we serve.
                           </li>
                           <li>Spare parts department and own storage.</li>
                           <li>
-						  A professional and multicultural customer support team, we speak your language!
+                            A professional and multicultural customer support
+                            team, we speak your language!
                           </li>
                           <li>
                             Up to 15,000 different spare parts available in
@@ -146,16 +152,14 @@ class RangeRover extends Component {
                   </div>
                   <div className="head-text mb-30">
                     <h4 className="title mb-10">
-					WE ARE THE PLACE TO GO, FOR ALL YOUR RANGE ROVER SERVICING & REPAIRS
+                    KEEP YOUR BUGATTI AT ITS BEST IN A POCKET-FRIENDLY WAY
                     </h4>
                     <p className="mb-15">
-					We understand the intricacies of the electrical and mechanical components in the Range Rover, which makes us able to deliver the servicing and repair for your Range Rover with greater precision at a very fast time. 
+                    Our team of Bugatti specialists are specifically trained to provide mechanical work, electrical and software services along with paint and body shop services which makes us deliver auto repair services with greater customer satisfaction.
                     </p>
+                    
                     <p className="mb-15">
-					Our routine servicing and the care that we provide for your car, helps you to stay away from some of the common problems faced by Range Rover cars like leaking sunroof, air compressor issues, flywheel wear and others.
-                    </p>
-                    <p className="mb-15">
-					Our goal is to extend the lifespan of your Range Rover and keep it away from expensive repair bills until the last miles.
+                    The attention to detail and the outstanding service that we provide for your Bugatti, make us reach more customers and make their vehicle maintenance easier.
                     </p>
                   </div>
                 </div>
@@ -166,12 +170,12 @@ class RangeRover extends Component {
         <section className="section-area section-sp2 ServiceBox1">
           <div className="container">
             <div class="heading-bx text-center">
-              <h6 class="title-ext text-primary">Get Your Range Rover</h6>
-              <h2 class="title mb-0">SERVICED IN SAUDI ARABIA AT EASE</h2>
+              <h6 class="title-ext text-primary">WE ARE THE BEST</h6>
+              <h2 class="title mb-0">GERMAN CAR EXPERTS IN KSA YOU CAN TRUST FOR YOUR BUGATTI SERVICE</h2>
               <p>
-			  With the state of the art facilities, advanced diagnostic tools and equipment, we have made the Range Rover servicing and repair faster and hassle-free for our customers in the Kingdom of Saudi Arabia. Dial 966 53 969 9984 to make your Range Rover service or repair appointments.
-<br/>
-Explore the list of services & repairs that we are specialized in providing for your Range Rover,
+              If you would like to schedule your Bugatti service with us Dial 966 53 969 9984 to talk with our service department. We are always ready to help with your Bugatti maintenance needs despite the model you hold.
+
+For all current and past Bugatti models, we provide the following services along with the vehicle maintenance and repairs.
 
               </p>
             </div>
@@ -187,7 +191,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         {/* <span>K</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Engine Repair</h5>
+                    <h5 className="counter-text">Bugatti Engine Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -200,7 +204,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         {/* <span>+</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Gearbox Repair</h5>
+                    <h5 className="counter-text">Bugatti Gearbox Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -212,7 +216,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Suspension Repair</h5>
+                    <h5 className="counter-text">Bugatti Suspension Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -225,7 +229,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-                    Range Rover Transmission Repair
+                    BugattiBugatti Transmission Repair
                     </h5>
                   </div>
                 </div>
@@ -238,7 +242,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Touchless Wheel Alignment</h5>
+                    <h5 className="counter-text">Bugatti Touchless Wheel Alignment</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -250,7 +254,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover  Engine Refurbishment</h5>
+                    <h5 className="counter-text">Bugatti Engine Refurbishment</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -262,7 +266,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Software Programming</h5>
+                    <h5 className="counter-text">Bugatti Software Programming</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -275,7 +279,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover AC Repair
+                    Bugatti AC Repair
                     </h5>
                   </div>
                 </div>
@@ -288,7 +292,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Service & Warranty Packages</h5>
+                    <h5 className="counter-text">Bugatti Engine Cooling System Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -300,7 +304,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Car Detailing</h5>
+                    <h5 className="counter-text">Bugatti Brake Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -313,7 +317,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-                    Range Rover Engine Cooling System Repair
+                    Bugatti Camera/Radar Calibration
                     </h5>
                   </div>
                 </div>
@@ -326,7 +330,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Brake Repair</h5>
+                    <h5 className="counter-text">Bugatti Pre-Purchase Inspection</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -339,7 +343,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Camera/Radar Calibration
+                    Bugatti Service Packages
                     </h5>
                   </div>
                 </div>
@@ -353,7 +357,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Pre-Purchase Inspection
+                    Bugatti Extended Warranty Packages
                     </h5>
                   </div>
                 </div>
@@ -366,7 +370,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Service Packages</h5>
+                    <h5 className="counter-text">Bugatti Service & Warranty Packages</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -379,7 +383,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Extended Warranty Packages
+                    Bugatti Car Detailing
                     </h5>
                   </div>
                 </div>
@@ -398,22 +402,22 @@ Explore the list of services & repairs that we are specialized in providing for 
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      What to do when my Range Rover experiences overheating?
+                      Why does the maintenance tasks for the Bugatti not to be ignored?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  When the car overheats, it may cause major damage to your car engine. So pull off the car to the safest location, wait until it cools down and visit the Range Rover service center near you at the earliest.
+                      Neglecting the routine maintenance may lead to major expensive repairs, decrease in the fuel economy and the performance of the car.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Is a Range Rover expensive to maintain?
+                      How much does the Bugatti service cost in Saudi Arabia?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Though the Range Rover is a bit expensive to maintain, with the proper maintenance and care the expensive repair bills causing financial stress can be avoided.
+                      The Bugatti service costs greatly vary depending on the model of the vehicle and service center you choose. Always choose the most trusted Bugatti service center in your locality with experienced technicians.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -421,28 +425,30 @@ Explore the list of services & repairs that we are specialized in providing for 
               </div>
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="2"
+                  defaultActiveKey="0"
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      How to keep my Range Rover engine in good condition?
+                      Can I drive my Bugatti with the suspension issues?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  To keep your Range Rover in good condition, provide quality maintenance and professional inspection for your Range Rover at regular intervals. Address the illuminating warning lights immediately.
+                        
+                      Driving your Bugatti with suspension issues is not always advised since it has a greater impact on your safety. So get the repairs sorted by contacting the Bugatti specialists.
+
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Why is it important to get the Range Rover major service done?
+                      Why is it essential to use genuine spare parts for your Bugatti?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Getting the regular Range Rover major service done by visiting the authorized Range Rover workshop in Saudi Arabia as it is essential to improve the performance of your vehicle.
+                      Genuine spare parts have a high standard of quality and performance. Though the original spare parts are expensive it lasts longer.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -462,4 +468,4 @@ Explore the list of services & repairs that we are specialized in providing for 
   }
 }
 
-export default RangeRover;
+export default Bugatti;

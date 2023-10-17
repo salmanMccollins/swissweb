@@ -44,6 +44,11 @@ class BrandsAudi extends Component {
                         <i className="las la-home"></i>Home
                       </Link>
                     </li>
+                    <li className="breadcrumb-item">
+                      <Link to="/ourbrands">
+                        Brands
+                      </Link>
+                    </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Audi
                     </li>
@@ -211,7 +216,9 @@ class BrandsAudi extends Component {
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                         {/* <span>K</span> */}
                       </h2>
                     </div>
@@ -222,7 +229,9 @@ class BrandsAudi extends Component {
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                         {/* <span>+</span> */}
                       </h2>
                     </div>
@@ -233,8 +242,9 @@ class BrandsAudi extends Component {
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
-                      
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Transmission Repair</h5>
@@ -244,131 +254,168 @@ class BrandsAudi extends Component {
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
-                     
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Audi Touchless Wheel Alignment</h5>
+                    <h5 className="counter-text">
+                      Audi Touchless Wheel Alignment
+                    </h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Engine Refurbishment</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Software Programming</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi AC Repair</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Audi Service & Warranty Packages</h5>
+                    <h5 className="counter-text">
+                      Audi Service & Warranty Packages
+                    </h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Car Detailing</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Gearbox Repair</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Audi Engine Cooling System Repair</h5>
+                    <h5 className="counter-text">
+                      Audi Engine Cooling System Repair
+                    </h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Brake Repair</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Audi Camera/Radar Calibration</h5>
+                    <h5 className="counter-text">
+                      Audi Camera/Radar Calibration
+                    </h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Audi Pre-Purchase Inspection</h5>
+                    <h5 className="counter-text">
+                      Audi Pre-Purchase Inspection
+                    </h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi Service Packages</h5>
                   </div>
                 </div>
-				<div className="col-xl-4 col-sm-12 col-12">
+                <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
-                        <span className="counter"><i class="flaticon-car-4"></i></span>
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Audi Extended Warranty Packages</h5>
+                    <h5 className="counter-text">
+                      Audi Extended Warranty Packages
+                    </h5>
                   </div>
                 </div>
               </div>

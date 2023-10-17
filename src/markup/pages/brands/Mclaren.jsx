@@ -18,7 +18,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 import bnrImg from "../../../images/banner/bnr1.jpg";
 import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
 
-class RangeRover extends Component {
+class Mclaren extends Component {
   render() {
     return (
       <>
@@ -33,7 +33,7 @@ class RangeRover extends Component {
               <div className="page-banner-entry text-center">
                 <h1>
                   <span>
-				  ROYAL SWISS AUTO - A MODERNIZED RANGE ROVER SERVICE CENTER IN SAUDI ARABIA
+                  ROYAL SWISS AUTO - MCLAREN SERVICE CENTER IN SAUDI ARABIA GUARANTEES EXTRAORDINARY CARE
                   </span>
                 </h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
@@ -49,7 +49,7 @@ class RangeRover extends Component {
                       </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Range Rover
+                      Mclaren
                     </li>
                   </ul>
                 </nav>
@@ -75,13 +75,13 @@ class RangeRover extends Component {
                       </div>
                     </div>
                     <div className="col-xl-6">
-                      <h4 className="title mb-10">OUR RANGE ROVER SERVICE BENEFITS</h4>
+                      <h4 className="title mb-10">OUR MCLAREN SERVICE BENEFITS</h4>
                       <p className="mb-20">
-					  Thanks to our years of experience in auto repair, your Range Rover will receive the attention it deserves.
+                      We know about your vehicle wants and needs, hence the perfect care that your McLaren deserves is guaranteed.
                       </p>
                       <ul className="list-check-squer mb-30">
                         <li>
-						Dealership alternative Range Rover service in Saudi Arabia
+                        Dealership alternative Mclaren service in Saudi Arabia
                         </li>
                         <li>Competitive pricing</li>
                         <li>Independently owned & operated</li>
@@ -94,47 +94,56 @@ class RangeRover extends Component {
                   <div className="mb-10 ContentBox2">
                     <div className="head-text mb-30">
                       <h4 className="title mb-15">
-					  RANGE ROVER SPECIALISTS IN SAUDI ARABIA THAT KEEP YOUR CAR PRISTINE
+                      OUR MCLAREN SPECIALISTS, KEEP YOUR CAR PERFORMING AT ITS BEST
                       </h4>
                       <h5 className="mb-15">
                         <b>
-                          “The epitome of sophisticated elegance & uncompromising performance.”
+                          “Mclaren: Where every detail is a masterpiece.”
                         </b>
                       </h5>
                       <p className="mb-15">
-					  Range Rover has all such unique characteristics that require the care of nothing less but the specialists. We at Royal Swiss Auto Services, provide that special kind of service and repair by combining the knowledge and experience of our team of technicians. The unmatched quality of Range Rover service & repair in Saudi Arabia with greater transparency has earned us a good customer base in a short time.
+                      McLaren is known for its high-precision engineering, unparalleled performance, and automotive excellence. Being a premium destination for McLaren car care in Saudi Arabia, our goal is to provide McLaren owners with a level of service and expertise that matches the exceptional standards of its legacy.
                       </p>
                       <p className="mb-15">
-					  Saudi Arabia is a vast area covering various cities like Riyadh, Dammam and Jeddah , our branch opening in Saudi Arabia will provide the better Range Rover auto repair services to make it easier for our customers.
+                      Our well established workshop in Saudi Arabia will provide better McLaren services & repairs to our customers in a vast area that includes Riyadh, Dammam, and Jeddah.
+                      </p>
+                      <p className="mb-15">
+                      With experienced technicians, usage of genuine McLaren parts, state-of-the-art facilities, and personalized McLaren service plans according to the manufacturer guidelines, we are dedicated to ensuring that your McLaren experience remains nothing short of extraordinary.
+                      </p>
+                      <p className="mb-15">
+                      Our service center is not just a place where your McLaren is serviced; it is a place where your car receives various extraordinary care.
                       </p>
                       <h5 className="mb-15">
-                        <b>In KSA, we are the industry leader for Range Rover servicing & repairs</b>
+                        <b>We provide personalized services for all Mclaren models</b>
                       </h5>
                       <p className="mb-15">
-					  Being the cost-effective solution for providing the most comprehensive Range Rover servicing & repair without compromising the quality of the workmanship, we have curated all our service and repair protocols accordingly.
-                      </p>
-					  <p className="mb-15">
-					  We are ready to service various models like Range Rover Sport, Range Rover Velar, Range Rover Evoque, Range Rover Defender, Range Rover Discovery and others. Whenever you visit us at our Range Rover service center in Saudi Arabia to get the routine maintenance done for your car, the progress of the works will be kept informed to you and any additional services or repairs needed will be recommended based on the complete inspection of your car, so that you can be at peace of mind. When you get back to your car you may definitely notice its flawless performance on the roads
+                      Our team of technicians takes time to understand your expectations and goes an extra mile when it comes to servicing or repairing various models like McLaren P1, McLaren 720S, McLaren 650S,McLaren 600L, McLaren GT or any other.
+
+From routine oil changes to extensive inspections of various important powertrain components, our maintenance services are carried out with the utmost precision.
+
                       </p>
                     </div>
                     <div className="row">
                       <h5 className="mb-15">
-                        <b>Why should you choose our Range Rover workshop in Saudi Arabia?</b>
+                        <b>What makes us ideal for the McLaren service in Saudi Arabia?</b>
                       </h5>
                       <div className="col-xl-12">
                         <ul className="list-check-squer">
                           <li>
-						  The ultra-modern, state-of-the-art Range Rover workshop in Saudi Arabia
+                          The ultra-modern, state-of-the-art Mclaren workshop in Saudi Arabia
                           </li>
                           <li>
-						  Engine room dedicated to engine repair, engine refurbishment, or engine replacement
+                            Engine room dedicated to engine repair, engine
+                            refurbishment, or engine replacement
                           </li>
                           <li>
-						  Highly qualified and certified technicians specialized in the brands we serve.
+                            Highly qualified and certified technicians
+                            specialized in the brands we serve.
                           </li>
                           <li>Spare parts department and own storage.</li>
                           <li>
-						  A professional and multicultural customer support team, we speak your language!
+                            A professional and multicultural customer support
+                            team, we speak your language!
                           </li>
                           <li>
                             Up to 15,000 different spare parts available in
@@ -146,16 +155,13 @@ class RangeRover extends Component {
                   </div>
                   <div className="head-text mb-30">
                     <h4 className="title mb-10">
-					WE ARE THE PLACE TO GO, FOR ALL YOUR RANGE ROVER SERVICING & REPAIRS
+                    HIGH-QUALITY MCLAREN SERVICING WITH TRANSPARENT PRICING
                     </h4>
                     <p className="mb-15">
-					We understand the intricacies of the electrical and mechanical components in the Range Rover, which makes us able to deliver the servicing and repair for your Range Rover with greater precision at a very fast time. 
+                    The quality of our workmanship is something we take immense pride at our McLaren garage in Saudi Arabia. Our service center has rigorous quality control procedures in place to ensure that every task is aligned, whether it may be a routine maintenance or a complex repair task, it meets the highest standards to achieve greater customer satisfaction.
                     </p>
                     <p className="mb-15">
-					Our routine servicing and the care that we provide for your car, helps you to stay away from some of the common problems faced by Range Rover cars like leaking sunroof, air compressor issues, flywheel wear and others.
-                    </p>
-                    <p className="mb-15">
-					Our goal is to extend the lifespan of your Range Rover and keep it away from expensive repair bills until the last miles.
+                    We believe in transparency when it comes to pricing. Our pricing structure is competitive and fair while the value of the service you receive is never compromised.
                     </p>
                   </div>
                 </div>
@@ -166,13 +172,10 @@ class RangeRover extends Component {
         <section className="section-area section-sp2 ServiceBox1">
           <div className="container">
             <div class="heading-bx text-center">
-              <h6 class="title-ext text-primary">Get Your Range Rover</h6>
-              <h2 class="title mb-0">SERVICED IN SAUDI ARABIA AT EASE</h2>
+              <h6 class="title-ext text-primary">EXPERIENCE THE</h6>
+              <h2 class="title mb-0">MCLAREN SERVICE AT ITS BEST</h2>
               <p>
-			  With the state of the art facilities, advanced diagnostic tools and equipment, we have made the Range Rover servicing and repair faster and hassle-free for our customers in the Kingdom of Saudi Arabia. Dial 966 53 969 9984 to make your Range Rover service or repair appointments.
-<br/>
-Explore the list of services & repairs that we are specialized in providing for your Range Rover,
-
+              Contact us today at 966 53 969 9984, to schedule an appointment or to learn more about our services. Our wide range of Mclaren service and repairs that our technicians are trained with includes,
               </p>
             </div>
             <div className="SerGridWrap">
@@ -187,7 +190,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         {/* <span>K</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Engine Repair</h5>
+                    <h5 className="counter-text">McLaren Engine Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -200,7 +203,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         {/* <span>+</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Gearbox Repair</h5>
+                    <h5 className="counter-text">McLaren Suspension Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -212,7 +215,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Suspension Repair</h5>
+                    <h5 className="counter-text">McLaren Transmission Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -225,7 +228,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-                    Range Rover Transmission Repair
+                    McLaren Touchless Wheel Alignment
                     </h5>
                   </div>
                 </div>
@@ -238,7 +241,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Touchless Wheel Alignment</h5>
+                    <h5 className="counter-text">McLaren Engine Refurbishment</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -250,7 +253,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover  Engine Refurbishment</h5>
+                    <h5 className="counter-text">McLaren Software Programming</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -262,7 +265,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Software Programming</h5>
+                    <h5 className="counter-text">McLaren AC Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -275,7 +278,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover AC Repair
+                    McLaren Service & Warranty Packages
                     </h5>
                   </div>
                 </div>
@@ -288,7 +291,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Service & Warranty Packages</h5>
+                    <h5 className="counter-text">McLaren Car Detailing</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -300,7 +303,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Car Detailing</h5>
+                    <h5 className="counter-text">McLaren Gearbox Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -313,7 +316,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-                    Range Rover Engine Cooling System Repair
+                    McLaren Engine Cooling System Repair
                     </h5>
                   </div>
                 </div>
@@ -326,7 +329,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Brake Repair</h5>
+                    <h5 className="counter-text">McLaren Brake Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -339,7 +342,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Camera/Radar Calibration
+                    McLaren Camera/Radar Calibration
                     </h5>
                   </div>
                 </div>
@@ -353,7 +356,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Pre-Purchase Inspection
+                    McLaren Pre-Purchase Inspection
                     </h5>
                   </div>
                 </div>
@@ -366,7 +369,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Service Packages</h5>
+                    <h5 className="counter-text">McLaren Service Packages</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -379,7 +382,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Extended Warranty Packages
+                    McLaren Extended Warranty Packages
                     </h5>
                   </div>
                 </div>
@@ -398,22 +401,22 @@ Explore the list of services & repairs that we are specialized in providing for 
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      What to do when my Range Rover experiences overheating?
+                      Why does the AC blow warm air in my McLaren?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  When the car overheats, it may cause major damage to your car engine. So pull off the car to the safest location, wait until it cools down and visit the Range Rover service center near you at the earliest.
+                      If your McLaren is blowing the warm air then it must be due to low refrigerant, dirty condenser, clogged cabin filter, blown fuse evaporator issues or any other issues, so get it inspected by the McLaren specialists near you.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Is a Range Rover expensive to maintain?
+                      How often should I change the brake fluid in my McLaren?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Though the Range Rover is a bit expensive to maintain, with the proper maintenance and care the expensive repair bills causing financial stress can be avoided.
+                      It is essential to get the brake fluids in your McLaren every two years once, It may slightly vary depending on the model of the vehicle that you hold, so always refer to the owner's manual.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -421,28 +424,28 @@ Explore the list of services & repairs that we are specialized in providing for 
               </div>
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="2"
+                  defaultActiveKey="0"
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      How to keep my Range Rover engine in good condition?
+                      Why is it essential to use only the genuine spare parts for your McLaren?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  To keep your Range Rover in good condition, provide quality maintenance and professional inspection for your Range Rover at regular intervals. Address the illuminating warning lights immediately.
+                      Genuine spare parts have a high standard of quality and perform well. Though the original spare parts are expensive but it lasts longer.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Why is it important to get the Range Rover major service done?
+                      Why is the coolant flush important for your McLaren?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Getting the regular Range Rover major service done by visiting the authorized Range Rover workshop in Saudi Arabia as it is essential to improve the performance of your vehicle.
+                      Regular coolant flushes are important maintenance needed for your McLaren, ensuring that the engine remains properly cooled and operating at its best.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -462,4 +465,4 @@ Explore the list of services & repairs that we are specialized in providing for 
   }
 }
 
-export default RangeRover;
+export default Mclaren;

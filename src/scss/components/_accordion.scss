@@ -43,6 +43,7 @@
 			color: $black;
 			border-radius:0;
 			font-size:15px;
+			min-height: 150px;
 		}
 		@include respond('phone'){
 			.accordion-button{

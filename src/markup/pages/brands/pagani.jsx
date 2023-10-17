@@ -18,7 +18,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 import bnrImg from "../../../images/banner/bnr1.jpg";
 import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
 
-class RangeRover extends Component {
+class Pagani extends Component {
   render() {
     return (
       <>
@@ -33,7 +33,7 @@ class RangeRover extends Component {
               <div className="page-banner-entry text-center">
                 <h1>
                   <span>
-				  ROYAL SWISS AUTO - A MODERNIZED RANGE ROVER SERVICE CENTER IN SAUDI ARABIA
+                  ROYAL SWISS AUTO - REPUTED PAGANI SERVICE CENTER IN SAUDI ARABIA
                   </span>
                 </h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
@@ -49,7 +49,7 @@ class RangeRover extends Component {
                       </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Range Rover
+                    Pagani
                     </li>
                   </ul>
                 </nav>
@@ -75,13 +75,13 @@ class RangeRover extends Component {
                       </div>
                     </div>
                     <div className="col-xl-6">
-                      <h4 className="title mb-10">OUR RANGE ROVER SERVICE BENEFITS</h4>
+                      <h4 className="title mb-10">OUR PAGANI  SERVICE BENEFITS</h4>
                       <p className="mb-20">
-					  Thanks to our years of experience in auto repair, your Range Rover will receive the attention it deserves.
+                      We help you embrace the premium ride with your Pagani through our comprehensive service & repairs
                       </p>
                       <ul className="list-check-squer mb-30">
                         <li>
-						Dealership alternative Range Rover service in Saudi Arabia
+                        Dealership alternative Pagani service in Saudi Arabia
                         </li>
                         <li>Competitive pricing</li>
                         <li>Independently owned & operated</li>
@@ -94,47 +94,50 @@ class RangeRover extends Component {
                   <div className="mb-10 ContentBox2">
                     <div className="head-text mb-30">
                       <h4 className="title mb-15">
-					  RANGE ROVER SPECIALISTS IN SAUDI ARABIA THAT KEEP YOUR CAR PRISTINE
+                      EXPERIENCE THE PREMIUM PAGANI SERVICE & REPAIR IN SAUDI ARABIA
                       </h4>
                       <h5 className="mb-15">
                         <b>
-                          “The epitome of sophisticated elegance & uncompromising performance.”
+                          “Precision, passion, and perfection – the Pagani way”
                         </b>
                       </h5>
                       <p className="mb-15">
-					  Range Rover has all such unique characteristics that require the care of nothing less but the specialists. We at Royal Swiss Auto Services, provide that special kind of service and repair by combining the knowledge and experience of our team of technicians. The unmatched quality of Range Rover service & repair in Saudi Arabia with greater transparency has earned us a good customer base in a short time.
+                      Italian supercars like Pagani have some specific and unique requirements when it comes to vehicle maintenance to keep it in premium condition. Such extreme care that your modern or vintage Pagani needs can be obtained only from the reliable Pagani service center in Saudi Arabia.
                       </p>
                       <p className="mb-15">
-					  Saudi Arabia is a vast area covering various cities like Riyadh, Dammam and Jeddah , our branch opening in Saudi Arabia will provide the better Range Rover auto repair services to make it easier for our customers.
+                      Saudi Arabia is a vast area covering various cities like Riyadh, Dammam and Jeddah , our branch  in Saudi Arabia will provide better Pagani services & repairs to make it easier for our customers.
+                      </p>
+                      <p className="mb-15">
+                      We Royal Swiss Auto Services, being one of the most trusted Pagani service center in KSA, suggest nothing but the best needed for your vehicle. We have both the state-of-the-art facility and the technicians to handle various models like Porsche Zonda, Porsche Huayra, Porsche Porsche Utopia, Porsche Imola and others.
                       </p>
                       <h5 className="mb-15">
-                        <b>In KSA, we are the industry leader for Range Rover servicing & repairs</b>
+                        <b>We are dedicated Pagani specialists</b>
                       </h5>
                       <p className="mb-15">
-					  Being the cost-effective solution for providing the most comprehensive Range Rover servicing & repair without compromising the quality of the workmanship, we have curated all our service and repair protocols accordingly.
-                      </p>
-					  <p className="mb-15">
-					  We are ready to service various models like Range Rover Sport, Range Rover Velar, Range Rover Evoque, Range Rover Defender, Range Rover Discovery and others. Whenever you visit us at our Range Rover service center in Saudi Arabia to get the routine maintenance done for your car, the progress of the works will be kept informed to you and any additional services or repairs needed will be recommended based on the complete inspection of your car, so that you can be at peace of mind. When you get back to your car you may definitely notice its flawless performance on the roads
+                      With a team of highly experienced technicians and the latest diagnostic tools at our Pagani workshop in Saudi Arabia, we provide everything including routine inspections, repairs and other maintenance needed for your luxury car. When it comes to Pagani service or repair in Saudi Arabia, we always exceed your expectations by delivering high-quality work with greater care as you care for your car.
                       </p>
                     </div>
                     <div className="row">
                       <h5 className="mb-15">
-                        <b>Why should you choose our Range Rover workshop in Saudi Arabia?</b>
+                        <b>What makes Royal Swiss Auto Services unique for Pagani services in KSA?</b>
                       </h5>
                       <div className="col-xl-12">
                         <ul className="list-check-squer">
                           <li>
-						  The ultra-modern, state-of-the-art Range Rover workshop in Saudi Arabia
+                          The ultra-modern, state-of-the-art Pagani workshop in Saudi Arabia
                           </li>
                           <li>
-						  Engine room dedicated to engine repair, engine refurbishment, or engine replacement
+                            Engine room dedicated to engine repair, engine
+                            refurbishment, or engine replacement
                           </li>
                           <li>
-						  Highly qualified and certified technicians specialized in the brands we serve.
+                            Highly qualified and certified technicians
+                            specialized in the brands we serve.
                           </li>
                           <li>Spare parts department and own storage.</li>
                           <li>
-						  A professional and multicultural customer support team, we speak your language!
+                            A professional and multicultural customer support
+                            team, we speak your language!
                           </li>
                           <li>
                             Up to 15,000 different spare parts available in
@@ -146,16 +149,13 @@ class RangeRover extends Component {
                   </div>
                   <div className="head-text mb-30">
                     <h4 className="title mb-10">
-					WE ARE THE PLACE TO GO, FOR ALL YOUR RANGE ROVER SERVICING & REPAIRS
+                    WE ENSURE THE FLAWLESS PERFORMANCE OF YOUR PAGANI
                     </h4>
                     <p className="mb-15">
-					We understand the intricacies of the electrical and mechanical components in the Range Rover, which makes us able to deliver the servicing and repair for your Range Rover with greater precision at a very fast time. 
+                    We understand how intricate the electrical and mechanical components are in a luxury car like Pagani, so with our years of experience we are able to deliver the perfect care that it deserves. With our seamless experience and the state of the art facility, we strive in all possible ways to easily diagnose and fix the issues in your car properly, so you can get back on the roads sooner with your car.
                     </p>
                     <p className="mb-15">
-					Our routine servicing and the care that we provide for your car, helps you to stay away from some of the common problems faced by Range Rover cars like leaking sunroof, air compressor issues, flywheel wear and others.
-                    </p>
-                    <p className="mb-15">
-					Our goal is to extend the lifespan of your Range Rover and keep it away from expensive repair bills until the last miles.
+                    Whenever you visit our workshop in the Kingdom of Saudi Arabia to get your Pagani serviced or repaired, we always guarantee faster turnaround time and greater transparency throughout the process, which makes us the most trusted car workshop among the people for Pagani service in Saudi Arabia.
                     </p>
                   </div>
                 </div>
@@ -166,12 +166,12 @@ class RangeRover extends Component {
         <section className="section-area section-sp2 ServiceBox1">
           <div className="container">
             <div class="heading-bx text-center">
-              <h6 class="title-ext text-primary">Get Your Range Rover</h6>
-              <h2 class="title mb-0">SERVICED IN SAUDI ARABIA AT EASE</h2>
+              <h6 class="title-ext text-primary">Schedule Your</h6>
+              <h2 class="title mb-0">PAGANI SERVICE IN SAUDI ARABIA WITH OUR EXPERTS</h2>
               <p>
-			  With the state of the art facilities, advanced diagnostic tools and equipment, we have made the Range Rover servicing and repair faster and hassle-free for our customers in the Kingdom of Saudi Arabia. Dial 966 53 969 9984 to make your Range Rover service or repair appointments.
-<br/>
-Explore the list of services & repairs that we are specialized in providing for your Range Rover,
+              We have specifically tailored our Pagani service and repair process in accordance with the manufacturer's guidelines to ensure the longevity and optimal performance of your car. Dial 966 53 969 9984 to get premium care and preserve the elegance of your Pagani on the roads.
+
+From engine diagnostics to paint and body shop service, we cover everything. The maintenance and repair services that we specialize in providing for your Pagani are listed below,
 
               </p>
             </div>
@@ -187,7 +187,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         {/* <span>K</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Engine Repair</h5>
+                    <h5 className="counter-text">Pagani Engine Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -200,7 +200,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         {/* <span>+</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Gearbox Repair</h5>
+                    <h5 className="counter-text">Pagani Suspension Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -212,7 +212,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Suspension Repair</h5>
+                    <h5 className="counter-text">Pagani Transmission Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -225,7 +225,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-                    Range Rover Transmission Repair
+                    Pagani Touchless Wheel Alignment
                     </h5>
                   </div>
                 </div>
@@ -238,7 +238,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Touchless Wheel Alignment</h5>
+                    <h5 className="counter-text">Pagani Engine Refurbishment</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -250,7 +250,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover  Engine Refurbishment</h5>
+                    <h5 className="counter-text">Pagani Software Programming</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -262,7 +262,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Software Programming</h5>
+                    <h5 className="counter-text">Pagani AC Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -275,7 +275,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover AC Repair
+                    Pagani Service & Warranty Packages
                     </h5>
                   </div>
                 </div>
@@ -288,7 +288,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Service & Warranty Packages</h5>
+                    <h5 className="counter-text">Pagani Car Detailing</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -300,7 +300,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Car Detailing</h5>
+                    <h5 className="counter-text">Pagani Gearbox Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -313,7 +313,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-                    Range Rover Engine Cooling System Repair
+                    Pagani Engine Cooling System Repair
                     </h5>
                   </div>
                 </div>
@@ -326,7 +326,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Brake Repair</h5>
+                    <h5 className="counter-text">Pagani Brake Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -339,7 +339,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Camera/Radar Calibration
+                    Pagani Camera/Radar Calibration
                     </h5>
                   </div>
                 </div>
@@ -353,7 +353,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Pre-Purchase Inspection
+                    Pagani Pre-Purchase Inspection
                     </h5>
                   </div>
                 </div>
@@ -366,7 +366,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Range Rover Service Packages</h5>
+                    <h5 className="counter-text">Pagani Service Packages</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">
@@ -379,7 +379,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                       </h2>
                     </div>
                     <h5 className="counter-text">
-					Range Rover Extended Warranty Packages
+                    Pagani Extended Warranty Packages
                     </h5>
                   </div>
                 </div>
@@ -398,22 +398,22 @@ Explore the list of services & repairs that we are specialized in providing for 
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      What to do when my Range Rover experiences overheating?
+                      Where to get the Pagani service in Saudi Arabia?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  When the car overheats, it may cause major damage to your car engine. So pull off the car to the safest location, wait until it cools down and visit the Range Rover service center near you at the earliest.
+                      Always consider the reliable Pagani service center that is well equipped with the latest diagnostic tools and equipment along with a team of skilled technicians to handle your car. We Royal Swiss Auto Services are the ideal choice to get the perfect care for your car.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Is a Range Rover expensive to maintain?
+                      Is Pagani expensive to repair and maintain?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Though the Range Rover is a bit expensive to maintain, with the proper maintenance and care the expensive repair bills causing financial stress can be avoided.
+                      Like any other luxury cars Pagani are expensive to repair, but it depends on the type of issues you are facing and the condition of the vehicle. But taking up the regular maintenance for your Pagani as per the manufacturer guidelines, significantly lowers the auto repair costs.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -421,28 +421,28 @@ Explore the list of services & repairs that we are specialized in providing for 
               </div>
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="2"
+                  defaultActiveKey="0"
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      How to keep my Range Rover engine in good condition?
+                      Why is it important to get the coolant flush done for your Pagani?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  To keep your Range Rover in good condition, provide quality maintenance and professional inspection for your Range Rover at regular intervals. Address the illuminating warning lights immediately.
+                      Coolant helps regulate the temperature of your engine by dissipating heat. The coolant loses its functionality as it gets old, so it is essential to get the coolant flush done for your Pagani.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Why is it important to get the Range Rover major service done?
+                      What is the engine oil change interval for the Pagani?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Getting the regular Range Rover major service done by visiting the authorized Range Rover workshop in Saudi Arabia as it is essential to improve the performance of your vehicle.
+                      It is essential to get the engine oil in your Pagani changed every 10,000 kms to 15,000 kms to keep your car engine in good condition.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -462,4 +462,4 @@ Explore the list of services & repairs that we are specialized in providing for 
   }
 }
 
-export default RangeRover;
+export default Pagani;
