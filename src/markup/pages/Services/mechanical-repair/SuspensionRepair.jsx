@@ -33,7 +33,7 @@ class SuspensionRepair extends Component{
             <div className="container">
               <div className="page-banner-entry text-center">
                 <h1>
-                  <span> CAR AC REPAIR & SERVICES</span>
+                  <span>CAR SUSPENSION REPAIR SERVICES</span>
                 </h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
@@ -49,7 +49,7 @@ class SuspensionRepair extends Component{
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       {" "}
-                      Car AC Repair & Services
+                      CAR SUSPENSION REPAIR SERVICES
                     </li>
                   </ul>
                 </nav>
@@ -71,140 +71,95 @@ class SuspensionRepair extends Component{
                   <div className="mb-10">
                     <div className="head-text mb-30">
                       <h4 className="title mb-10">
-                        TRUST US FOR YOUR CAR AC REPAIR IN SAUDI ARABIA - WE’LL
-                        KEEP YOUR CAR COOL THAN YOU EXPECT
+					  GET YOUR CAR SUSPENSION REPAIRS DONE BY THE EXPERTS IN SAUDI ARABIA
+
                       </h4>
                       <p className="mb-15">
-                        A regular car air conditioning system service ensures
-                        that it stays in top condition! As we all know a
-                        properly functioning car AC system is essential to
-                        enhance the comfort of the drivers on the road.
+					  Healthy suspension in your car is essential to keep your ride smooth and safe. All the components in your car suspension systems work together to absorb the bumps and shocks on the roads and result in a smooth and comfortable journey with enhanced safety.
                       </p>
                       <p className="mb-15">
-                        A routine car AC service or repairs increases your air
-                        conditioning system life span and helps you to avoid
-                        expensive repairs. Getting the car AC service done by
-                        the specialists also has a few other benefits listed
-                        below like,
+                       
+Though the suspension systems in modern cars last longer without any kind of repairs, proper care from suspension repair specialists is essential to reduce the extent of wear and tear damages caused by driving through potholes and other adverse road conditions.
+
                       </p>
                     </div>
                     <div className="row">
-                      <div className="col-xl-8">
-                        <div className="progress-area mb-30">
-                          <div className="progress-box style1 appear">
-                            <div className="progress-info">
-                              <h6 className="title">
-                                Enhanced cooling performance
-                              </h6>
-                              <h6 className="progress-value">100%</h6>
-                            </div>
-                            <div className="progress">
-                              <div
-                                className="progress-bar bg-primary"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                          <div className="progress-box style1 appear">
-                            <div className="progress-info">
-                              <h6 className="title">
-                                Superior comfort without any unwanted odor or
-                                noises
-                              </h6>
-                              <h6 className="progress-value">100%</h6>
-                            </div>
-                            <div className="progress">
-                              <div
-                                className="progress-bar bg-primary"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                          <div className="progress-box style1 appear">
-                            <div className="progress-info">
-                              <h6 className="title">
-                                Better air quality inside the cabin
-                              </h6>
-                              <h6 className="progress-value">100%</h6>
-                            </div>
-                            <div className="progress">
-                              <div
-                                className="progress-bar bg-primary"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                   
                       <div className="col-xl-12">
                         <h5 class="title mb-15 text-uppercase">
-                          Is your car's AC system in need of repair or service?
-                          What are the signs?
+						Car suspension repair signs: what do they look like?
                         </h5>
                         <ul className="list-check-squer">
-                          <li>Your car AC doesn't blow the cold air</li>
+                          <li>Your vehicle may begin to pull towards one side either right or left while driving even on straight roads.</li>
                           <li>
-                            You may experience frequent compressor issues & the
-                            compressor clutch may not be working properly
+						  Whenever you hit the bump or pit on the roads you may notice excessive bouncing.
                           </li>
                           <li>
-                            You may notice unusual noises when the AC is working
+						  The vibration of the steering wheel or the entire car while travelling at high speed.
                           </li>
                           <li>
-                            The AC unit might be leaking and you may notice
-                            strange odors
+						  Uneven tire wear is one good sign that indicates suspension problems with your car
                           </li>
+						  <li>
+						  You may begin to feel every small imperfection on the road during the journey
+						  </li>
+						  <li>Noticeable physical damages on the shock absorbers</li>
                         </ul>
                         <p className="mb-15">
-                          At Royal Swiss Auto service, our AC repair specialists
-                          diagnose all the above-mentioned issues and provide
-                          you with the perfect care.
+						Problems with the suspension can affect the handling of your car and result in loss of control. So it is always good to visit the car suspension repair specialists in Saudi Arabia at the earliest as soon as you notice any of the above-mentioned signs to avoid expensive repairs.
                         </p>
+						<h5 class="title mb-15 text-uppercase">
+						BENEFITS OF GETTING THE CAR SUSPENSION SERVICE
+                        </h5>
+                        <ul className="list-check-squer">
+                          <li>Less steering vibration</li>
+                          <li>
+						  Smooth and comfortable ride
+                          </li>
+                          <li>
+						  Extended tyre life
+                          </li>
+                          <li>
+						  Enhanced vehicle handling and safety
+                          </li>
+						  <li>
+						  Perfect steering response
+						  </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
                   <div className="head-text mb-30">
                     <h4 className="title mb-15">
-                      WE ARE YOUR CAR AC REPAIR, SERVICE & MAINTENANCE PARTNER
+					WE ARE THE SUSPENSION REPAIR SPECIALISTS IN SAUDI ARABIA
                     </h4>
                     <p className="mb-15">
-                      At our well-established car service center in Saudi
-                      Arabia, our skilled and experienced car AC specialists
-                      would perform the complete inspection of your car AC
-                      system and provide better solutions to various issues such
-                      as coolant leakages, air filter issues, car AC compressor
-                      failure and many others.
+					At Royal Swiss Auto Services, our technicians have years of experience to diagnose and understand the various issues with your car’s suspension and provide you with the complete details about the repairs and replacements needed to be made efficiently.
                     </p>
                     <p className="mb-15">
-                      Our technicians have years of experience and the
-                      efficiency to quickly pinpoint and resolve the various
-                      issues with the Car AC system.
+					If you visit our workshop in KSA for suspension repair, we guarantee to use only high-quality genuine spare parts in case of replacements and our service, repair or replacement protocols always match with the manufacturer guidelines.
                     </p>
-                    <h4 className="title mb-10">
-                      REACH OUT TO US FOR ANY OF THE BELOW-MENTIONED SERVICES
-                      RELATED TO CAR AIR CONDITIONING SYSTEM
-                    </h4>
                     <p className="mb-10">
-                      We are ready to provide all the car AC repair services in
-                      KSA at competitive rates promptly in a short period. Reach
-                      out to us for the following services, we assure the
-                      greater satisfaction than you expect,
+					We offer all suspension repairs and services under one roof using modern diagnostic tools and equipment and make sure you leave the workshop with a smoother ride and are satisfied with our workmanship.
                     </p>
+					
                   </div>
                   <div className="row">
                     <div className="col-lg-12">
+					<h4 className="title mb-15 text-uppercase">
+					We specialize in,
+                    </h4>
                       <ul className="list-check-squer mb-0">
                         <li>
-                          Various diagnostics & repairs needed for the car's AC
-                          system
+						Thorough suspension inspection
                         </li>
-                        <li>Car AC compressor and clutch repairs</li>
-                        <li>Refrigerant leakage detection </li>
-                        <li>Refrigerant inspection & refilling</li>
+                        <li>Replacement of bushes, struts, shock absorbers and other suspension components</li>
+                        <li>Wheel alignment </li>
+                        <li>Steering system inspection and repair</li>
                         <li>
-                          Repair and replacement of the important components
-                          like AC condenser and evaporator
+						Tyre health inspection and replacement
                         </li>
+						<li>All other major or minor issues related to car suspension</li>
                       </ul>
                     </div>
                   </div>
@@ -216,9 +171,9 @@ class SuspensionRepair extends Component{
         <section className="section-area section-sp2 ServiceBox1">
           <div className="container">
             <div class="heading-bx text-center">
-              <h6 class="title-ext text-primary">BENEFITS OF </h6>
+              <h6 class="title-ext text-primary">Why choose us</h6>
               <h2 class="title mb-0">
-			  CHOOSING ROYAL SWISS AUTO SERVICES FOR CAR AC SERVICE IN SAUDI ARABIA
+			  For your car suspension repair in Saudi Arabia?
               </h2>
             </div>
             <div className="SerGridWrap">
@@ -232,8 +187,8 @@ class SuspensionRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Professional customer support </h5>
-					<p>At our car workshop in Saudi Arabia, we do have a professional customer support team who would guide you and answer all your queries when you visit us to get your car AC repair or services done until you get back your car from us. So that you can be confident and get hassle-free car AC service in Saudi Arabia.</p>
+                    <h5 className="counter-text">Quality workmanship </h5>
+					<p>Whatever may be the problem with your car suspension and whether it may be a sedan, SUV or any other passenger car, our technicians would provide high-quality service and keep you safer on the roads.</p>
                   </div>
                 </div>
 				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
@@ -245,8 +200,8 @@ class SuspensionRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Latest diagnostic equipment & tools</h5>
-					<p>We invest in highly advanced diagnostic tools and equipment to provide our customers with quality car AC repair in a faster turnaround time.</p>
+                    <h5 className="counter-text">Competitive pricing & faster turnaround time</h5>
+					<p>We use modern diagnostic tools to diagnose all kinds of suspension repairs and provide solutions. So work can be completed faster with us than you expect without exorbitant pricing, so you no need to suffer longer without the cars.</p>
                   </div>
                 </div>
 				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
@@ -258,8 +213,8 @@ class SuspensionRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Competitive pricing & genuine spare parts</h5>
-					<p>We guarantee to use only genuine spare parts to ensure the dealership level of car AC repair but at the most competitive pricing.</p>
+                    <h5 className="counter-text">Hassle-free suspension repair</h5>
+					<p>The booking process with us is easier or you can even visit us directly at our workshop, where our professional customer support team and the service advisor will guide you to get the issues on your car suspension sorted out.</p>
                   </div>
                 </div>
               </div>
@@ -277,33 +232,22 @@ class SuspensionRepair extends Component{
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Why is my car AC not blowing the cold air?
+					  How much does suspension repair cost in Saudi Arabia?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  If your car AC is not blowing the cold air, the problem may be as simple as a dirty cabin filter, bad belt or as complex as compressor failure or freon leakages.
+					  The cost of the suspension repair may vary depending on the issue, condition and model of your vehicle. But with a trusted car suspension repair provider like us, it can be completed in a pocket-friendly way without compromising the quality.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      How often should I get my car AC serviced?
+                      Can I drive with the repairs in the car suspension?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  It is essential to get your car AC services at least once a year to keep it in pristine condition. Apart from this if you notice any unusual signs with your car AC visit the car service center immediately.
-                      </p>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="2">
-                    <Accordion.Header>
-                      <i className="fa fa-question-circle"></i>
-                      Why is there a weird noise when my car AC is running?
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <p className="mb-0">
-					  The strange noises when the car AC is running may be due to a damaged fan motor, loose wiring or any other. Getting it inspected by the car AC repair specialists will help in the perfect diagnosis.
+					  Driving a car with major suspension repair is generally not advised, as it can increase the chances of an accident by reducing the control over your car.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -317,22 +261,22 @@ class SuspensionRepair extends Component{
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      What should I do if the refrigerant in the car AC is leaking?
+                      What happens if I don't get the suspension repair sorted out at the earliest?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Leakage of refrigerants in the car may result in the blow of warm air, damage to certain other components and various other health risks. So visit the service center and get the car AC repair services done with greater precision.
+					  When you postpone getting the suspension repairs done, the repair would become massive and you’ll have to pay more than you would expect.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Where can I get the best car AC repair in Saudi Arabia?
+					  How often should I get my car suspension inspected?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  We are the perfect choice to get your car AC repair services in Saudi Arabia in a pocket-friendly way from experienced technicians with excellent quality.
+					  It is good to get your suspension inspected once a year or every 15000 kms, this may vary depending on the model you hold. So always check your owner's manual and get the suspension inspection done without fail.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>

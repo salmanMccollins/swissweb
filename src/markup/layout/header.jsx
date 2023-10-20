@@ -153,8 +153,8 @@ class aboutSection extends Component{
 														<li><Link to="/services/mechanical-repair/gear-box-repair"><span>Gearbox Repair</span></Link></li>
 														<li><Link to="/services/mechanical-repair/pre-purchase-inspection"><span>Pre-Purchase Inspection</span></Link></li>
 														<li><Link to="/services/mechanical-repair/suspension-repair"><span>Suspension Repair</span></Link></li>
-														<li><Link to="/services/mechanical-repair/touchless-wheel-alignment"><span>Transmission Repair</span></Link></li>
-														<li><Link to="/services/mechanical-repair/transmission-repair"><span>Touchless Wheel Alignment</span></Link></li>
+														<li><Link to="/services/mechanical-repair/transmission-repair"><span>Transmission Repair</span></Link></li>
+														<li><Link to="/services/mechanical-repair/touchless-wheel-alignment"><span>Touchless Wheel Alignment</span></Link></li>
 													</ul>
 												</li>
 												<li>
