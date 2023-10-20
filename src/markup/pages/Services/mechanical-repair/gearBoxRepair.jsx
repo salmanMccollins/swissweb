@@ -33,7 +33,7 @@ class gearBoxRepair extends Component{
             <div className="container">
               <div className="page-banner-entry text-center">
                 <h1>
-                  <span> CAR AC REPAIR & SERVICES</span>
+                  <span> GEARBOX REPAIR SERVICES</span>
                 </h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
@@ -49,7 +49,7 @@ class gearBoxRepair extends Component{
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       {" "}
-                      Car AC Repair & Services
+                      GEARBOX REPAIR SERVICES
                     </li>
                   </ul>
                 </nav>
@@ -71,142 +71,68 @@ class gearBoxRepair extends Component{
                   <div className="mb-10">
                     <div className="head-text mb-30">
                       <h4 className="title mb-10">
-                        TRUST US FOR YOUR CAR AC REPAIR IN SAUDI ARABIA - WE’LL
-                        KEEP YOUR CAR COOL THAN YOU EXPECT
+					  EXPERIENCE THE QUALITY GEARBOX REPAIR SERVICES IN SAUDI ARABIA
                       </h4>
                       <p className="mb-15">
-                        A regular car air conditioning system service ensures
-                        that it stays in top condition! As we all know a
-                        properly functioning car AC system is essential to
-                        enhance the comfort of the drivers on the road.
+					  One important component of a car is the gearbox, which controls the vehicle's movement. Most latest make and model of cars now comes with an automatic transmission system whereas some have manual transmission.
                       </p>
                       <p className="mb-15">
-                        A routine car AC service or repairs increases your air
-                        conditioning system life span and helps you to avoid
-                        expensive repairs. Getting the car AC service done by
-                        the specialists also has a few other benefits listed
-                        below like,
+					  Whether it may be manual or automatic gearbox systems, proper care from the experts is essential to extend its lifespan and to make sure your car runs smoothly on the roads.
+If you suspect any kinds of repairs with your car gearbox system contact the gearbox repair specialists immediately to avoid the expensive repair and the complete replacement.
+
                       </p>
+					  <p className="mb-15">
+					  At Royal Swiss Auto Services, we are readily available to help you out with all type of gearbox repairs with a team of experienced technicians.
+                      </p>	
                     </div>
                     <div className="row">
-                      <div className="col-xl-8">
-                        <div className="progress-area mb-30">
-                          <div className="progress-box style1 appear">
-                            <div className="progress-info">
-                              <h6 className="title">
-                                Enhanced cooling performance
-                              </h6>
-                              <h6 className="progress-value">100%</h6>
-                            </div>
-                            <div className="progress">
-                              <div
-                                className="progress-bar bg-primary"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                          <div className="progress-box style1 appear">
-                            <div className="progress-info">
-                              <h6 className="title">
-                                Superior comfort without any unwanted odor or
-                                noises
-                              </h6>
-                              <h6 className="progress-value">100%</h6>
-                            </div>
-                            <div className="progress">
-                              <div
-                                className="progress-bar bg-primary"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                          <div className="progress-box style1 appear">
-                            <div className="progress-info">
-                              <h6 className="title">
-                                Better air quality inside the cabin
-                              </h6>
-                              <h6 className="progress-value">100%</h6>
-                            </div>
-                            <div className="progress">
-                              <div
-                                className="progress-bar bg-primary"
-                                style={{ width: "100%" }}
-                              ></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                       <div className="col-xl-12">
                         <h5 class="title mb-15 text-uppercase">
-                          Is your car's AC system in need of repair or service?
-                          What are the signs?
+						Gearbox repairs: what are the signs?
                         </h5>
                         <ul className="list-check-squer">
-                          <li>Your car AC doesn't blow the cold air</li>
+                          <li>Engine warning lights on the dashboard may begin to illuminate</li>
                           <li>
-                            You may experience frequent compressor issues & the
-                            compressor clutch may not be working properly
+						  You may notice the transmission fluid leakage
                           </li>
                           <li>
-                            You may notice unusual noises when the AC is working
+						  Difficulty in accelerating the car
                           </li>
                           <li>
-                            The AC unit might be leaking and you may notice
-                            strange odors
+						  Experiencing excessive vibrations while driving
                           </li>
+						  <li>Gear slippage or struggling to change the gear</li>
+						  <li>You may notice unusual sounds or rubber burning smell in some cases</li>
+						  <li>Dragging clutch</li>
                         </ul>
+						<h5 class="title mb-15 text-uppercase">
+						OUR GEARBOX REPAIR SPECIALISTS IN KSA ARE READY TO HELP YOU WITH ALL TYPES OF SERVICES
+                        </h5>
                         <p className="mb-15">
-                          At Royal Swiss Auto service, our AC repair specialists
-                          diagnose all the above-mentioned issues and provide
-                          you with the perfect care.
+						When it comes to handling the gearbox, the technicians at our well-established workshop in Saudi Arabia are experts in providing various mechanical services, repairs and replacements needed for your gearbox for all make and models.
                         </p>
+						<p className='mb-15'>We are one-stop shop for gearbox repair services specializing in:</p>
+						<ul className="list-check-squer mb-0">
+							<li>
+							Complete gearbox services
+							</li>
+							<li>Diagnostic checks</li>
+							<li>Transmission fluid refilling and flushing</li>
+							<li>Transmission repair & rebuild</li>
+							<li>
+							Transmission replacement
+							</li>
+						</ul>
                       </div>
                     </div>
                   </div>
                   <div className="head-text mb-30">
                     <h4 className="title mb-15">
-                      WE ARE YOUR CAR AC REPAIR, SERVICE & MAINTENANCE PARTNER
+					WE ARE THE PROFESSIONAL GEARBOX REPAIR SPECIALISTS IN SAUDI ARABIA USING LATEST DIAGNOSTIC TOOLS AND EQUIPMENTS
                     </h4>
                     <p className="mb-15">
-                      At our well-established car service center in Saudi
-                      Arabia, our skilled and experienced car AC specialists
-                      would perform the complete inspection of your car AC
-                      system and provide better solutions to various issues such
-                      as coolant leakages, air filter issues, car AC compressor
-                      failure and many others.
+					We use modern diagnostic tools and the latest equipment to provide accurate diagnosis and restore the performance of your gearbox while saving you time and money. Our gearbox specialists at our workshop in KSA can handle the gearbox issues associated with various brands like be American, European, German, Japanese or any other exotic or luxury cars.
                     </p>
-                    <p className="mb-15">
-                      Our technicians have years of experience and the
-                      efficiency to quickly pinpoint and resolve the various
-                      issues with the Car AC system.
-                    </p>
-                    <h4 className="title mb-10">
-                      REACH OUT TO US FOR ANY OF THE BELOW-MENTIONED SERVICES
-                      RELATED TO CAR AIR CONDITIONING SYSTEM
-                    </h4>
-                    <p className="mb-10">
-                      We are ready to provide all the car AC repair services in
-                      KSA at competitive rates promptly in a short period. Reach
-                      out to us for the following services, we assure the
-                      greater satisfaction than you expect,
-                    </p>
-                  </div>
-                  <div className="row">
-                    <div className="col-lg-12">
-                      <ul className="list-check-squer mb-0">
-                        <li>
-                          Various diagnostics & repairs needed for the car's AC
-                          system
-                        </li>
-                        <li>Car AC compressor and clutch repairs</li>
-                        <li>Refrigerant leakage detection </li>
-                        <li>Refrigerant inspection & refilling</li>
-                        <li>
-                          Repair and replacement of the important components
-                          like AC condenser and evaporator
-                        </li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -216,9 +142,9 @@ class gearBoxRepair extends Component{
         <section className="section-area section-sp2 ServiceBox1">
           <div className="container">
             <div class="heading-bx text-center">
-              <h6 class="title-ext text-primary">BENEFITS OF </h6>
+              <h6 class="title-ext text-primary">Why choose </h6>
               <h2 class="title mb-0">
-			  CHOOSING ROYAL SWISS AUTO SERVICES FOR CAR AC SERVICE IN SAUDI ARABIA
+			  Royal Swiss Auto for your gearbox repair in Saudi Arabia?
               </h2>
             </div>
             <div className="SerGridWrap">
@@ -232,8 +158,8 @@ class gearBoxRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Professional customer support </h5>
-					<p>At our car workshop in Saudi Arabia, we do have a professional customer support team who would guide you and answer all your queries when you visit us to get your car AC repair or services done until you get back your car from us. So that you can be confident and get hassle-free car AC service in Saudi Arabia.</p>
+                    <h5 className="counter-text">Trusted experts  </h5>
+					<p>Our workshop has specifically trained technicians who can handle everything like inspection, repair or replacement of the gearbox system in an efficient way.</p>
                   </div>
                 </div>
 				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
@@ -245,8 +171,8 @@ class gearBoxRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Latest diagnostic equipment & tools</h5>
-					<p>We invest in highly advanced diagnostic tools and equipment to provide our customers with quality car AC repair in a faster turnaround time.</p>
+                    <h5 className="counter-text">Competitive pricing and the faster response</h5>
+					<p>We offer gearbox/ transmission repair services for all models of cars at the most competitive pricing. Apart from this, the professional customer support answers all your queries and guides you throughout the gearbox repair or service appointment.</p>
                   </div>
                 </div>
 				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
@@ -258,8 +184,8 @@ class gearBoxRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Competitive pricing & genuine spare parts</h5>
-					<p>We guarantee to use only genuine spare parts to ensure the dealership level of car AC repair but at the most competitive pricing.</p>
+                    <h5 className="counter-text">High-quality workmanship</h5>
+					<p>We use advanced diagnostic tools and the latest equipment to provide the perfect diagnosis and the high standard repairs. The usage of genuine spare parts is always guaranteed</p>
                   </div>
                 </div>
               </div>
@@ -277,33 +203,22 @@ class gearBoxRepair extends Component{
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Why is my car AC not blowing the cold air?
+					  When should the gearbox be replaced?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  If your car AC is not blowing the cold air, the problem may be as simple as a dirty cabin filter, bad belt or as complex as compressor failure or freon leakages.
+					  Usually, the gearbox in your car lasts longer. There is no need to get it replaced until the issues are irreparable or it is completely damaged.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      How often should I get my car AC serviced?
+                      What are the different types of gearboxes available?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  It is essential to get your car AC services at least once a year to keep it in pristine condition. Apart from this if you notice any unusual signs with your car AC visit the car service center immediately.
-                      </p>
-                    </Accordion.Body>
-                  </Accordion.Item>
-                  <Accordion.Item eventKey="2">
-                    <Accordion.Header>
-                      <i className="fa fa-question-circle"></i>
-                      Why is there a weird noise when my car AC is running?
-                    </Accordion.Header>
-                    <Accordion.Body>
-                      <p className="mb-0">
-					  The strange noises when the car AC is running may be due to a damaged fan motor, loose wiring or any other. Getting it inspected by the car AC repair specialists will help in the perfect diagnosis.
+					  The automatic gearbox system and the manual gearbox system are the two different types available mostly in cars nowadays.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -317,22 +232,22 @@ class gearBoxRepair extends Component{
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      What should I do if the refrigerant in the car AC is leaking?
+                      Do driving habits have a greater impact on your gearbox health?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Leakage of refrigerants in the car may result in the blow of warm air, damage to certain other components and various other health risks. So visit the service center and get the car AC repair services done with greater precision.
+					  Both driving habits and driving conditions have a greater impact on the lifespan of your gearbox. Harsh driving, bad weather and rough roads decrease the performance of your gearbox over the course of time.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-                      Where can I get the best car AC repair in Saudi Arabia?
+                      What can our gearbox repair specialists in Saudi Arabia do for you?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  We are the perfect choice to get your car AC repair services in Saudi Arabia in a pocket-friendly way from experienced technicians with excellent quality.
+					  Our gearbox repair specialists can help you with all the issues associated with the gearbox/ transmission whether it may be repair, rebuild or replacement.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
