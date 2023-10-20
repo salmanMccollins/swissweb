@@ -190,7 +190,7 @@ High-end cars like Jaguar comes with the latest technology and advanced computer
                         {/* <span>K</span> */}
                       </h2>
                     </div>
-                    <h5 className="counter-text">Jaguar Engine Repairr</h5>
+                    <h5 className="counter-text">Jaguar Engine Repair</h5>
                   </div>
                 </div>
                 <div className="col-xl-4 col-sm-12 col-12">

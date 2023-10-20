@@ -25,7 +25,7 @@ class widgetHelp extends Component{
 								h24.9c22.9,0,41.5,18.6,41.5,41.5V274.9z"/>
 							</svg>
 							<h5 className="title mt-20">How Can We Help</h5>
-							<p>If you need any helps, please free to contact us.</p>
+							<p>Facing issues with your car's AC then schedule your appointment with us by contacting at 800 79477, we are ready to provide quick and efficient car AC repair in Saudi Arabia.</p>
 							<Link to="/booking" className="btn btn-primary">Contact Us</Link>
 						</div>
 					</div>
