@@ -627,3 +627,18 @@
 .ActivePanel .sticky-inner-wrapper{
 z-index: 9 !important;
 }
+.counter-style-1 > p{
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+.ServiceBox1 .heading-bx.text-center {
+	max-width: 1200px;
+  }
+@media only screen and (max-width: 1000px) {
+	.counter-style-1 > p{
+		height: auto;
+		overflow: hidden;
+	}
+}

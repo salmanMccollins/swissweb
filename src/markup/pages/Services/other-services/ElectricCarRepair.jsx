@@ -18,7 +18,7 @@ import ServicesSection from '../../../elements/services-1';
 import bnrImg from "../../../../images/banner/bnr1.jpg";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
-class EnginCoolingSystemRepair extends Component{
+class ElectricCarRepair extends Component{
 	
 	render(){
 		return (
@@ -33,7 +33,7 @@ class EnginCoolingSystemRepair extends Component{
             <div className="container">
               <div className="page-banner-entry text-center">
                 <h1>
-                  <span>ENGINE COOLING SYSTEM</span>
+                  <span>ELECTRIC CAR REPAIR SERVICES</span>
                 </h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
@@ -49,7 +49,7 @@ class EnginCoolingSystemRepair extends Component{
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       {" "}
-					  ENGINE COOLING SYSTEM
+                      ELECTRIC CAR REPAIR SERVICES
                     </li>
                   </ul>
                 </nav>
@@ -71,64 +71,56 @@ class EnginCoolingSystemRepair extends Component{
                   <div className="mb-10">
                     <div className="head-text mb-30">
                       <h4 className="title mb-10">
-					  KEEP YOUR CAR COOLING SYSTEM IN GOOD CONDITION WITH OUR EXPERTS IN SAUDI ARABIA
+                      EXPERIENCE THE HIGH-STANDARD ELECTRIC CAR SERVICE IN SAUDI ARABIA
 
                       </h4>
-                      <p className="mb-15">A good-performing cooling system is essential to keep up the optimum temperature of your car engine. To avoid engine overheating it is essential to keep the car cooling system in good condition. When a simple problem like coolant leakage is left unnoticed, it can result in engine failure in the long run and can provide you with expensive repair bills. So the issues with the car engine cooling system must be rectified at the earliest. </p>
-                      <p className="mb-15">Car cooling systems involve various components like thermostats, radiator, fan, water pump, pressure cap, hoses and the heater core.</p>
+                      <p className="mb-15">Electric cars have become more popular and the total sale has gradually increased across the world. With easier maintenance, electric cars offer the benefits of overall cost saving and guarantee numerous environmental benefits.</p>
+                      <p className="mb-15">Royal Swiss Auto Services, a valuable alternative providing a dealership range of electric car servicing and repair in Saudi Arabia through the qualified team of technicians in an efficient way.</p>
 					  <p className="mb-15">
 
-					  Extreme hot temperatures in the KSA, make your car cooling system work harder, So proper service and maintenance from the technicians specializing in car cooling system repair is essential to ensure the optimal performance of your car engine.
+                      We specialise in servicing both electric and hybrid vehicles.
 
 </p>
+<h4 className="title mb-10">
+MOST COMPREHENSIVE ELECTRIC CAR MAINTENANCE IN SAUDI ARABIA UNDER ONE SHELTER
+
+                      </h4>
+                      <p className="mb-15">
+
+                      We strive to provide all types of electric vehicle services and body repair and make our customers have a unique and satisfied experience by using high-end diagnostic tools and equipment.
+
+</p>
+
                     </div>
                     <div className="row">
                    
                       <div className="col-xl-12">
                         <h5 class="title mb-15 text-uppercase">
-						WE ARE SPECIALIZED IN PROVIDING VARIOUS COOLING SYSTEM SERVICES IN THE KINGDOM OF SAUDI ARABIA
+						At our electric car workshop in Saudi Arabia, we are specialized in offering the following services:
                         </h5>
-						<p className='mb-15'>Whether you are experiencing engine coolant leaks or any other major problems get in touch with us. Our technicians are experienced, qualified and trained to provide the proper engine cooling system inspection, diagnosis and repair to ensure that your car is in good condition.</p>
-                        <h5 class="title mb-15 text-uppercase">
-						We are specialized in offering the following services for the cooling system,
-                        </h5>
-						<ul className="list-check-squer">
-                          <li>Coolant leakage inspection & fault diagnosis</li>
+                        <ul className="list-check-squer">
+                          <li>Electric car battery maintenance</li>
                           <li>
-						  Coolant flush
+						  Electric car motor inspection
                           </li>
                           <li>
-						  Water pump replacement
+						  Electric car software updates
                           </li>
                           <li>
-						  Radiator replacement
+                          Wheel alignment
                           </li>
 						  <li>
-						  Thermostat replacement
+						  Tire rotation & pressure check
 						  </li>
-						  <li>All other services and repair associated with the engine cooling system </li>
+						  <li>Air conditioning system maintenance</li>
+                          <li>Suspension maintenance</li>
+                          <li>Body repair services</li>
+                          <li>And all other mechanical and electrical services needed for the electric & hybrid vehicles.	</li>
                         </ul>
 						<h5 class="title mb-15 text-uppercase">
-						What are the signs of car engine cooling system repair?
+						ELECTRIC VEHICLE MAINTENANCE IS EASIER THAN YOU THINK
                         </h5>
-						<ul className="list-check-squer">
-                          <li>Your car engine may begin to get overheated</li>
-                          <li>
-						  The coolant level is very low and decreases frequently
-                          </li>
-                          <li>
-						  Experiencing starting issues with your engine
-                          </li>
-                          <li>
-						  Illuminating temperature warning lights or others related to the cooling system on the dashboard of the car
-                          </li>
-						  <li>
-						  Visible coolant leakages
-						  </li>
-						  <li>Smoke coming out under the hood</li>
-						  <li>Excessive white exhaust smoke</li>
-                        </ul>
-						<p className='mb-15'>If you experience any of these signs, visit our workshop to get an efficient cooling system repair in Saudi Arabia from expert technicians to ensure the safe performance of your car.</p>
+						<p className='mb-15'>The presence of fewer parts and less complex systems with the regenerative braking system makes electric car maintenance easier and cost-efficient than fuel engines. Yet taking up the regular maintenance and services to protect certain important components that are specific to electric cars like electric motors, batteries and charging systems are highly essential.</p>
 						
                       </div>
                     </div>
@@ -141,9 +133,9 @@ class EnginCoolingSystemRepair extends Component{
         <section className="section-area section-sp2 ServiceBox1">
           <div className="container">
             <div class="heading-bx text-center">
-              <h6 class="title-ext text-primary">Why choose Royal Swiss Auto</h6>
+              <h6 class="title-ext text-primary">Why choose us</h6>
               <h2 class="title mb-0 text-uppercase">
-			  Services to get the car engine cooling system repair in Saudi Arabia?
+			  for your electric car maintenance, servicing and repair in Saudi Arabia?
               </h2>
             </div>
             <div className="SerGridWrap">
@@ -157,8 +149,23 @@ class EnginCoolingSystemRepair extends Component{
                         </span>
                       </h2>
                     </div>
-                    <h5 className="counter-text">Expert technicians</h5>
-					<p>Our network of technicians is specifically trained to handle various latest diagnostic tools and equipment to provide you with high-standard cooling system repair in KSA. Whatever may be the problem with your car cooling system, we are here to take care of it.</p>
+                    <h5 className="counter-text">Specifically trained technicians</h5>
+					<p>The technicians at our workshop are specifically trained to handle various makes and models of electric cars. So the diagnosis, repair or service can be provided at a faster turnaround time with greater precision.</p>
+                  </div>
+                </div>
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">A well-equipped workshop for electric cars</h5>
+					<p>
+Our workshop has all the latest diagnostic tools and equipment specifically needed to handle electric cars and to satisfy all-electric car maintenance needs in Saudi Arabia.
+</p>
                   </div>
                 </div>
 				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
@@ -171,20 +178,7 @@ class EnginCoolingSystemRepair extends Component{
                       </h2>
                     </div>
                     <h5 className="counter-text">Greater customer satisfaction</h5>
-					<p>We perform full inspections and repairs on your car engine cooling system with the greatest precision to ensure 100% satisfaction.</p>
-                  </div>
-                </div>
-				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Faster turnaround time</h5>
-					<p>We perform cooling system repairs for all make and model in KSA and ensure your repairs are done on the stipulated time and returned sooner than you expect.</p>
+					<p>Whatever the work we carry on, whether it may be your routine electric car service or major repairs, we always excel in it ensuring 100% satisfaction.</p>
                   </div>
                 </div>
               </div>
@@ -202,22 +196,22 @@ class EnginCoolingSystemRepair extends Component{
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-					  Why is my car engine overheating?
+					  How often does the electric car need to be serviced?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Car engines may overheat due to coolant issues, water pump failure, thermostat issues, radiator failure or any other. So if the engine overheating occurs it is essential to visit the service center at the earliest to avoid catastrophic damages.
+                      It depends on the make and model of the electric car you hold. But it is always essential to take a deeper look at your owner’s manual and get the services done as per the manufacturer's guidelines.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="1">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-					  Why is it important to get the coolant flush done?
+                      How much does it cost to get your electric cars serviced in Saudi Arabia?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Getting a coolant flush done at the recommended intervals is essential for maintaining the health and longevity of your vehicle's engine and cooling system.
+					  Since electric cars have fewer components when compared to traditional fuel cars, the maintenance of electric cars is cost-effective. However, the exact cost of maintenance depends on the type of electric car you hold, its condition and the service center you choose.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -231,11 +225,22 @@ class EnginCoolingSystemRepair extends Component{
                   <Accordion.Item eventKey="0">
                     <Accordion.Header>
                       <i className="fa fa-question-circle"></i>
-					  What should I do if I suspect the issues with my car engine cooling system?
+					  Where can I get my electric car services in Saudi Arabia?
                     </Accordion.Header>
                     <Accordion.Body>
                       <p className="mb-0">
-					  Contact your service advisor or visit the service center directly if you suspect any issues with the cooling system in your car.
+					  Always choose the service center that has all the necessary equipment and the technicians specifically trained to handle electric cars.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  What kind of braking system is present in electric cars?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  The regenerative braking system is mostly found in electric vehicles. The kinetic energy generated by braking the vehicle is converted to electrical power which in turn charges the high voltage battery.
                       </p>
                     </Accordion.Body>
                   </Accordion.Item>
@@ -255,4 +260,4 @@ class EnginCoolingSystemRepair extends Component{
 	}
 }
 
-export default EnginCoolingSystemRepair;
+export default ElectricCarRepair;

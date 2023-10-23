@@ -188,6 +188,8 @@ class aboutSection extends Component{
 													<ul>
 														<li><Link to="/services/other-services/car-recovery"><span>Car Recovery</span></Link></li>
 														<li><Link to="/services/other-services/fleet-management"><span>Fleet Management</span></Link></li>
+														<li><Link to="/services/other-services/electric-car-repair"><span>Electric Car Repair</span></Link></li>
+														
 													</ul>
 												</li>
 											</ul>
