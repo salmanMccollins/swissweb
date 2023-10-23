@@ -23,284 +23,176 @@ class PrePurchaseInspection extends Component{
 	render(){
 		return (
 			<>
-				<Header />
-				
-				<div className="page-content bg-white">
-					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
-						<div className="container">
-							<div className="page-banner-entry text-center">
-								<h1><span>Pre-Purchase Inspection</span></h1>
-								<nav aria-label="breadcrumb" className="breadcrumb-row">
-									<ul className="breadcrumb">
-										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Audi</li>
-									</ul>
-								</nav>
-								
-							</div>
-						</div>
-					</div>
-					
-					<div className="section-area section-sp1 bg-white">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-4 col-md-5">
-									<aside className="sticky-top pb-1">
-										
-										
-										
-										<WidgetBrochure />
-										
-										<WidgetHelp />
-										
-									</aside>
-								</div>
-								<div className="col-lg-8 col-md-7">
-									<div className="row">
-										<div className="col-xl-6">
-											<div className="ttr-media mb-30">
-												<img src={serviceSectionPic3} alt=""/>
-											</div>
-										</div>
-										<div className="col-xl-6">
-											<h4 className="title mb-10">SERVICES BENEFITS</h4>
-											<p className="mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-											<ul className="list-check-squer mb-30">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>These eiusmod tempor incididunt</li>
-											</ul>
-										</div>
-									</div>
-									<div className="row mb-10">
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">25</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">SATISFIED CLIENTS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">35</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">WINNING AWARDS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">180</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">COMPLETED WORKS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">28</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">ENGINE BENEFITS</h5>
-											</div>
-										</div>
-									</div>
-									<div className="mb-10">
-										<div className="head-text mb-30">
-											<h4 className="title mb-10">OUR SERVICE</h4>
-                                            <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										</div>
-										<div className="row">
-											<div className="col-xl-6">
-												<div className="progress-area mb-30">
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Quality Services</h6>
-															<h6 className="progress-value">65%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "65%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Experienced Technicials</h6>
-															<h6 className="progress-value">85%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "85%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Long Term Warranty</h6>
-															<h6 className="progress-value">70%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "70%"}}></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="col-xl-6">
-												<ul className="list-check-squer">
-													<li>Then along come two they</li>
-													<li>Lorem Ipsum is simply dummy</li>
-													<li>That’s just a little bit more than</li>
-													<li>Standard dummy text ever since</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div className="head-text mb-30">
-										<h4 className="title mb-10">COMPLETED WORKS</h4>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-									</div>
-									<div className="row mb-30">
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>That’s just a little bit than</li>
-											</ul>
-										</div>
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Standard dummy text ever since</li>
-												<li>Simply dummy text of the printing</li>
-												<li>Make a type specimen book</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-                <section className="section-area BrandFaq">
-					   <div className="container">
-							<div className="row">
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="0" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="2" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-							</div>
-						</div>
-					</section>
-                
-                <ScheduleServiceSection/>
-				<TestimonialSection/>
-                <ChooseUsSection/>
-                <ServicesSection/>
-				<Footer />
-				
-			</>
+        <Header />
+
+        <div className="page-content bg-white">
+          <div
+            className="page-banner ovbl-dark"
+            style={{ backgroundImage: "url(" + bnrImg + ")" }}
+          >
+            <div className="container">
+              <div className="page-banner-entry text-center">
+                <h1>
+                  <span> PRE-PURCHASE INSPECTION SERVICES</span>
+                </h1>
+                <nav aria-label="breadcrumb" className="breadcrumb-row">
+                  <ul className="breadcrumb">
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/">
+                        <i className="las la-home"></i>Home
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/services">
+                        Services
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item active" aria-current="page">
+                      {" "}
+                      PRE-PURCHASE INSPECTION SERVICES
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-area section-sp1 bg-white">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4 col-md-5">
+                  <aside className="sticky-top pb-1">
+                    <WidgetBrochure />
+
+                    <WidgetHelp />
+                  </aside>
+                </div>
+                <div className="col-lg-8 col-md-7">
+                  <div className="mb-10">
+                    <div className="head-text mb-30">
+                      <h4 className="title mb-10">
+					  HIGH-PRECISION TRANSMISSION REPAIR SERVICES IN SAUDI ARABIAGET THE PRE-PURCHASE INSPECTIONS FOR THE CARS DONE BY EXPERTS IN SAUDI ARABIA
+                      </h4>
+                      <p className="mb-15">Are you planning to purchase a used car? The most important thing that you can do before finalizing the car and settlement is to get the pre-purchase inspection by the experienced technicians at the most trusted car service center.</p>
+                      <p className="mb-15">At Royal Swiss Auto Services, our experienced team of technicians carries out the pre-purchase inspection with greater precision and brings any problems in the car to the limelight so that you can make an informed decision.</p>
+					  <p className="mb-15">Getting the pre-purchase inspection done for the pre-owned cars is not only beneficial for the buyers but it is also helpful for the sellers to increase the resale prices in the secondary market if their car is in good condition.</p>
+                    </div>
+                    <div className="row">
+                   
+                      <div className="col-xl-12">
+                        <h5 class="title mb-15 text-uppercase">
+						When you visit our car service center in Saudi Arabia to get a pre-purchase inspection on your used car, what happens?
+                        </h5>
+                        <ul className="list-check-squer">
+                          <li>Our technicians would carry out the complete evaluation of the electrical and mechanical components condition in the used car</li>
+                          <li>
+						  Would perform a test drive and provide you with the information about drivability and safety of the car
+                          </li>
+                          <li>
+						  Would provide a clear estimate to rectify any mechanical or electrical issues present in the car at the time of inspection.
+                          </li>
+                        </ul>
+						<h5 class="title mb-15 text-uppercase">
+						WHY SHOULD YOU GET THE PRE-PURCHASE INSPECTION DONE FOR YOUR CAR?
+                        </h5>
+                        <ul className="list-check-squer">
+                          <li>Information gathered from the experts by carrying out the pre-purchase inspection on the used car is essential to make the purchase decision</li>
+                          <li>
+						  The buyer can understand the clear condition of the car so that can negotiate the price
+                          </li>
+                          <li>
+						  The buyer can even drop out of the purchase plan if the vehicle has any major structural issues or previous major accident history and the damages caused by it.
+                          </li>
+                        </ul>
+						<h5 class="title mb-15 text-uppercase">
+						WE PROVIDE THE MOST COMPREHENSIVE PRE-PURCHASE INSPECTION IN SAUDI ARABIA FOR CARS
+                        </h5>
+						<p className='mb-15'>Below is the list of components being inspected by our technicians during the appointment to get the pre-purchase inspection for the used cars done.</p>
+                        <ul className="list-check-squer">
+                          <li>Inspection & analysis of the complete engine condition</li>
+                          <li>
+						  Checking out for leaks or damages in the cooling system
+                          </li>
+                          <li>
+						  Fuel and exhaust system monitoring
+                          </li>
+                          <li>
+						  All electrical system checks up including batteries and the electronic components powered by it
+                          </li>
+						  <li>
+						  Transmission, suspension and braking system health inspection
+						  </li>
+						  <li>Looking out for the body and paint repairs</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section className="section-area BrandFaq">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <Accordion
+                  defaultActiveKey="0"
+                  className="accordion ttr-accordion style1"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  Where can I get the pre-purchase inspection done for the cars in Saudi Arabia?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  Whether you purchase a used car from the dealer or from individuals in the secondary market, you can get your vehicle inspected by any of the independent car service center in the KSA. At our workshop, we offer the most comprehensive pre-purchase inspection service for cars of all make and models.
+
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  How long does the pre-purchase inspection for the vehicle take?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  With us, the pre-purchase inspection for the used car can be completed on the same day and a detailed report can be provided.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+              <div className="col-lg-6">
+                <Accordion
+                  defaultActiveKey="0"
+                  className="accordion ttr-accordion style1"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  How much does the pre-purchase inspection in Saudi Arabia cost?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  It depends on the make and model of the vehicle and the service center that you choose for getting the pre-purchase inspection in Saudi Arabia. With a reliable car service center like us, it can be completed in a pocket-friendly way.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ScheduleServiceSection />
+        <TestimonialSection />
+        <ChooseUsSection />
+        <ServicesSection />
+        <Footer />
+      </>
 		);
 	}
 }
