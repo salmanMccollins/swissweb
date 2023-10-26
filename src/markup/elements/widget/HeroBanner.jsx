@@ -21,13 +21,10 @@ const HeroBanner = (props) => {
             <div className="container">
               <div className="ContentBoxt">
                 <div className="T1">
-                  <span> YOUR BEST ALTERNATE TO DEALERSHIP QUALITY SERVICES</span>
+                  <span>YOUR TRUSTED PARTNER FOR AUTO REPAIR SERVICES IN SAUDI ARABIA</span>
                 </div>
                 <div className="T2">
-                  There are many variations of passages of Lorem Ipsum available,
-                  but the majority have suffered alteration in some form, by
-                  injected humour, or randomised words which don't look even
-                  slightly believable
+                Welcome to Royal Swiss Auto Services, a well-established repair and maintenance partner for luxury vehicles. With our car service center in Saudi Arabia, we handle everything from simple routine maintenance to complex repairs with greater precision.
                 </div>
                 <div className="BtnMobile">
                   <Link class="btn btn-primary" to="/booking">

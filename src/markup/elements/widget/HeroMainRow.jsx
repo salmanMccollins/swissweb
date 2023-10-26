@@ -17,7 +17,7 @@ const HeroMainRow = (props) => {
                 <div className="DiBox1">
                   <div className="DiBox1T1">100% Genuine Parts</div>
                   <div className="DiBox1T2">
-                    We use only genuine parts for replacement
+                  For replacements, we only use high-quality spare parts specified for your brand.
                   </div>
                   <Link class="DiBox1T3" to="/services">
                     Book Now
@@ -28,7 +28,7 @@ const HeroMainRow = (props) => {
                 <div className="DiBox1">
                   <div className="DiBox1T1">Dealership Quality Repair</div>
                   <div className="DiBox1T2">
-                  Latest equipment and our expert technicians are trained on each brand
+                  Your car receives the premium care it deserves with our expertise and cutting-edge tools.
                   </div>
                   <Link class="DiBox1T3" to="/services">
                     Enquire Now
@@ -37,9 +37,9 @@ const HeroMainRow = (props) => {
               </div>
               <div className="col-md-3 pd-0 row3">
                 <div className="DiBox1">
-                  <div className="DiBox1T1">Service Contract & Warranty Plans</div>
+                  <div className="DiBox1T1">Service contract & warranty claims</div>
                   <div className="DiBox1T2">
-                  All your car services and warranty needs taken care of
+                  We have ideal options for all your car service & warranty needs.
                   </div>
                   <Link class="DiBox1T3" to="/services">
                     Book Now
@@ -50,7 +50,7 @@ const HeroMainRow = (props) => {
                 <div className="DiBox1">
                   <div className="DiBox1T1">Pick Up Across SAUDI</div>
                   <div className="DiBox1T2">
-                  We come to you no matter where you are in the UAE
+                  We come to you no matter where you are in the KSA.
                   </div>
                   <Link class="DiBox1T3" to="/services">
                     Book Now

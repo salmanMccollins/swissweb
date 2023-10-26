@@ -30,14 +30,12 @@ class ServicesNew extends Component {
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <div className="heading-bx">
-                  <h2 className="title">What We Do</h2>
+                  <h2 className="title">What We Do At Royal Swiss Auto Services</h2>
                   <p>
-                    With our team, you will receive comprehensive care for your
-                    car. We provide a wide range of car repair services that
-                    encompass everything in your vehicle, from the inside to the
-                    outside. By combining cutting-edge technology with years of
-                    experience, we can assure you of receiving the most
-                    fantastic quality car service in Abu Dhabi and Dubai.
+                  We are committed to provide hassle free vehicle maintenance experience for our customers by providing various electrical, mechanical and body shop services needed for your car under one roof at our well-equipped car service center in Saudi Arabia. 
+
+While assuring quality workmanship and superior customer service, we provide every minor and major service or repair that your car might need at a faster turnaround time.
+
                   </p>
                 </div>
               </div>

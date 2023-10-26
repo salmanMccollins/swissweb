@@ -20,7 +20,8 @@ class ChooseUsSection extends Component{
 								<div className="heading-bx mb-30">
 									<h6 className="title-ext text-primary">WHY PEOPLE CHOOSE US</h6>
 									<h2 className="title mb-0">WHY CHOOSE US</h2>
-									<p>We offer a full range of garage services to vehicle owners located in Tucson area. All mechanic services are performed by highly qualified mechanics. We can handle any car problem.</p>
+									<p>When you visit our car workshop, we follow a customer-centric approach and pay close attention to transparency in pricing, timely updates, and reliability. Our expert technicians and friendly staff are ready to provide you with the best possible service or repairs that your car deserves.</p>
+									<p>Our customers leave our workshop with the smile on their face, that is a testament to the quality of the service that we provide over the years.</p>
 								</div>
 								<div className="progress-area">
 									<div className="progress-box style1 appear">

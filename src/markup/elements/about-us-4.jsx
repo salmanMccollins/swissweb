@@ -33,14 +33,16 @@ class AboutUsFourSection extends Component{
 							<div className="col-lg-6 mb-30">
 								<div className="heading-bx">
 									<h6 className="title-ext m-b0 text-primary">about us</h6>
-									<h2 className="title mb-0">WE'RE A COMPANY OF TALENTED ENGINEERS & MECHANICS</h2>
-									<p className="fw6 fs18">We offer a full range of garage services to vehicle owners located in Tucson area. All mechanic services are performed</p>
+									<h2 className="title mb-0">A LUXURY CAR SERVICE CENTER OF CHOICE IN THE KINGDOM OF SAUDI ARABIA</h2>
+									<p className="fw6 fs18">With years of combined dealership experience in the auto repair industry, we are passionate about providing top-notch repair and vehicle maintenance services at our well-established car service center in Saudi Arabia with the latest diagnostic tools and experienced technicians. 
+As a reputed auto repair facility in Saudi Arabia, our goal is to provide high-quality auto repair services for various gasoline & electric cars to ensure the satisfaction of our customers and to exceed their expectations.
+</p>
 								</div>
 								<ul className="list-check-squer mb-50 mb-sm-30">
-									<li>Should I consider using synthetic motor oil?</li>
-									<li>How do I keep track of routine maintenance?</li>
-									<li>What parts should be replaced at what intervals?</li>
-									<li>How do I keep track of routine maintenance?</li>
+									<li>Empowering Your Drive with Quality Care</li>
+									<li>Giving customers a seamless experience</li>
+									<li>Personalized care that your car deserves</li>
+									<li>Assuring peace of mind on the roads</li>
 								</ul>
 								<Link to="/about-2" className="btn btn-primary btn-lg">READ MORE</Link>
 							</div>
