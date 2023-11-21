@@ -140,7 +140,7 @@
 					display: inline-block;
 					&::after{
 						content: "//";
-						color: #e72533;
+						color: #ed1b2f;
 						font-weight: 900;
 						transform: scale(0.98) translateY(-3%);
 						display: inline-block;
@@ -148,7 +148,7 @@
 					}
 					&::before{
 						content: "//";
-						color: #e72533;
+						color: #ed1b2f;
 						font-weight: 900;
 						transform: scale(0.98) translateY(-3%);
 						display: inline-block;
@@ -381,7 +381,7 @@
 	.SerT2{
 		margin: 0 auto;
 		margin-top: 10px;
-		max-width: 120px;
+		max-width: 200px;
 			opacity: 0;
 			transition: 0.4s;
 	}
