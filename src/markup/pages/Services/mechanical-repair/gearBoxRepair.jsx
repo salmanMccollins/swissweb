@@ -15,7 +15,7 @@ import ChooseUsSection from '../../../elements/choose-us';
 import ServicesSection from '../../../elements/services-1';
 
 // Images
-import bnrImg from "../../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../../images/services/GearboxRepair.webp";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
 class gearBoxRepair extends Component{

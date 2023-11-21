@@ -15,7 +15,7 @@ import ChooseUsSection from '../../../elements/choose-us';
 import ServicesSection from '../../../elements/services-1';
 
 // Images
-import bnrImg from "../../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../../images/services/EngineCoolingSystem.webp";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
 class EnginCoolingSystemRepair extends Component{
