@@ -10,12 +10,12 @@ import Header from "../layout/header";
 import { useTranslation } from 'react-i18next';
 import ServicesSection from "../elements/services-1";
 import TestimonialSection from "../elements/testimonial";
-import OurPageBrandBox from '../elements/OurBrandPageBox';
 
 import bnrImg from "../../images/newimages/ourbrands.webp";
 
 import ScheduleServiceSection from "../elements/schedule-service";
 import HeroBanner from '../elements/widget/HeroBanner';
+import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
 
 function OurBrands() {
 
@@ -48,7 +48,7 @@ function OurBrands() {
 						</div>
 					</div>
                     
-                    <OurPageBrandBox/>
+                    <OurBrandsLayout/>
                      <ScheduleServiceSection/>
                      <TestimonialSection/>
                      <ServicesSection/>
