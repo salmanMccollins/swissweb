@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import aboutPic3 from "../../../images/about/pic3.jpg";
+import aboutPic3 from "../../../images/newimages/howcanwehelp.webp";
 
 class widgetHelp extends Component{
 	render(){
