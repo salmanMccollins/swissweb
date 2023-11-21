@@ -7,7 +7,7 @@ import Count from '../elements/counter-sensor';
 
 // Images
 import bg2 from "../../images/background/bg1.png";
-import aboutPic2 from "../../images/about/pic2.jpg";
+import aboutPic2 from "../../images/newimages/about.webp";
 
 class AboutUsTwoSection extends Component{
 	

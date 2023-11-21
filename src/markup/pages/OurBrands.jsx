@@ -12,7 +12,7 @@ import ServicesSection from "../elements/services-1";
 import TestimonialSection from "../elements/testimonial";
 import OurPageBrandBox from '../elements/OurBrandPageBox';
 
-import bnrImg from "../../images/banner/bnr5.jpg";
+import bnrImg from "../../images/newimages/ourbrands.webp";
 
 import ScheduleServiceSection from "../elements/schedule-service";
 import HeroBanner from '../elements/widget/HeroBanner';
