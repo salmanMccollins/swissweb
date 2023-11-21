@@ -15,7 +15,7 @@ import InstagramBox from "../../elements/widget/InstagramBox";
 import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
-import bnrImg from "../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../images/carbrands/Mini.webp";
 import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
 
 class MiniCooper extends Component {

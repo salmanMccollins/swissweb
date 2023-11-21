@@ -14,7 +14,7 @@ import TestimonialSection from '../../elements/testimonial';
 import ChooseUsSection from '../../elements/choose-us';
 
 // Images
-import bnrImg from "../../../images/banner/bnr4.jpg";
+import bnrImg from "../../../images/carbrands/Cadillac.webp";
 import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
 
 class Cadillac extends Component{
