@@ -23,7 +23,7 @@ body {
 }
 h1, 
 .h1 {
-	font-size: 55px;
+	font-size: 53px;
 	@include respond('tab-land'){
 		font-size: 52px;
 	}
@@ -36,7 +36,7 @@ h1,
 }
 h2, 
 .h2{
-	font-size: 45px;
+	font-size: 42px;
 	@include respond('tab-land'){
 		font-size: 40px;		
 	}
@@ -49,7 +49,7 @@ h2,
 }
 h3, 
 .h3{
-	font-size: 35px;
+	font-size: 33px;
 	@include respond('phone-land'){
 		font-size: 32px;
 	}
@@ -59,14 +59,14 @@ h3,
 }
 h4, 
 .h4{
-	font-size: 28px;
+	font-size: 26px;
 	@include respond('phone'){
 		font-size: 24px;
 	}
 }
 h5, 
 .h5{
-	font-size: 24px;
+	font-size: 20px;
 	@include respond('phone'){
 		font-size: 20px;
 	}

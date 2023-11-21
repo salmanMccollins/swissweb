@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Mercedes.webp";
-import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
+import serviceSectionPic3 from "../../../images/brandsthumb/McLaren.png";
 
 class Mclaren extends Component {
   render() {

@@ -15,7 +15,7 @@ import ChooseUsSection from '../../elements/choose-us';
 
 // Images
 import bnrImg from "../../../images/carbrands/Volkswagen.webp";
-import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
+import serviceSectionPic3 from "../../../images/brandsthumb/BMW.png";
 
 class ElectricCar extends Component{
 	
