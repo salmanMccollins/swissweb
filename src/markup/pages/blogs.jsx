@@ -115,17 +115,20 @@ const BlogGridSidebar = () => {
 													</li>
 
 													{/* Page numbers */}
-          {Array.from({ length: totalPages }).map((_, index) => (
-            <li key={index} className={currentPage === index + 1 ? "active" : ""}>
-              <Link to="#" onClick={() => setCurrentPage(index + 1)}>
-                {index + 1}
-              </Link>
-            </li>
-          ))}
+													{Array.from({ length: totalPages }).map((_, index) => (
+														<li key={index} className={currentPage === index + 1 ? "active" : ""}>
+														<Link to="#" onClick={() => setCurrentPage(index + 1)}>
+															{index + 1}
+														</Link>
+														</li>
+													))}
 
 													{/* Next button */}
 													<li className="next">
-														<Link to="#" onClick={() => setCurrentPage((prev) => prev + 1)}>
+														<Link to="#" onClick={() => {
+															if(totalPages > currentPage){
+															setCurrentPage((prev) => prev + 1)
+															}}}>
 														Next
 														</Link>
 													</li>
