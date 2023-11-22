@@ -15,7 +15,7 @@ import ChooseUsSection from '../../../elements/choose-us';
 import ServicesSection from '../../../elements/services-1';
 
 // Images
-import bnrImg from "../../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../../images/services/EngineManagementSystemRepair.webp";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
 class ComfortSystamRepair extends Component{
@@ -23,284 +23,141 @@ class ComfortSystamRepair extends Component{
 	render(){
 		return (
 			<>
-				<Header />
-				
-				<div className="page-content bg-white">
-					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
-						<div className="container">
-							<div className="page-banner-entry text-center">
-								<h1><span>Comfort System Repair</span></h1>
-								<nav aria-label="breadcrumb" className="breadcrumb-row">
-									<ul className="breadcrumb">
-										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Audi</li>
-									</ul>
-								</nav>
-								
-							</div>
-						</div>
-					</div>
-					
-					<div className="section-area section-sp1 bg-white">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-4 col-md-5">
-									<aside className="sticky-top pb-1">
-										
-										
-										
-										<WidgetBrochure />
-										
-										<WidgetHelp />
-										
-									</aside>
-								</div>
-								<div className="col-lg-8 col-md-7">
-									<div className="row">
-										<div className="col-xl-6">
-											<div className="ttr-media mb-30">
-												<img src={serviceSectionPic3} alt=""/>
-											</div>
-										</div>
-										<div className="col-xl-6">
-											<h4 className="title mb-10">SERVICES BENEFITS</h4>
-											<p className="mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-											<ul className="list-check-squer mb-30">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>These eiusmod tempor incididunt</li>
-											</ul>
-										</div>
-									</div>
-									<div className="row mb-10">
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">25</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">SATISFIED CLIENTS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">35</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">WINNING AWARDS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">180</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">COMPLETED WORKS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">28</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">ENGINE BENEFITS</h5>
-											</div>
-										</div>
-									</div>
-									<div className="mb-10">
-										<div className="head-text mb-30">
-											<h4 className="title mb-10">OUR SERVICE</h4>
-                                            <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										</div>
-										<div className="row">
-											<div className="col-xl-6">
-												<div className="progress-area mb-30">
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Quality Services</h6>
-															<h6 className="progress-value">65%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "65%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Experienced Technicials</h6>
-															<h6 className="progress-value">85%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "85%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Long Term Warranty</h6>
-															<h6 className="progress-value">70%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "70%"}}></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="col-xl-6">
-												<ul className="list-check-squer">
-													<li>Then along come two they</li>
-													<li>Lorem Ipsum is simply dummy</li>
-													<li>That’s just a little bit more than</li>
-													<li>Standard dummy text ever since</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div className="head-text mb-30">
-										<h4 className="title mb-10">COMPLETED WORKS</h4>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-									</div>
-									<div className="row mb-30">
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>That’s just a little bit than</li>
-											</ul>
-										</div>
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Standard dummy text ever since</li>
-												<li>Simply dummy text of the printing</li>
-												<li>Make a type specimen book</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-                <section className="section-area BrandFaq">
-					   <div className="container">
-							<div className="row">
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="0" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="2" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-							</div>
-						</div>
-					</section>
-                
-                <ScheduleServiceSection/>
-				<TestimonialSection/>
-                <ChooseUsSection/>
-                <ServicesSection/>
-				<Footer />
-				
-			</>
+        <Header />
+
+        <div className="page-content bg-white">
+          <div
+            className="page-banner ovbl-dark"
+            style={{ backgroundImage: "url(" + bnrImg + ")" }}
+          >
+            <div className="container">
+              <div className="page-banner-entry text-center">
+                <h1>
+                  <span>COMFORT SYSTEM REPAIR SERVICES </span>
+                </h1>
+                <nav aria-label="breadcrumb" className="breadcrumb-row">
+                  <ul className="breadcrumb">
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/">
+                        <i className="las la-home"></i>Home
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/services">
+                        Services
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item active" aria-current="page">
+                      {" "}
+					  COMFORT SYSTEM REPAIR SERVICES
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-area section-sp1 bg-white">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4 col-md-5">
+                  <aside className="sticky-top pb-1">
+
+                    <WidgetHelp />
+                  </aside>
+                </div>
+                <div className="col-lg-8 col-md-7">
+                  <div className="mb-10">
+                    <div className="head-text mb-30">
+                      <h4 className="title mb-10">
+					  CAR COMFORT SYSTEM REPAIR EXPERTS IN SAUDI ARABIA THAT YOU CAN COUNT ON
+
+                      </h4>
+                      <p className="mb-15">Everyone who owns a car wants their ride to be more comfortable and enjoyable. The comfort system in your car includes everything like radio, navigation control, temperature control, locking systems, lighting systems and all other infotainment systems that are helpful to make your ride even more comfortable than you think.</p>
+                      <p className="mb-15">To keep all comfort systems in your car in pristine condition and to avoid expensive repair bills caused by the malfunction, a proper care and service from the experienced technicians is advised.</p>
+					  <p className="mb-15">
+					  We are Royal Swiss Auto Services, one of the well-equipped car service center catering various comfort system repairs in Saudi Arabia, to make the rides of our customers even more comfortable and luxurious.
+</p>
+                    </div>
+                    <div className="row">
+                   
+                      <div className="col-xl-12">
+                      
+						<h5 class="title mb-15 text-uppercase">
+						GET YOUR CAR COMFORT SYSTEM INSPECTED REGULARLY
+                        </h5>
+						<p className='mb-15'>When you visit us stating issues with any of the comfort systems in the car like car AC not blowing the cold air, cruise control not working properly or there is an issue with the audio or lighting system, our technician will carefully inspect and provide the high quality repair services thereby enhancing your driving experience.</p>
+						<p className='mb-15'>To provide luxury and comfort to our customers, we are equipped with the advanced tools and the experienced technicians to meet or exceed your demands when it comes to comfort system repair in KSA.</p>
+						
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section className="section-area section-sp2 ServiceBox1">
+          <div className="container">
+            <div class="heading-bx text-center">
+              <h6 class="title-ext text-primary">Why count on us</h6>
+              <h2 class="title mb-0 text-uppercase">
+			  For comfort system repair in Saudi Arabia?
+              </h2>
+            </div>
+            <div className="SerGridWrap">
+              <div className="row mb-10 justify-content-center">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">All services under one shelter</h5>
+					<p>Car has various comfort systems and our technicians have experience in troubleshooting and sorting out the repairs with all such components.</p>
+                  </div>
+                </div>
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">Transparent & Affordable estimates</h5>
+					<p>Once our customer states any sort of comfort system repair, we will clearly inspect it and provide transparent estimates without any hidden charges</p>
+                  </div>
+                </div>
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">Faster turnaround time</h5>
+					<p>Since our technicians have undergone rigorous training in handling the various comfort systems in the car and their knowledge to handle the latest tools, it speeds up the service or repair time and eliminates the long waiting hours.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+        <ScheduleServiceSection />
+        <TestimonialSection />
+        <ChooseUsSection />
+        <ServicesSection />
+        <Footer />
+      </>
 		);
 	}
 }

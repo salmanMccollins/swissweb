@@ -15,7 +15,7 @@ import WidgetBrochure from "../../elements/widget/widget-brochure";
 import WidgetHelp from "../../elements/widget/widget-help";
 
 // Images
-import bnrImg from "../../../images/banner/bnr2.jpg";
+import bnrImg from "../../../images/newimages/package-banner.webp";
 import Pic3 from "../../../images/service-section/pic3.jpg";
 import Pic6 from "../../../images/service-section/pic6.jpg";
 

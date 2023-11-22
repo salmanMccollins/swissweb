@@ -11,7 +11,7 @@ import WidgetBrochure from "../../elements/widget/widget-brochure";
 import WidgetHelp from "../../elements/widget/widget-help";
 
 // Images
-import bnrImg from "../../../images/banner/bnr5.jpg";
+import bnrImg from "../../../images/newimages/package-banner.webp";
 import Pic1 from "../../../images/service-section/pic1.jpg";
 
 class MajorServices extends Component{

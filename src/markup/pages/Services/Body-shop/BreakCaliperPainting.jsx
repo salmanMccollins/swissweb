@@ -15,7 +15,7 @@ import ChooseUsSection from '../../../elements/choose-us';
 import ServicesSection from '../../../elements/services-1';
 
 // Images
-import bnrImg from "../../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../../images/services/PaintJob.webp";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
 class BreakCaliperPainting extends Component{

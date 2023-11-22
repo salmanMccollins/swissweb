@@ -16,7 +16,7 @@ const OurBrandsLayout = (props) => {
             <h6 class="title-ext text-primary">Our Partners</h6>
             <h2 class="title mb-0">BRANDS WE SERVE</h2>
             <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa accusantium, ducimus voluptatem corporis qui temporibus! Eveniet, reprehenderit delectus et sunt autem dicta fugiat? Consequatur, fuga maiores vitae dolorum natus atque?
+            We have the necessary experience & expertise to handle European, American, Japanese & German cars at our workshop in Saudi Arabia. We make sure our customers experience the difference in auto repair services and are amazed by our precision. We not only service cars, but we also bring up long-lasting trust among customers.
             </p>
           </div>
           <SwissBrands />

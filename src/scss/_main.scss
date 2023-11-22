@@ -127,7 +127,7 @@
 		.container{
 			text-align: left;
 			.ContentBoxt{
-				max-width: 1000px;
+				max-width: 1150px;
 			}
 			.T1{
 				font-weight: 600;
@@ -140,7 +140,7 @@
 					display: inline-block;
 					&::after{
 						content: "//";
-						color: #e72533;
+						color: #ed1b2f;
 						font-weight: 900;
 						transform: scale(0.98) translateY(-3%);
 						display: inline-block;
@@ -148,7 +148,7 @@
 					}
 					&::before{
 						content: "//";
-						color: #e72533;
+						color: #ed1b2f;
 						font-weight: 900;
 						transform: scale(0.98) translateY(-3%);
 						display: inline-block;
@@ -183,7 +183,7 @@
 			}
 			img{
 				max-width: 100%;
-				height: 60px;
+				height: 70px;
 				object-fit: contain;
 				padding: 15px;
 			}
@@ -381,7 +381,7 @@
 	.SerT2{
 		margin: 0 auto;
 		margin-top: 10px;
-		max-width: 120px;
+		max-width: 200px;
 			opacity: 0;
 			transition: 0.4s;
 	}
@@ -515,7 +515,7 @@
 	background-image:url(../images/background/bg-map.png);
 	background-repeat: repeat;
 	.BrandBoxMega .row .col-md-2 img{
-		height: 80px;
+		height: 85px;
 	}
 	.BrandBoxMega{
 		border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -626,4 +626,26 @@
 .ActivePanel .header-transparent .sticky-header.active .menu-bar, 
 .ActivePanel .sticky-inner-wrapper{
 z-index: 9 !important;
+}
+.counter-style-1 > p{
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+}
+.ServiceBox1 .heading-bx.text-center {
+	max-width: 1200px;
+  }
+@media only screen and (max-width: 1000px) {
+	.counter-style-1 > p{
+		height: auto;
+		overflow: hidden;
+	}
+}
+.heading-bx .title{
+	text-transform: uppercase;
+}
+
+.ActivePanel .Mask{
+	z-index: 0 !important;
 }

@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import { Link } from 'react-router-dom';
-import {Accordion} from 'react-bootstrap';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { Accordion } from "react-bootstrap";
 
 // Layout
 import Header from "../../../layout/header";
@@ -9,300 +9,250 @@ import Footer from "../../../layout/footer";
 // Elements
 import WidgetBrochure from "../../../elements/widget/widget-brochure";
 import WidgetHelp from "../../../elements/widget/widget-help";
-import ScheduleServiceSection from '../../../elements/schedule-service';
-import TestimonialSection from '../../../elements/testimonial';
-import ChooseUsSection from '../../../elements/choose-us';
-import ServicesSection from '../../../elements/services-1';
+import ScheduleServiceSection from "../../../elements/schedule-service";
+import TestimonialSection from "../../../elements/testimonial";
+import ChooseUsSection from "../../../elements/choose-us";
+import ServicesSection from "../../../elements/services-1";
 
 // Images
-import bnrImg from "../../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../../images/services/CaliperPainting.webp";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
-class CameraOrRadarCalibration extends Component{
-	
-	render(){
-		return (
-			<>
-				<Header />
-				
-				<div className="page-content bg-white">
-					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
-						<div className="container">
-							<div className="page-banner-entry text-center">
-								<h1><span>Camera Or Radar Calibration</span></h1>
-								<nav aria-label="breadcrumb" className="breadcrumb-row">
-									<ul className="breadcrumb">
-										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Audi</li>
-									</ul>
-								</nav>
-								
-							</div>
-						</div>
-					</div>
-					
-					<div className="section-area section-sp1 bg-white">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-4 col-md-5">
-									<aside className="sticky-top pb-1">
-										
-										
-										
-										<WidgetBrochure />
-										
-										<WidgetHelp />
-										
-									</aside>
-								</div>
-								<div className="col-lg-8 col-md-7">
-									<div className="row">
-										<div className="col-xl-6">
-											<div className="ttr-media mb-30">
-												<img src={serviceSectionPic3} alt=""/>
-											</div>
-										</div>
-										<div className="col-xl-6">
-											<h4 className="title mb-10">SERVICES BENEFITS</h4>
-											<p className="mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-											<ul className="list-check-squer mb-30">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>These eiusmod tempor incididunt</li>
-											</ul>
-										</div>
-									</div>
-									<div className="row mb-10">
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">25</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">SATISFIED CLIENTS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">35</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">WINNING AWARDS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">180</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">COMPLETED WORKS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">28</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">ENGINE BENEFITS</h5>
-											</div>
-										</div>
-									</div>
-									<div className="mb-10">
-										<div className="head-text mb-30">
-											<h4 className="title mb-10">OUR SERVICE</h4>
-                                            <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										</div>
-										<div className="row">
-											<div className="col-xl-6">
-												<div className="progress-area mb-30">
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Quality Services</h6>
-															<h6 className="progress-value">65%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "65%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Experienced Technicials</h6>
-															<h6 className="progress-value">85%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "85%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Long Term Warranty</h6>
-															<h6 className="progress-value">70%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "70%"}}></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="col-xl-6">
-												<ul className="list-check-squer">
-													<li>Then along come two they</li>
-													<li>Lorem Ipsum is simply dummy</li>
-													<li>That’s just a little bit more than</li>
-													<li>Standard dummy text ever since</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div className="head-text mb-30">
-										<h4 className="title mb-10">COMPLETED WORKS</h4>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-									</div>
-									<div className="row mb-30">
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>That’s just a little bit than</li>
-											</ul>
-										</div>
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Standard dummy text ever since</li>
-												<li>Simply dummy text of the printing</li>
-												<li>Make a type specimen book</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-                <section className="section-area BrandFaq">
-					   <div className="container">
-							<div className="row">
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="0" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="2" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-							</div>
-						</div>
-					</section>
-                
-                <ScheduleServiceSection/>
-				<TestimonialSection/>
-                <ChooseUsSection/>
-                <ServicesSection/>
-				<Footer />
-				
-			</>
-		);
-	}
+class CameraOrRadarCalibration extends Component {
+  render() {
+    return (
+      <>
+        <Header />
+
+        <div className="page-content bg-white">
+          <div
+            className="page-banner ovbl-dark"
+            style={{ backgroundImage: "url(" + bnrImg + ")" }}
+          >
+            <div className="container">
+              <div className="page-banner-entry text-center">
+                <h1>
+                  <span>Camera/Radar calibration</span>
+                </h1>
+                <nav aria-label="breadcrumb" className="breadcrumb-row">
+                  <ul className="breadcrumb">
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/">
+                        <i className="las la-home"></i>Home
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/services">Services</Link>
+                    </li>
+                    <li className="breadcrumb-item active" aria-current="page">
+                      {" "}
+                      Camera/Radar calibration
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-area section-sp1 bg-white">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4 col-md-5">
+                  <aside className="sticky-top pb-1">
+                    <WidgetBrochure />
+
+                    <WidgetHelp />
+                  </aside>
+                </div>
+                <div className="col-lg-8 col-md-7">
+                  <div className="mb-10">
+                    <div className="head-text mb-30">
+                      <h4 className="title mb-10">
+                        EXPERIENCE THE HIGH-STANDARD CAMERA/RADAR CALIBRATION
+                        SERVICES IN SAUDI ARABIA
+                      </h4>
+                      <p className="mb-15">
+                        Camera/radar calibration is essential for the smooth
+                        driving of your car and ensures safety. In the initial
+                        days “driver assistance system” was designed to provide
+                        smarter control to vehicle owners like anti-lock braking
+                        system, electronic stability control, windshield wipers
+                        with rain sensor detection and many more. But nowadays
+                        the cameras and sensors in the car are advanced with
+                        various tools that help the drivers to map out the
+                        surroundings, switch lanes, stop in traffic, vehicle
+                        parking and many more.{" "}
+                      </p>
+                      <p className="mb-15">
+                        Cameras and radar sensors require precise calibration
+                        from the experts to function correctly. If it becomes
+                        misaligned due to maintenance work or damage, it may not
+                        provide accurate information to the vehicle's systems.
+                      </p>
+                      <p className="mb-15">
+                        If you have any issues with such advanced driver
+                        assistance systems in your car and are looking for
+                        camera/radar calibration services, Royal Swiss Auto
+                        Services is the right choice.
+                      </p>
+                      <h4 className="title mb-10">
+                        BEST CAMERA/RADAR CALIBRATION SERVICES AT AFFORDABLE
+                        PRICES IN SAUDI ARABIA
+                      </h4>
+					  <p className="mb-15">
+					  Our professionals at Royal Swiss Auto Services, will provide the most comprehensive camera/radar calibration services at competitive rates. Our technicians are specifically trained to handle the advanced diagnostic tools to provide the high precision camera/radar calibration services in Saudi Arabia to provide the most significant comfort and safety to the drivers while driving.
+                      </p>
+                    </div>
+                    <div className="row">
+                      <div className="col-xl-12">
+                        <h5 class="title mb-15 text-uppercase">
+						Are you having problems with the camera or radar in your car? Here are the reasons
+                        </h5>
+                        <ul className="list-check-squer">
+                          <li>
+						  The components present in the radar or camera might be faulty or may wear out which results in reduced performance.
+                          </li>
+                          <li>Environmental conditions and the accumulation of dirt and debris may affect the performance of cameras and radars.</li>
+                          <li>
+						  The problems with the software that is used to manage the sensors can result in the malfunctioning of cameras and radars.
+                          </li>
+                          <li>
+						  Faulty or loose wiring connections in some scenarios may block the power supply to the cameras and radiators.
+                          </li>
+                        </ul>
+						<h5 class="title mb-15 text-uppercase">
+						Under what situation, do you need camera/radar calibration services?
+                        </h5>
+                        <ul className="list-check-squer">
+                          <li>
+						  In case of accidents or collision, the bumper sensor may be misaligned and it needs to be calibrated.
+                          </li>
+                          <li>In some scenarios, the camera may be repositioned while carrying out some other repairs on your car, so it must be calibrated,</li>
+                          <li>
+						  Even small changes made to the suspension or wheel alignment can affect the alignment of cameras and radar, so the calibration service is a must.
+                          </li>
+                          <li>
+						  Calibration may be needed for the front cameras in some scenarios after the windshield replacement.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section className="section-area section-sp2 ServiceBox1">
+          <div className="container">
+            <div class="heading-bx text-center">
+              <h6 class="title-ext text-primary">Why choose us </h6>
+              <h2 class="title mb-0 text-uppercase">
+			  for the camera/radar calibration services in Saudi Arabia?
+              </h2>
+            </div>
+            <div className="SerGridWrap">
+              <div className="row mb-10 justify-content-center">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">Qualified Technicians</h5>
+                    <p>
+					At our well-equipped workshop, the technicians are specifically trained to provide precise camera/radar calibration services in Saudi Arabia using advanced tools.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">Competitive Pricing</h5>
+                    <p>
+					We perform high-standard camera/radar calibration at the most competitive pricing in KSA. Our quotes are very transparent without any hidden charges.
+                    </p>
+                  </div>
+                </div>
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                  <div className="counter-style-1">
+                    <div className="text-secondry">
+                      <h2 className="text-primary">
+                        <span className="counter">
+                          <i class="flaticon-car-4"></i>
+                        </span>
+                      </h2>
+                    </div>
+                    <h5 className="counter-text">Faster turnaround time</h5>
+                    <p>
+					Since we carry out the services very quickly, you no longer need to wait to get back to your car and can enjoy smooth driving on the roads.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section-area BrandFaq">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <Accordion
+                  defaultActiveKey="0"
+                  className="accordion ttr-accordion style1"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  How often do I need the camera/radar calibration services?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  The frequency at which you need camera and radar calibration services for your car can vary depending on several factors, including your vehicle's make and model, the type of cameras and radar employed in your car and the driving conditions.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+              <div className="col-lg-6">
+                <Accordion
+                  defaultActiveKey="0"
+                  className="accordion ttr-accordion style1"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  How helpful are the camera and radars in the car?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  The cameras and radar systems in modern cars play a crucial role in enhancing safety, convenience, and overall driving experience. 
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ScheduleServiceSection />
+        <TestimonialSection />
+        <ChooseUsSection />
+        <ServicesSection />
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default CameraOrRadarCalibration;

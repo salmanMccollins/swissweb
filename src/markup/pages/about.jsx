@@ -46,8 +46,6 @@ class AboutUs extends Component{
 					<TestimonialSection />
 					<ScheduleServiceSection />
 					
-					
-					
 					<LatestBlogSection />
 				
 				</div>

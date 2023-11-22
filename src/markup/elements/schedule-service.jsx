@@ -61,7 +61,7 @@ class ScheduleServiceSection extends Component{
 							<div className="col-lg-3 align-self-center">
 								<div className="form-head text-white mb-md-30">
 									<h3 className="title">Schedule Service</h3>
-									<h6 className="mb-0"><span className="fw4 mr-1">OR Call</span> +22 123 456 7890</h6>
+									<h6 className="mb-0"><span className="fw4 mr-1">OR Call&nbsp;</span>+966 53 969 9984</h6>
 								</div>
 							</div>
 							<div className="col-lg-9">

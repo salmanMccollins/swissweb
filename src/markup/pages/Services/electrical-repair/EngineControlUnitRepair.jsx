@@ -15,7 +15,7 @@ import ChooseUsSection from '../../../elements/choose-us';
 import ServicesSection from '../../../elements/services-1';
 
 // Images
-import bnrImg from "../../../../images/banner/bnr1.jpg";
+import bnrImg from "../../../../images/services/ControlArmRepair.webp";
 import serviceSectionPic3 from "../../../../images/service-section/pic3.jpg";
 
 class EngineControlUnitRepair extends Component{
@@ -23,284 +23,206 @@ class EngineControlUnitRepair extends Component{
 	render(){
 		return (
 			<>
-				<Header />
-				
-				<div className="page-content bg-white">
-					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
-						<div className="container">
-							<div className="page-banner-entry text-center">
-								<h1><span>Engine Control Unit Repair</span></h1>
-								<nav aria-label="breadcrumb" className="breadcrumb-row">
-									<ul className="breadcrumb">
-										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Audi</li>
-									</ul>
-								</nav>
-								
-							</div>
-						</div>
-					</div>
-					
-					<div className="section-area section-sp1 bg-white">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-4 col-md-5">
-									<aside className="sticky-top pb-1">
-										
-										
-										
-										<WidgetBrochure />
-										
-										<WidgetHelp />
-										
-									</aside>
-								</div>
-								<div className="col-lg-8 col-md-7">
-									<div className="row">
-										<div className="col-xl-6">
-											<div className="ttr-media mb-30">
-												<img src={serviceSectionPic3} alt=""/>
-											</div>
-										</div>
-										<div className="col-xl-6">
-											<h4 className="title mb-10">SERVICES BENEFITS</h4>
-											<p className="mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-											<ul className="list-check-squer mb-30">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>These eiusmod tempor incididunt</li>
-											</ul>
-										</div>
-									</div>
-									<div className="row mb-10">
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">25</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">SATISFIED CLIENTS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">35</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">WINNING AWARDS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">180</span><span>+</span></h2>
-												</div>
-												<h5 className="counter-text">COMPLETED WORKS</h5>
-											</div>
-										</div>
-										<div className="col-xl-3 col-sm-6 col-6">
-											<div className="counter-style-1">
-												<div className="text-secondry">
-													<h2 className="text-primary"><span className="counter">28</span><span>K</span></h2>
-												</div>
-												<h5 className="counter-text">ENGINE BENEFITS</h5>
-											</div>
-										</div>
-									</div>
-									<div className="mb-10">
-										<div className="head-text mb-30">
-											<h4 className="title mb-10">OUR SERVICE</h4>
-                                            <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-											<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										</div>
-										<div className="row">
-											<div className="col-xl-6">
-												<div className="progress-area mb-30">
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Quality Services</h6>
-															<h6 className="progress-value">65%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "65%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Experienced Technicials</h6>
-															<h6 className="progress-value">85%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "85%"}}></div>
-														</div>
-													</div>
-													<div className="progress-box style1 appear">
-														<div className="progress-info">
-															<h6 className="title">Long Term Warranty</h6>
-															<h6 className="progress-value">70%</h6>
-														</div>
-														<div className="progress">
-															<div className="progress-bar bg-primary" style={{width: "70%"}}></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="col-xl-6">
-												<ul className="list-check-squer">
-													<li>Then along come two they</li>
-													<li>Lorem Ipsum is simply dummy</li>
-													<li>That’s just a little bit more than</li>
-													<li>Standard dummy text ever since</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div className="head-text mb-30">
-										<h4 className="title mb-10">COMPLETED WORKS</h4>
-										<p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                                        <p className="mb-15">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-									</div>
-									<div className="row mb-30">
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>That’s just a little bit than</li>
-											</ul>
-										</div>
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Standard dummy text ever since</li>
-												<li>Simply dummy text of the printing</li>
-												<li>Make a type specimen book</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-                <section className="section-area BrandFaq">
-					   <div className="container">
-							<div className="row">
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="0" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-								<div className="col-lg-6">
-									<Accordion defaultActiveKey="2" className="accordion ttr-accordion style1">
-										<Accordion.Item eventKey="0">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="1">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												How do I keep track of routine maintenance?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="2">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="3">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												Should I consider using synthetic motor oil?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-										<Accordion.Item eventKey="4">
-											<Accordion.Header>
-												<i className="fa fa-question-circle"></i>
-												What parts should be replaced at what intervals?
-											</Accordion.Header>
-											<Accordion.Body>
-												<p className="mb-0">Synthetic engine oils are produced through a synthesis process that takes very small molecules and assembles them into larger designer molecules with premium lubricating properties.</p>
-											</Accordion.Body>
-										</Accordion.Item>
-									</Accordion>
-								</div>
-							</div>
-						</div>
-					</section>
-                
-                <ScheduleServiceSection/>
-				<TestimonialSection/>
-                <ChooseUsSection/>
-                <ServicesSection/>
-				<Footer />
-				
-			</>
+        <Header />
+
+        <div className="page-content bg-white">
+          <div
+            className="page-banner ovbl-dark"
+            style={{ backgroundImage: "url(" + bnrImg + ")" }}
+          >
+            <div className="container">
+              <div className="page-banner-entry text-center">
+                <h1>
+                  <span>ENGINE CONTROL UNIT REPAIR SERVICES</span>
+                </h1>
+                <nav aria-label="breadcrumb" className="breadcrumb-row">
+                  <ul className="breadcrumb">
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/">
+                        <i className="las la-home"></i>Home
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item text-uppercase">
+                      <Link to="/services">
+                        Services
+                      </Link>
+                    </li>
+                    <li className="breadcrumb-item active" aria-current="page">
+                      {" "}
+					  ENGINE CONTROL UNIT REPAIR SERVICES
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-area section-sp1 bg-white">
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-4 col-md-5">
+                  <aside className="sticky-top pb-1">
+                    <WidgetBrochure />
+
+                    <WidgetHelp />
+                  </aside>
+                </div>
+                <div className="col-lg-8 col-md-7">
+                  <div className="mb-10">
+                    <div className="head-text mb-30">
+                      <h4 className="title mb-10">
+					  ENGINE CONTROL UNIT REPAIRS BY THE EXPERTS IN THE SAUDI ARABIA
+
+                      </h4>
+                      <p className="mb-15">The engine control unit has greater responsibility like determining the performance of your vehicle and ensuring a safer ride. </p>
+                      <p className="mb-15">The problems with the engine control unit may arrive due to various reasons but regularly inspecting the engine control unit of the car can save you both time and money. 
+The engine control unit of the car is highly intricate and it is always good to rely on experienced technicians to handle it.
+</p>
+					  <p className="mb-15">
+					  At Royal Swiss Auto Services, we specialize in providing engine control unit diagnosis, troubleshooting and repairs to make sure that your car is in a healthy condition. Our skilled technicians use advanced diagnostic tools and cutting-edge equipment to handle the engine control unit to provide a precise diagnosis of the issues with the engine control unit.
+</p>
+                    </div>
+                    <div className="row">
+                   
+                      <div className="col-xl-12">
+                        <h5 class="title mb-15 text-uppercase">
+						What are the signs of car engine control unit repairs?
+                        </h5>
+                        <ul className="list-check-squer">
+                          <li>The check engine lights on the car may begin to illuminate</li>
+                          <li>
+						  Engine stalling or misfiring can also be caused by the bad or failing ECM
+                          </li>
+                          <li>
+						  You may begin to notice the engine performance issue
+                          </li>
+                          <li>
+						  With a bad engine control unit, your vehicle won’t start or find it difficult to start 
+                          </li>
+						  <li>
+						  Failing or bad engine control unit can even cause poor fuel economy
+						  </li>
+                        </ul>
+						<h5 class="title mb-15 text-uppercase">
+						If you suspect a problem with the engine control unit of the car, then the inspection of the following components is advised,
+                        </h5>
+						<ul className="list-check-squer">
+                          <li>Ignition coils or ignition module</li>
+                          <li>
+						  Air intake system
+                          </li>
+                          <li>
+						  DME Relay or the Main Relay
+                          </li>
+                          <li>
+						  Faulty spark plugs
+                          </li>
+						  <li>
+						  Fuel injectors
+						  </li>
+						  <li>Idle control valves</li>
+						  <li>TDC and RPM reference sensors</li>
+						  <li>Airflow or mass flow meter</li>
+						  <li>Throttle position sensor</li>
+						  <li>Emission system</li>
+						  <li>Power supply</li>
+						  <li>Further signs of corrosion, dirt, dust or moisture buildup in the ECU must be monitored.</li>
+                        </ul>
+						<h5 class="title mb-15 text-uppercase">
+						WE ARE QUALIFIED ENGINE CONTROL UNIT REPAIR SPECIALISTS IN The KINGDOM OF SAUDI ARABIA
+                        </h5>
+						<p className='mb-15'>The technically advanced mechanics at our workshop have immense knowledge about the sensors and other mechanical components that are connected to the car engine control unit to ensure its premium function. So all repairs and programming needed for your engine control unit will be done with greater care.</p>
+						<h5 class="title mb-15 text-uppercase">
+						Few important reasons behind the failure of the engine control unit ( ECU) in various car models
+                        </h5>
+						<ul className="list-check-squer">
+                          <li>Occurrence of short-circuiting in the wiring or in other components</li>
+                          <li>
+						  An increase in the temperature like overheating of the engine is not good for the car's ECU
+                          </li>
+						  <li>
+						  Exposing the car to environmental factors like heavy rain or driving under water can also damage the car engine control unit system.
+						  </li>
+						  <li>
+						  There are many sensors connected to the ECU like oxygen sensors, throttle sensors and many more, any damage in it can impair the function of the ECU.
+						  </li>
+						  <li>
+						  Any problems with the software associated with the engine control unit may impair its function.
+						  </li>
+                        </ul>
+						<h5 class="title mb-15 text-uppercase">
+						COUNT ROYAL SWISS AUTO SERVICES FOR YOUR CAR ENGINE CONTROL UNIT REPAIR IN KSA
+                        </h5>
+						<p className='mb-5'>Since our technicians have years of experience in handling various issues with the ECU in different models, we know what is going on with your car and will provide high-quality service using advanced tools that will provide top-notch results and the powerful performance of your cars on the roads.</p>
+						<p className='mb-15'>Schedule your ECU repair in Saudi Arabia with us by dialing 966 53 969 9984. We always strive to go above and beyond to your expectations.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section className="section-area BrandFaq">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <Accordion
+                  defaultActiveKey="0"
+                  className="accordion ttr-accordion style1"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  What is an engine control unit ( ECU)?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  The engine control unit is important to guide various important functions in your car like fuel intake, ignition time and other tasks that an internal combustion engine needs to carry out.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                  <Accordion.Item eventKey="1">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  How much does the engine control unit repair in KSA cost?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  It depends on the condition of the problem that you may face with your engine control unit. ECU rebuild or replacement can be a bit expensive due to its intricacies but with us, it can be completed at competitive rates with quality workmanship.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+              <div className="col-lg-6">
+                <Accordion
+                  defaultActiveKey="0"
+                  className="accordion ttr-accordion style1"
+                >
+                  <Accordion.Item eventKey="0">
+                    <Accordion.Header>
+                      <i className="fa fa-question-circle"></i>
+					  Do you offer engine control unit repair for all make and models?
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <p className="mb-0">
+					  Yes at our workshop in Saudi Arabia, we do provide ECU repairs for all make and models of vehicles.
+                      </p>
+                    </Accordion.Body>
+                  </Accordion.Item>
+                </Accordion>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ScheduleServiceSection />
+        <TestimonialSection />
+        <ChooseUsSection />
+        <ServicesSection />
+        <Footer />
+      </>
 		);
 	}
 }

@@ -67,6 +67,7 @@ import CeramicCoating from './pages/Services/Body-shop/CeramicCoating';
 import ClassicCarRestoration from './pages/Services/Body-shop/ClassicCarRestoration';
 import PaintProtcetionFilm from './pages/Services/Body-shop/PaintProtcetionFilm';
 import WindShieldRepair from './pages/Services/Body-shop/WindShieldRepair';
+import ElectricCarRepair from './pages/Services/other-services/ElectricCarRepair';
 
 import CarRecovery from './pages/Services/other-services/CarRecovery';
 import FleetMangement from './pages/Services/other-services/fleetManagement';
@@ -139,6 +140,10 @@ class Markup extends Component{
 
 						<Route path='/services/other-services/car-recovery' exact component={CarRecovery} />
 						<Route path='/services/other-services/fleet-management' exact component={FleetMangement} />
+						<Route path='/services/other-services/electric-car-repair' exact component={ElectricCarRepair} />
+
+						
+						
 
 
 						<Route path='/brands/audi' exact component={BrandsAudi} />

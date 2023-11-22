@@ -14,8 +14,8 @@ import TestimonialSection from '../../elements/testimonial';
 import ChooseUsSection from '../../elements/choose-us';
 
 // Images
-import bnrImg from "../../../images/banner/bnr5.jpg";
-import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
+import bnrImg from "../../../images/carbrands/Lexus.webp";
+import serviceSectionPic3 from "../../../images/brandsthumb/Lexus.png";
 
 class Lexus extends Component{
 	

@@ -404,8 +404,6 @@ function ServicesBox() {
 				<ScheduleServiceSection />
 				
 				
-				<TeamOneSection />
-				
 				<TestimonialSection />
 				
 				<Footer />
