@@ -13,6 +13,28 @@ function ContactUs() {
 	const handleSubmit = async (event) => {
     event.preventDefault(); // Prevent the default form submission behavior
 
+
+	 try {
+      const response = await fetch('https://swiss-backend.vercel.app/api/form-submit', {
+        method: 'POST', // You may want to change the method depending on your server's requirements
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+		  date: new Date(),
+          name: event.target.elements.name.value,
+          email: event.target.elements.email.value,
+          phone: event.target.elements.phone.value,
+          message: event.target.elements.message.value,
+        }),
+      });
+
+      // Handle the response as needed
+      console.log('Form submitted successfully', response);
+    } catch (error) {
+      console.error('Error submitting form', error);
+    }
+
     // Extract form data here and format it as needed
     const formData = new FormData(event.target);
 

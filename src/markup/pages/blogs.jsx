@@ -31,14 +31,27 @@ import axios from 'axios';
 
 const BlogGridSidebar = () => {
 
-	const [content, setContent] = useState()
+  const [content, setContent] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
 
-	useEffect(() => {
-    axios.get("https://swiss-backend.vercel.app/api/blogs/blog").then((response) => {
-      setContent(response.data);
-	  console.log(response.data);
+  useEffect(() => {
+    axios.get(`https://swiss-backend.vercel.app/api/blogs/blog?page=${currentPage}`).then((response) => {
+      setContent(response.data.data);
+      console.log(response.data);
     });
-	}, [])
+  }, [currentPage]);
+
+  useEffect(() => {
+    axios.get("https://swiss-backend.vercel.app/api/blogs/blog").then((response) => {
+      const totalBlogs = response.data.totalCount;
+      const perPage = 6;
+      const totalPages = Math.ceil(totalBlogs / perPage);
+      setTotalPages(totalPages);
+    });
+  }, [currentPage]); // Make sure to include currentPage as a dependency
+
+
 	
 	
 		return (
@@ -88,16 +101,34 @@ const BlogGridSidebar = () => {
 												</div>
 											</div>
 										))}
+										{!content && (<p>Loading...</p>)}
 									</div>
 									<div className="row">
 										<div className="col-lg-12">
 											<div className="pagination-bx text-center clearfix">
 												<ul className="pagination">
-													<li className="previous"><Link to="#">Prev</Link></li>
-													<li className="active"><Link to="#">1</Link></li>
-													<li><Link to="#">2</Link></li>
-													<li><Link to="#">3</Link></li>
-													<li className="next"><Link to="#">Next</Link></li>
+													{/* Previous button */}
+													<li className="previous">
+														<Link to="#" onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}>
+														Prev
+														</Link>
+													</li>
+
+													{/* Page numbers */}
+          {Array.from({ length: totalPages }).map((_, index) => (
+            <li key={index} className={currentPage === index + 1 ? "active" : ""}>
+              <Link to="#" onClick={() => setCurrentPage(index + 1)}>
+                {index + 1}
+              </Link>
+            </li>
+          ))}
+
+													{/* Next button */}
+													<li className="next">
+														<Link to="#" onClick={() => setCurrentPage((prev) => prev + 1)}>
+														Next
+														</Link>
+													</li>
 												</ul>
 											</div>
 										</div>
