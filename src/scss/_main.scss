@@ -649,3 +649,17 @@ z-index: 9 !important;
 .ActivePanel .Mask{
 	z-index: 0 !important;
 }
+.VideoBanner .BannerContent .container .T1 span::before ,
+.VideoBanner .BannerContent .container .T1 span::after ,
+.heading-bx .title::after ,
+.page-banner h1 span::before, 
+.page-banner .h1 span::before, 
+.page-banner h1 span::after, 
+.page-banner .h1 span::after{
+	content: none;
+}
+.form-card .form-group .btn, .form-card .form-group .wp-block-button__link {
+	background: #000;
+	color: #fff;
+	border-color: #fff;
+  }

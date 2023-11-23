@@ -61,7 +61,7 @@ class aboutSection extends Component{
 							</ul>
 						</div>
 					</div>
-					<div className="footer-info bg-primary">
+					{/* <div className="footer-info bg-primary">
 						<div className="container">
 							<div className="row align-items-center">
 								<div className="col-lg-3 col-md-6 col-sm-6 mb-30">
@@ -101,7 +101,7 @@ class aboutSection extends Component{
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="footer-top bt0">
 						<div className="container">
 							<div className="row">
@@ -112,7 +112,7 @@ class aboutSection extends Component{
 										<div className="ft-content">
 											<i className="fa fa-phone"></i>
 											<span>Talk To Our Support</span>
-											<h4>+971 80 079477 </h4>
+											<h4>+966 53 969 9984 </h4>
 										</div>
 									</div>
 								</div>

@@ -15,7 +15,7 @@ import ChooseUsSection from '../../elements/choose-us';
 
 // Images
 import bnrImg from "../../../images/carbrands/GMC.webp";
-import serviceSectionPic3 from "../../../images/service-section/pic3.jpg";
+import serviceSectionPic3 from "../../../images/brandsthumb/GMC body Image.webp";
 
 class GMC extends Component{
 	
@@ -26,7 +26,7 @@ class GMC extends Component{
 				
 				<div className="page-content bg-white">
 					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
+					<div className="page-banner" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
 								<h1><span>Royal Swiss Auto – A Trusted GMC Service Center in Dubai</span></h1>
@@ -190,9 +190,14 @@ class GMC extends Component{
 				</div>
                 <section className="section-area BrandFaq">
 					   <div className="container">
+					   <div class="heading-bx text-center">
+              <h6 class="title-ext text-primary">Swissauto</h6>
+              <h2 class="title mb-0">Frequently Asked Questions</h2>
+              <p>Have a question? Before reaching out, please take a moment to check our FAQ for quick answers. We might have just what you're looking for!</p>
+            </div>
 							<div className="row">
 								<div className="col-lg-6">
-									<Accordion defaultActiveKey="0" className="accordion ttr-accordion style1">
+									<Accordion  className="accordion ttr-accordion style1">
 										<Accordion.Item eventKey="0">
 											<Accordion.Header>
 												<i className="fa fa-question-circle"></i>
@@ -241,7 +246,7 @@ class GMC extends Component{
 									</Accordion>
 								</div>
 								<div className="col-lg-6">
-									<Accordion defaultActiveKey="2" className="accordion ttr-accordion style1">
+									<Accordion  className="accordion ttr-accordion style1">
 										<Accordion.Item eventKey="0">
 											<Accordion.Header>
 												<i className="fa fa-question-circle"></i>

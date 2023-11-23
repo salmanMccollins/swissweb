@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Maserati.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Maserati.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/MASERATI body Image.webp";
 
 class Maserati extends Component {
   render() {
@@ -26,7 +26,7 @@ class Maserati extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">
@@ -397,10 +397,15 @@ Our Maserati services & repairs that we specialise in are listed below,
         </section>
         <section className="section-area BrandFaq mbg1">
           <div className="container">
+          <div class="heading-bx text-center">
+              <h6 class="title-ext text-primary">Swissauto</h6>
+              <h2 class="title mb-0">Frequently Asked Questions</h2>
+              <p>Have a question? Before reaching out, please take a moment to check our FAQ for quick answers. We might have just what you're looking for!</p>
+            </div>
             <div className="row">
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="0"
+                  
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
@@ -429,7 +434,7 @@ Our Maserati services & repairs that we specialise in are listed below,
               </div>
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="0"
+                  
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
