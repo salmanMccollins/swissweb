@@ -392,10 +392,15 @@ From routine oil changes to extensive inspections of various important powertrai
         </section>
         <section className="section-area BrandFaq mbg1">
           <div className="container">
+          <div class="heading-bx text-center">
+              <h6 class="title-ext text-primary">Swissauto</h6>
+              <h2 class="title mb-0">Frequently Asked Questions</h2>
+              <p>Have a question? Before reaching out, please take a moment to check our FAQ for quick answers. We might have just what you're looking for!</p>
+            </div>
             <div className="row">
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="0"
+                  
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
@@ -424,7 +429,7 @@ From routine oil changes to extensive inspections of various important powertrai
               </div>
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="0"
+                  
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">

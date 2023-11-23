@@ -104,7 +104,7 @@ class ScheduleServiceSection extends Component{
 										</div>
 										<div className="col-md-4 col-sm-6">
 											<div className="form-group">
-												<button type="submit" className="btn btn-warning w-100">SUBMIT REQUEST</button>
+												<button type="submit" className="btn btn-warning w-100">REQUEST A CALL BACK</button>
 											</div>
 										</div>
 									</div>
