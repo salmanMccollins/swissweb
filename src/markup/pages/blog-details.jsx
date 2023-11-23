@@ -31,7 +31,7 @@ const BlogDetails = () =>{
   const [blogData, setBlogData] = useState(null);
 
   useEffect(() => {
-    axios.get('https://swiss-backend.vercel.app/api/blogs/blog').then((response) => {
+    axios.get('https://swiss-backend.vercel.app/api/blogs/blog/ind').then((response) => {
       setContent(response.data);
     });
   }, []);
