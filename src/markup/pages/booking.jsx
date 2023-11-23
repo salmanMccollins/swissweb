@@ -9,6 +9,31 @@ import Footer from "../layout/footer";
 import bnrImg from "../../images/banner/bnr4.jpg";
 
 class Booking extends Component{
+	handleSubmit = async (event) => {
+    event.preventDefault();
+const formData = new FormData(event.target);
+
+    // Send the data to the Google Apps Script
+    const response = await fetch(
+      "https://script.google.com/macros/s/AKfycbyaRgMpAMcvnPaCO-NPk8_h67cs_601LYaNZNW6zmcvzavlkyYpliHI3aDWkEfXSHW-_g/exec",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    // Handle the response if needed
+    if (response.ok) {
+      // Successful submission
+      console.log("Form submitted successfully");
+	  alert("Form submitted")
+      event.target.reset();
+      // Reset the form or perform other actions
+    } else {
+      // Handle errors
+      console.error("Form submission failed");
+    }
+		}
 	
 	render(){
 		return (
@@ -36,13 +61,13 @@ class Booking extends Component{
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-8 col-md-7 mb-30 mb-md-50">
-									<form className="booking-form">
+									<form className="booking-form" onSubmit={this.handleSubmit} >
 										<div className="row">
 											<div className="col-lg-4">
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE YEAR</h6>
 													<div className="input-group">
-														<input type="number" className="form-control" value="2008"/>
+														<input type="number" name='year' className="form-control" placeholder='2008'/>
 													</div>
 												</div>
 											</div>
@@ -50,7 +75,7 @@ class Booking extends Component{
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE MAKE</h6>
 													<div className="input-group">
-														<select className="form-control">
+														<select className="form-control" name='make'>
 															<option value="" selected="selected">Choose...</option>
 															<option value="General Motors">General Motors</option>
 															<option value="Land Rover">Land Rover</option>
@@ -71,7 +96,7 @@ class Booking extends Component{
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE MILEAGE</h6>
 													<div className="input-group">
-														<input type="number" className="form-control"/>
+														<input type="number" name='mileage' className="form-control"/>
 													</div>
 												</div>
 											</div>
@@ -81,25 +106,25 @@ class Booking extends Component{
 													<div className="row">
 														<div className="col-md-12 col-lg-4">
 															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" className="form-check-input" id="customControlAutosizing1"/>
+																<input type="checkbox" name='ac' className="form-check-input" id="customControlAutosizing1"/>
 																<label className="form-check-label" for="customControlAutosizing1">Air Conditioning</label>
 															</div>
 														</div>
 														<div className="col-md-12 col-lg-4">
 															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" className="form-check-input" id="customControlAutosizing2"/>
+																<input type="checkbox" name='break' className="form-check-input" id="customControlAutosizing2"/>
 																<label className="form-check-label" for="customControlAutosizing2">Brakes Repair</label>
 															</div>
 														</div>
 														<div className="col-md-12 col-lg-4">
 															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" className="form-check-input" id="customControlAutosizing3"/>
+																<input type="checkbox" name='engine' className="form-check-input" id="customControlAutosizing3"/>
 																<label className="form-check-label" for="customControlAutosizing3">Engine Diagnostics</label>
 															</div>
 														</div>
 														<div className="col-md-12 col-lg-4">
 															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" className="form-check-input" id="customControlAutosizing4"/>
+																<input type="checkbox" name='hc' className="form-check-input" id="customControlAutosizing4"/>
 																<label className="form-check-label" for="customControlAutosizing4">Heating &amp; Cooling</label>
 															</div>
 														</div>
@@ -111,7 +136,7 @@ class Booking extends Component{
 														</div>
 														<div className="col-md-12 col-lg-4">
 															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" className="form-check-input" id="customControlAutosizing6"/>
+																<input type="checkbox" name='transmission' className="form-check-input" id="customControlAutosizing6"/>
 																<label className="form-check-label" for="customControlAutosizing6">Transmission Repair</label>
 															</div>
 														</div>
@@ -133,7 +158,7 @@ class Booking extends Component{
 											<div className="col-lg-6">
 												<div className="form-group">
 													<div className="input-group">
-														<input name="phone" type="email" placeholder="Email" className="form-control" required/>
+														<input name="email" type="email" placeholder="Email" className="form-control" required/>
 													</div>
 												</div>
 											</div>
