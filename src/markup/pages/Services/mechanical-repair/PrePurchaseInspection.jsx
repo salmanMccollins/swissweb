@@ -134,10 +134,15 @@ class PrePurchaseInspection extends Component{
         </div>
         <section className="section-area BrandFaq">
           <div className="container">
+          <div class="heading-bx text-center">
+              <h6 class="title-ext text-primary">Swissauto</h6>
+              <h2 class="title mb-0">Frequently Asked Questions</h2>
+              <p>Have a question? Before reaching out, please take a moment to check our FAQ for quick answers. We might have just what you're looking for!</p>
+            </div>
             <div className="row">
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="0"
+                  
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
@@ -167,7 +172,7 @@ class PrePurchaseInspection extends Component{
               </div>
               <div className="col-lg-6">
                 <Accordion
-                  defaultActiveKey="0"
+                 
                   className="accordion ttr-accordion style1"
                 >
                   <Accordion.Item eventKey="0">
