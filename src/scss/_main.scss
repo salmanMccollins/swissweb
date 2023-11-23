@@ -663,3 +663,14 @@ z-index: 9 !important;
 	color: #fff;
 	border-color: #fff;
   }
+  .progress-box.style1 .progress , .progress-box.style1 .progress-info .progress-value{
+	display: none;
+  }
+  .progress-box.style1 {
+	margin-bottom: 10px;
+	font-size: 15px;
+  }
+  .section-sp1 .col-xl-8{
+	flex:0 0 100%;
+	width: 100%;
+  }
