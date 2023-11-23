@@ -16,7 +16,8 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Mercedes.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Mercedes.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/Mercedes Benz body Image.webp";
+
 
 class Mercedes extends Component {
   render() {
@@ -26,7 +27,7 @@ class Mercedes extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">

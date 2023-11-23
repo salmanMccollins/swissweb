@@ -15,8 +15,8 @@ import InstagramBox from "../../elements/widget/InstagramBox";
 import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
-import bnrImg from "../../../images/carbrands/RollsRoyce.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Range Rover.png";
+import bnrImg from "../../../images/carbrands/LandRover.webp";
+import serviceSectionPic3 from "../../../images/brandsthumb/Range Rover body.webp";
 
 class RangeRover extends Component {
   render() {
@@ -26,7 +26,7 @@ class RangeRover extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">

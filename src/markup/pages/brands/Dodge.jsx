@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Dodge.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Dodge.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/dodge charger body Image.webp";
 
 
 class Dodge extends Component{
@@ -28,7 +28,7 @@ class Dodge extends Component{
 	
 			<div className="page-content bg-white">
 			  <div
-				className="page-banner ovbl-dark"
+				className="page-banner"
 				style={{ backgroundImage: "url(" + bnrImg + ")" }}
 			  >
 				<div className="container">

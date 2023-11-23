@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Jaguar.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Jaguar.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/JAGUAR body Image.webp";
 
 class Jaguar extends Component {
   render() {
@@ -26,7 +26,7 @@ class Jaguar extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">

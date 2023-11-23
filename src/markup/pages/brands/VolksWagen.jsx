@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Volkswagen.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/VW.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/Volkswagen Image.webp";
 
 class VolksWagen extends Component {
   render() {

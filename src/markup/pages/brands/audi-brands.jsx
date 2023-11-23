@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Audi.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Audi 2.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/Audi body.webp";
 
 class BrandsAudi extends Component {
   render() {
@@ -26,7 +26,7 @@ class BrandsAudi extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner "
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">

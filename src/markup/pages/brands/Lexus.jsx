@@ -15,7 +15,7 @@ import ChooseUsSection from '../../elements/choose-us';
 
 // Images
 import bnrImg from "../../../images/carbrands/Lexus.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Lexus.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/Lexus body Image.webp";
 
 class Lexus extends Component{
 	
@@ -26,7 +26,7 @@ class Lexus extends Component{
 				
 				<div className="page-content bg-white">
 					
-					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
+					<div className="page-banner" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
 								<h1><span>Royal Swiss Auto – A Trusted Lexus Service Center in Dubai</span></h1>

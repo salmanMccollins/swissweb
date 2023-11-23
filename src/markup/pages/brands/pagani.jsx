@@ -18,6 +18,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 import bnrImg from "../../../images/carbrands/GMC.webp";
 import serviceSectionPic3 from "../../../images/brandsthumb/Pagani.png";
 
+
 class Pagani extends Component {
   render() {
     return (

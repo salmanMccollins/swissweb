@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Maserati.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Maserati.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/MASERATI body Image.webp";
 
 class Maserati extends Component {
   render() {
@@ -26,7 +26,7 @@ class Maserati extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">

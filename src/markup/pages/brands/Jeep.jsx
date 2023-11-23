@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Jeep.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Jeep.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/Jeep body Image.webp";
 
 
 class Jeep extends Component{
@@ -28,7 +28,7 @@ class Jeep extends Component{
 	
 			<div className="page-content bg-white">
 			  <div
-				className="page-banner ovbl-dark"
+				className="page-banner"
 				style={{ backgroundImage: "url(" + bnrImg + ")" }}
 			  >
 				<div className="container">

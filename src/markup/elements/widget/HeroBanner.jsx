@@ -5,7 +5,7 @@ import HeroMainRow from "./HeroMainRow";
 // Images
 
 import covervid from "../../../images/swissmain.mp4";
-import posterImage from "../../../images/banner/bnr2.jpg";
+import posterImage from "../../../images/cover.jpg";
 
 const HeroBanner = (props) => {
   return (

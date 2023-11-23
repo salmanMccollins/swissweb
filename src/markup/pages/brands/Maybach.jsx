@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Maserati.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Maserati.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/MASERATI body Image.webp";
 
 class Maybach extends Component {
   render() {

@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/RollsRoyce.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Rolls Royce.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/Rolls Royce Body.webp";
 
 class RollsRoys extends Component {
   render() {

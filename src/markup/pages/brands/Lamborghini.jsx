@@ -16,7 +16,7 @@ import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
 import bnrImg from "../../../images/carbrands/Lamborghini.webp";
-import serviceSectionPic3 from "../../../images/brandsthumb/Lamborghini.png";
+import serviceSectionPic3 from "../../../images/brandsthumb/LAMBORGHINI body Image.webp";
 
 class Lamborghini extends Component {
   render() {
@@ -26,7 +26,7 @@ class Lamborghini extends Component {
 
         <div className="page-content bg-white">
           <div
-            className="page-banner ovbl-dark"
+            className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg + ")" }}
           >
             <div className="container">
