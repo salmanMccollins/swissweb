@@ -103,10 +103,8 @@ class aboutSection extends Component{
 								<Link to="/">Home</Link>
 								<Link to="/aboutus">About us</Link>
 								<Link to="/booking">Book Appointment</Link>
-								<Link to="/blogs">Blogs & News</Link>
+								<Link to="/blogs">Media Center</Link>
 								<Link to="/services">Our Services</Link>
-								<Link to="/gallery">Our Gallery</Link>
-								<Link to="/faq">FAQ</Link>
 								<Link to="/contact">Contact Us</Link>
 							</div>
 							
@@ -220,7 +218,7 @@ class aboutSection extends Component{
 										</li>
 										<li>
 											
-											<Link to="/blogs">Blogs</Link>
+											<Link to="/blogs">Media Center</Link>
 											
 										</li>
 										<li>
@@ -228,11 +226,7 @@ class aboutSection extends Component{
 											<Link to="/offers">Offers</Link>
 											
 										</li>
-										<li className='mob-only'>
-											
-											<Link to="/faq">FAQ<i className="fa fa-chevron-down"></i></Link>
-											
-										</li>
+										
 										<li className='mob-only'>
 											
 											<Link to="/contactus">Contact Us<i className="fa fa-chevron-down"></i></Link>

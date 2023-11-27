@@ -16,6 +16,7 @@ import Gallery2 from './pages/gallery';
 import JobCareer from './pages/job-career';
 import Error from './pages/error-404';
 import { withTranslation } from "react-i18next";
+import Thankyou from './elements/widget/ThankyouPage';
 
 import BrandsAudi from './pages/brands/audi-brands';
 import Bentley from './pages/brands/bentley';
@@ -105,8 +106,8 @@ class Markup extends Component{
 						<Route path='/packages/service-contract' exact component={ServiceContract} />
 						<Route path='/packages/minor-service' exact component={MinorServices} />
 						<Route path='/packages/major-service' exact component={MajorServices} />
+						<Route path='/thankyou' exact component={Thankyou} />
 						
-
 						
 
 						<Route path='/services/mechanical-repair/axil-or-drift-shaft-repair' exact component={AxilorDriftShaftRepair} />
@@ -174,8 +175,7 @@ class Markup extends Component{
 						<Route path='/blogs' exact component={BlogGridSidebar} />
 						<Route path='/booking' exact component={Booking} />
 						<Route path='/contact' exact component={ContactUs} />
-						<Route path='/faq' exact component={Faq1} />
-						<Route path='/gallery' exact component={Gallery2} />
+						{/* <Route path='/gallery' exact component={Gallery2} /> */}
 						<Route path='/offers' exact component={Offers} />
 						
 						<Route component={Error} />

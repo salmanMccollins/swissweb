@@ -36,7 +36,7 @@ class InstagramBox extends Component{
 					<div className="heading-bx text-center">
 							<h6 className="title-ext text-primary">Our Feeds</h6>
 							<h2 className="title mb-0">Follow us on Instagram</h2>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or slightly believable.</p>
+							<p>To stay at the top of all automotive updates, car care tips and offers on car services and repairs, stay tuned to our Instagram handle.</p>
 						</div>
 						<ElfsightWidget widgetId={"9fb2aae0-0f80-4e25-b739-146573a7766a"} lazy />
 					</div>

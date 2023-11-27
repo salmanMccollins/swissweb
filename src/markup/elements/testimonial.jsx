@@ -67,7 +67,7 @@ class TestimonialSection extends Component{
 					<div className="heading-bx text-center">
 							<h6 className="title-ext text-primary">Our Reviews</h6>
 							<h2 className="title mb-0">What our customers say</h2>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or slightly believable.</p>
+							<p>Check out the reviews from our huge number of satisfied customers to know more about our  quality of servicing and transparency</p>
 						</div>
 						<ElfsightWidget widgetId={"27667d34-8b84-4b11-8a87-f4198485ba57"} lazy />
 					</div>

@@ -148,7 +148,7 @@ class EnginCoolingSystemRepair extends Component{
             </div>
             <div className="SerGridWrap">
               <div className="row mb-10 justify-content-center">
-                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-6 col-6 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -161,7 +161,7 @@ class EnginCoolingSystemRepair extends Component{
 					<p>Our network of technicians is specifically trained to handle various latest diagnostic tools and equipment to provide you with high-standard cooling system repair in KSA. Whatever may be the problem with your car cooling system, we are here to take care of it.</p>
                   </div>
                 </div>
-				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-6 col-6 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -174,7 +174,7 @@ class EnginCoolingSystemRepair extends Component{
 					<p>We perform full inspections and repairs on your car engine cooling system with the greatest precision to ensure 100% satisfaction.</p>
                   </div>
                 </div>
-				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-6 col-6 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">

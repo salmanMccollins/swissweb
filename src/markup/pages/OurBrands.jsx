@@ -52,7 +52,6 @@ function OurBrands() {
                      <ScheduleServiceSection/>
                      <TestimonialSection/>
                      <ServicesSection/>
-                     <HeroBanner/>
                      
 				
 				</div>

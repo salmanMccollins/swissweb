@@ -107,8 +107,8 @@ class aboutSection extends Component{
 							<div className="row">
 								<div className="col-xl-3 col-md-6">
 									<div className="widget footer_widget">
-										<h5 className="footer-title">Company</h5>
-										<p className="mb-20">Need a special repair service? we are happy to fulfil every request in order to exceed your expectations</p>
+										<h5 className="footer-title">About Us</h5>
+										<p className="mb-20">Royal Swiss Auto Services - A premium car service center with unparalleled automotive expertise offering the precise services and auto repairs for the customers</p>
 										<div className="ft-content">
 											<i className="fa fa-phone"></i>
 											<span>Talk To Our Support</span>
@@ -128,9 +128,7 @@ class aboutSection extends Component{
 											<li><Link to="/careers">Careers</Link></li>
 											<li><Link to="/booking">Booking</Link></li>
 											<li><Link to="/blogs">Media Center</Link></li>
-											<li><Link to="/gallery">Snap Shots</Link></li>
 											<li><Link to="/services">Our Services</Link></li>
-											<li><Link to="/faq">FAQ</Link></li>
 											<li><Link to="/contact">Contact Us</Link></li>
 										</ul>							
 									</div>

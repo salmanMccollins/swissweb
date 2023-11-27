@@ -7,7 +7,7 @@ import HeroMainRow from "./HeroMainRow";
 import covervid from "../../../images/swissmain.mp4";
 import posterImage from "../../../images/cover.jpg";
 
-const HeroBanner = (props) => {
+const Thankyou = (props) => {
   return (
     <>
       <div>
@@ -21,17 +21,15 @@ const HeroBanner = (props) => {
             <div className="container">
               <div className="ContentBoxt">
                 <div className="T1">
-                  <span>YOUR TRUSTED PARTNER FOR AUTO REPAIR SERVICES IN SAUDI ARABIA</span>
+                  <span>Thank you for contacting us</span>
                 </div>
-                <div className="T2">
-                Welcome to Royal Swiss Auto Services, a well-established repair and maintenance partner for luxury vehicles. With our car service center in Saudi Arabia, we handle everything from simple routine maintenance to complex repairs with greater precision.
-                </div>
+               
                 <div className="BtnMobile">
-                  <Link class="btn btn-primary" to="/booking">
-                    Request a call back
+                  <Link class="btn btn-primary" to="/">
+                    Go to Home
                   </Link>
-                  <Link class="btn btn-secondary ms-3" to="/services">
-                    View Services
+                  <Link class="btn btn-secondary ms-3" to="/booking">
+                  Book Appointment
                   </Link>
                 </div>
               </div>
@@ -44,4 +42,4 @@ const HeroBanner = (props) => {
   );
 };
 
-export default HeroBanner;
+export default Thankyou;
