@@ -69,7 +69,7 @@ class TestimonialSection extends Component{
 							<h2 className="title mb-0">What our customers say</h2>
 							<p>Check out the reviews from our huge number of satisfied customers to know more about our  quality of servicing and transparency</p>
 						</div>
-						<ElfsightWidget widgetId={"27667d34-8b84-4b11-8a87-f4198485ba57"} lazy />
+						<ElfsightWidget widgetId={"a4fa245b-d2eb-4a8c-ac98-db1a9734c6aa"} lazy />
 					</div>
 					<div className='Mask'>&nbsp;</div>
 				</section>
