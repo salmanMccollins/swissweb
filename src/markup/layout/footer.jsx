@@ -196,7 +196,6 @@ class aboutSection extends Component{
 									<ul className="widget-link">
 										<li><Link to="/">Home</Link></li>
 										<li><Link to="/aboutus">About</Link></li>
-										<li><Link to="/faq">FAQs</Link></li>
 										<li><Link to="/services">Services</Link></li>
 										<li><Link to="/contact">Contact</Link></li>
 									</ul>

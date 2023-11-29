@@ -175,7 +175,7 @@ class Maybach extends Component {
               <h6 class="title-ext text-primary">Contact Us For </h6>
               <h2 class="title mb-0">PREMIUM QUALITY MAYBACH SERVICE AND REPAIRS</h2>
               <p>
-              Your Maybach deserves nothing less, and we look forward to serving your car with greater care. Dial 966 53 969 9984 to schedule your appointments.
+              Your Maybach deserves nothing less, and we look forward to serving your car with greater care. Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your appointments.
 
 Our range of Maybach servicing & repairs includes,
 

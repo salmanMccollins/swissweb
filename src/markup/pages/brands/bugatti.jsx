@@ -173,7 +173,7 @@ class Bugatti extends Component {
               <h6 class="title-ext text-primary">WE ARE THE BEST</h6>
               <h2 class="title mb-0">GERMAN CAR EXPERTS IN KSA YOU CAN TRUST FOR YOUR BUGATTI SERVICE</h2>
               <p>
-              If you would like to schedule your Bugatti service with us Dial 966 53 969 9984 to talk with our service department. We are always ready to help with your Bugatti maintenance needs despite the model you hold.
+              If you would like to schedule your Bugatti service with us Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to talk with our service department. We are always ready to help with your Bugatti maintenance needs despite the model you hold.
 
 For all current and past Bugatti models, we provide the following services along with the vehicle maintenance and repairs.
 

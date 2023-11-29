@@ -175,7 +175,7 @@ From routine oil changes to extensive inspections of various important powertrai
               <h6 class="title-ext text-primary">EXPERIENCE THE</h6>
               <h2 class="title mb-0">MCLAREN SERVICE AT ITS BEST</h2>
               <p>
-              Contact us today at 966 53 969 9984, to schedule an appointment or to learn more about our services. Our wide range of Mclaren service and repairs that our technicians are trained with includes,
+              Contact us today at <a href="tel:966 53 969 9984">+966 53 969 9984</a>, to schedule an appointment or to learn more about our services. Our wide range of Mclaren service and repairs that our technicians are trained with includes,
               </p>
             </div>
             <div className="SerGridWrap">

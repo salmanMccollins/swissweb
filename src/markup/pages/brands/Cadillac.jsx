@@ -177,7 +177,7 @@ class Cadillac extends Component {
               <h6 class="title-ext text-primary">BOOK YOUR</h6>
               <h2 class="title mb-0">CADILLAC SERVICE IN SAUDI ARABIA WITH US</h2>
               <p>
-			  We value your time and convenience. So just dial 966 53 969 9984 to schedule your Cadillac service, repair or maintenance with us. We provide all types of services needed to keep your Cadillac in good condition including,
+			  We value your time and convenience. So just dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your Cadillac service, repair or maintenance with us. We provide all types of services needed to keep your Cadillac in good condition including,
               </p>
             </div>
             <div className="SerGridWrap">

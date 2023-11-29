@@ -149,7 +149,7 @@ If you suspect any kinds of repairs with your car gearbox system contact the gea
             </div>
             <div className="SerGridWrap">
               <div className="row mb-10 justify-content-center">
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -162,7 +162,7 @@ If you suspect any kinds of repairs with your car gearbox system contact the gea
 					<p>Our workshop has specifically trained technicians who can handle everything like inspection, repair or replacement of the gearbox system in an efficient way.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -175,7 +175,7 @@ If you suspect any kinds of repairs with your car gearbox system contact the gea
 					<p>We offer gearbox/ transmission repair services for all models of cars at the most competitive pricing. Apart from this, the professional customer support answers all your queries and guides you throughout the gearbox repair or service appointment.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">

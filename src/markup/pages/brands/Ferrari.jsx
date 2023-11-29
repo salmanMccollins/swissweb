@@ -177,7 +177,7 @@ Saudi Arabia is a vast area covering various cities like Riyadh, Dammam and Jedd
               <h6 class="title-ext text-primary">Contact The</h6>
               <h2 class="title mb-0">BEST FERRARI SERVICE CENTER IN SAUDI ARABIA!</h2>
               <p>
-			  Dial 966 53 969 9984 to schedule your Ferrari service or repair appointment with us, if you notice something wrong with your vehicle or if it is due for the routine service appointment as per the interval mentioned in the owner’s manual.
+			  Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your Ferrari service or repair appointment with us, if you notice something wrong with your vehicle or if it is due for the routine service appointment as per the interval mentioned in the owner’s manual.
 
 Apart from the vehicle inspection and routine service, we provide the following services for the high-end cars like Ferrari,
 

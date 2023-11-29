@@ -172,7 +172,7 @@ class Mercedes extends Component {
               <h6 class="title-ext text-primary">Book Your</h6>
               <h2 class="title mb-0">MERCEDES SERVICE IN SAUDI ARABIA WITH US TODAY!</h2>
               <p>
-			  To make your Mercedes service or repair booking or to enquire about further information, Dial 966 53 969 9984.  Our key specialities of Mercedes service & repairs include the following,
+			  To make your Mercedes service or repair booking or to enquire about further information, Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a>.  Our key specialities of Mercedes service & repairs include the following,
               </p>
             </div>
             <div className="SerGridWrap">

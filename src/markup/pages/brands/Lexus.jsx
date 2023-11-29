@@ -174,7 +174,7 @@ class Lexus extends Component {
               <h6 class="title-ext text-primary">TRUST US TO</h6>
               <h2 class="title mb-0">GET YOUR LEXUS SERVICED IN SAUDI ARABIA</h2>
               <p>
-			  To get your Lexus service, repair or replacement works done in Saudi Arabia, Just dial 966 53 969 9984 or visit us directly at our workshop, our technicians are ready to take care of your car.
+			  To get your Lexus service, repair or replacement works done in Saudi Arabia, Just dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> or visit us directly at our workshop, our technicians are ready to take care of your car.
 
 
 We provide the following services needed for your Lexus with greater care,

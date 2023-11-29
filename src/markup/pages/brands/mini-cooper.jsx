@@ -170,7 +170,7 @@ class MiniCooper extends Component {
               <h6 class="title-ext text-primary">SCHEDULE YOUR</h6>
               <h2 class="title mb-0">MINI COOPER SERVICE IN SAUDI ARABIA WITH US</h2>
               <p>
-			  Contact us today at 966 53 969 9984 to schedule your Mini Cooper service or repair appointment with us.
+			  Contact us today at <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your Mini Cooper service or repair appointment with us.
 
 Thank you for choosing us as your trusted Mini Cooper service center. Explore our wide range of Mini Cooper service and repair specialities,
 

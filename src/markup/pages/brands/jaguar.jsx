@@ -175,7 +175,7 @@ High-end cars like Jaguar comes with the latest technology and advanced computer
               <h2 class="title mb-0">JAGUAR SERVICE OR REPAIR APPOINTMENT NOW
 </h2>
               <p>
-			  To get a high standard of after-sale services for your Jaguar dial 966 53 969 9984. Explore our wide range of specialities in Jaguar servicing and repairs,
+			  To get a high standard of after-sale services for your Jaguar dial <a href="tel:966 53 969 9984">+966 53 969 9984</a>. Explore our wide range of specialities in Jaguar servicing and repairs,
               </p>
             </div>
             <div className="SerGridWrap">

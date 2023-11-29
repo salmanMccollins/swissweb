@@ -169,7 +169,7 @@ class RangeRover extends Component {
               <h6 class="title-ext text-primary">Get Your Range Rover</h6>
               <h2 class="title mb-0">SERVICED IN SAUDI ARABIA AT EASE</h2>
               <p>
-			  With the state of the art facilities, advanced diagnostic tools and equipment, we have made the Range Rover servicing and repair faster and hassle-free for our customers in the Kingdom of Saudi Arabia. Dial 966 53 969 9984 to make your Range Rover service or repair appointments.
+			  With the state of the art facilities, advanced diagnostic tools and equipment, we have made the Range Rover servicing and repair faster and hassle-free for our customers in the Kingdom of Saudi Arabia. Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to make your Range Rover service or repair appointments.
 <br/>
 Explore the list of services & repairs that we are specialized in providing for your Range Rover,
 

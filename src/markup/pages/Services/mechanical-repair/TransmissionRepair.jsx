@@ -154,7 +154,7 @@ At Royal Swiss Auto Services, we provide dealership-level car transmission repai
             </div>
             <div className="SerGridWrap">
               <div className="row mb-10 justify-content-center">
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -167,7 +167,7 @@ At Royal Swiss Auto Services, we provide dealership-level car transmission repai
 					<p>At Royal Swiss Auto Services, we make sure only experienced technicians handle your car transmission so that accurate diagnosis and high-quality repairs are guaranteed.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -180,7 +180,7 @@ At Royal Swiss Auto Services, we provide dealership-level car transmission repai
 					<p>The parts and the labor charges are clearly mentioned in the quote after the inspection of your car transmission systems and there are no hidden charges other than it.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">

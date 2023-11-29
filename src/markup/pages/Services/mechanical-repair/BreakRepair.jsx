@@ -146,7 +146,7 @@ Getting timely servicing and repairing of the car brakes at a reputed car garage
             </div>
             <div className="SerGridWrap">
               <div className="row mb-10 justify-content-center">
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -163,7 +163,7 @@ Getting timely servicing and repairing of the car brakes at a reputed car garage
                     </p>
                   </div>
                 </div>
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -180,7 +180,7 @@ Getting timely servicing and repairing of the car brakes at a reputed car garage
                     </p>
                   </div>
                 </div>
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">

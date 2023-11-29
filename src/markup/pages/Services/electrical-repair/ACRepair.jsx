@@ -222,7 +222,7 @@ class ACRepair extends Component {
             </div>
             <div className="SerGridWrap">
               <div className="row mb-10 justify-content-center">
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -235,7 +235,7 @@ class ACRepair extends Component {
 					<p>At our car workshop in Saudi Arabia, we do have a professional customer support team who would guide you and answer all your queries when you visit us to get your car AC repair or services done until you get back your car from us. So that you can be confident and get hassle-free car AC service in Saudi Arabia.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -248,7 +248,7 @@ class ACRepair extends Component {
 					<p>We invest in highly advanced diagnostic tools and equipment to provide our customers with quality car AC repair in a faster turnaround time.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">

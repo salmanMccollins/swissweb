@@ -178,7 +178,7 @@ Though the suspension systems in modern cars last longer without any kind of rep
             </div>
             <div className="SerGridWrap">
               <div className="row mb-10 justify-content-center">
-                <div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+                <div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -191,7 +191,7 @@ Though the suspension systems in modern cars last longer without any kind of rep
 					<p>Whatever may be the problem with your car suspension and whether it may be a sedan, SUV or any other passenger car, our technicians would provide high-quality service and keep you safer on the roads.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
@@ -204,7 +204,7 @@ Though the suspension systems in modern cars last longer without any kind of rep
 					<p>We use modern diagnostic tools to diagnose all kinds of suspension repairs and provide solutions. So work can be completed faster with us than you expect without exorbitant pricing, so you no need to suffer longer without the cars.</p>
                   </div>
                 </div>
-				<div className="col-xl-12 col-sm-12 col-12 SerGrid1">
+				<div className="col-xl-6 col-sm-12 col-12 SerGrid1">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">

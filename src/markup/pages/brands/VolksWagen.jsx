@@ -163,7 +163,7 @@ class VolksWagen extends Component {
               <p>
 			  All your Volkswagen maintenance needs are satisfied by us and you can find no better maintenance partner for your car than us in Saudi Arabia.
 
-Dial 966 53 969 9984 to schedule your Volkswagen service or repair appointment with us.
+Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your Volkswagen service or repair appointment with us.
 
 Our technicians are trained to provide the following services and repairs for the Volkswagen in Saudi Arabia.
 

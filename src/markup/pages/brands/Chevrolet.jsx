@@ -174,7 +174,7 @@ class Chevrolet extends Component {
               <h6 class="title-ext text-primary">SCHEDULE YOUR</h6>
               <h2 class="title mb-0">CHEVROLET SERVICE AND REPAIRS WITH US</h2>
               <p>
-			  Ready to give your Chevrolet the care it deserves in Saudi Arabia? Schedule a service appointment by contacting us at 966 53 969 9984 or visit us directly at our car service center in Saudi Arabia.
+			  Ready to give your Chevrolet the care it deserves in Saudi Arabia? Schedule a service appointment by contacting us at <a href="tel:966 53 969 9984">+966 53 969 9984</a> or visit us directly at our car service center in Saudi Arabia.
 
 Our team of Chevrolet specialists are ready to provide the following services for your Chevrolet with greater care,
 

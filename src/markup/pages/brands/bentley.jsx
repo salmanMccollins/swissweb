@@ -169,7 +169,7 @@ class Bentley extends Component {
               <h6 class="title-ext text-primary">Book Your</h6>
               <h2 class="title mb-0">BENTLEY SERVICE IN SAUDI ARABIA WITH ROYAL SWISS AUTO SERVICES</h2>
               <p>
-			  We take pride in ourselves for providing various electrical, mechanical, software updates and other diagnostic services needed for your Bentley with the greatest precision. So dial 966 53 969 9984 to schedule your service appointment or explore our services.
+			  We take pride in ourselves for providing various electrical, mechanical, software updates and other diagnostic services needed for your Bentley with the greatest precision. So dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your service appointment or explore our services.
 			
 			  We provide all the below-mentioned services for Bentley in an efficient way through our expertise which is our passion too.
               </p>

@@ -170,7 +170,7 @@ class GMC extends Component {
               <h6 class="title-ext text-primary">SCHEDULE YOUR</h6>
               <h2 class="title mb-0">GMC SERVICE IN SAUDI ARABIA WITH US</h2>
               <p>
-			  Keep your GMC in top-notch condition with our routine maintenance services, repairs and services. Dial 966 53 969 9984 to schedule your appointment with us.
+			  Keep your GMC in top-notch condition with our routine maintenance services, repairs and services. Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to schedule your appointment with us.
 We offer the following GMC service & repair with the greatest precision.
 
               </p>

@@ -172,7 +172,7 @@ All our repair and maintenance processes are in accordance with manufacturer gui
               <h6 class="title-ext text-primary">Contact Us To</h6>
               <h2 class="title mb-0">EXPERIENCE THE HASSLE-FREE ROLLS ROYCE SERVICE IN KSA</h2>
               <p>
-			  Is your Rolls Royce not performing at its best or is due to its routine maintenance? Just Give us a call at 966 53 969 9984. We offer the following Rolls Royce service & repair with the greatest precision.
+			  Is your Rolls Royce not performing at its best or is due to its routine maintenance? Just Give us a call at <a href="tel:966 53 969 9984">+966 53 969 9984</a>. We offer the following Rolls Royce service & repair with the greatest precision.
               </p>
             </div>
             <div className="SerGridWrap">
