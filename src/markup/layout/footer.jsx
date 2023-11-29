@@ -176,10 +176,10 @@ class aboutSection extends Component{
 											</div>
 										</form>
 										<ul className="list-inline ft-social-bx">
-											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://twitter.com/" className="btn button-sm"><i className="fa fa-twitter"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="btn button-sm"><i className="fa fa-linkedin"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/swissautosa/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/swissautosa/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCIDHmzSK6mFQykqrG_SjVig" className="btn button-sm"><i className="fa fa-youtube"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
 										</ul>
 									</div>
 								</div>

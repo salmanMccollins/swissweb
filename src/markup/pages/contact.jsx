@@ -97,18 +97,18 @@ function ContactUs() {
 								<div className="col-lg-4 col-md-4 col-sm-6">
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-id-badge"></i>Email & Phone</h6>		
-										<Link to="#">info@yourdomain.com</Link>
-										<p>(+68) 120034509</p>
+										<a to="mailto:hello@swissauto.ae">hello@swissauto.ae</a>
+										<div><a to="tel: 966 53 969 9984"> +966 53 969 9984</a></div>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-4 col-sm-12">
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-world"></i>Follow Us</h6>
 										<ul className="social-media">
-											<li><a target="_blank" href="https://www.facebook.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-facebook"></i></a></li>
-											<li><a target="_blank" href="https://www.google.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-google-plus"></i></a></li>
-											<li><a target="_blank" href="https://www.linkedin.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-linkedin"></i></a></li>
-											<li><a target="_blank" href="https://twitter.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-twitter"></i></a></li>
+											<li><a target="_blank" href="https://www.facebook.com/swissautosa/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" href="https://www.instagram.com/swissautosa/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-instagram"></i></a></li>
+											<li><a target="_blank" href="https://www.youtube.com/channel/UCIDHmzSK6mFQykqrG_SjVig" rel="noreferrer" className="btn btn-primary"><i className="fa fa-youtube"></i></a></li>
+											<li><a target="_blank" href="https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0" rel="noreferrer" className="btn btn-primary"><i className="fa fa-whatsapp"></i></a></li>
 										</ul>
 									</div>
 								</div>
