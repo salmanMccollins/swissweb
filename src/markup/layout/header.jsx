@@ -178,7 +178,7 @@ class aboutSection extends Component{
 														<li><Link to="/services/body-shop/break-caliper-painting"><span>Brake Caliper painting</span></Link></li>
 														<li><Link to="/services/body-shop/paint-protection-film"><span>Paint Protcetion Film</span></Link></li>
 														<li><Link to="/services/body-shop/wind-shield-repair"><span>WindShield Repair</span></Link></li>
-														<li><Link to="/services/body-shop/classic-car-restoration"><span>Classic Car Restoration</span></Link></li>
+														{/* <li><Link to="/services/body-shop/classic-car-restoration"><span>Classic Car Restoration</span></Link></li> */}
 													</ul>
 												</li>
 												<li>

@@ -263,7 +263,9 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">Smart Body Repair</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>Everyone has the constant desire of keeping our car looking at its best until the last miles. Yet the wear and tear due to the daily usage may cause damages to your car exterior and affect its look and performance.
+
+In such cases you no need to spend hours on workshop to get the issues sorted out. Adhering to the smart body repair techniques using advanced tools will keep your car shining and ensure the flawless look in no time..</p>
 										<Link to="/services/body-shop/smart-body-repair" className="btn-link">Read More</Link>
 									</div>
 								</div>
@@ -287,7 +289,9 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">Car Tinting</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>Getting the car window tinting done comes with certain benefits like UV protection, heat rejection, glare reduction and enhances the safety and security inside the car.
+
+However, it is important to get the window tinting done by experienced technicians using high-quality window tinting films to achieve a sleek and uniform look.</p>
 										<Link to="/services/body-shop/car-tinting" className="btn-link">Read More</Link>
 									</div>
 								</div>
@@ -299,7 +303,9 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">Car DIP Color</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>Car dip colour services is one of the modern services provided by various body & paint shops to modify your vehicle's look instead of relying on traditional paint modification techniques like vinyl wrapping or any other.
+
+It is important to remember that dip color services not only enhance the appearance of your car and give it a new look but also protect your car’s original paint from scratches and debris.</p>
 										<Link to="/services/body-shop/car-dip-color" className="btn-link">Read More</Link>
 									</div>
 								</div>
@@ -311,7 +317,7 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">Ceramic Coating</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>One of the ideal ways to protect your car paint surface from getting into scratches, stone chips, bird droppings or any other external damage is through ceramic coating. When you take up the ceramic coating for your car, the thick layer of nano-ceramic particles acts as a protective layer and protects your car’s exterior paint surface from damage and helps to retain its shine.</p>
 										<Link to="/services/body-shop/ceramic-coating" className="btn-link">Read More</Link>
 									</div>
 								</div>
@@ -323,7 +329,9 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">Brake Caliper painting</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>If you are the one looking out for the luxury and personalization of your car to stay unique on the roads, then getting professional brake caliper painting services is the ideal choice.
+
+But it is important to choose the experts to get the brake calipers painted to achieve greater precision.</p>
 										<Link to="/services/body-shop/break-caliper-painting" className="btn-link">Read More</Link>
 									</div>
 								</div>
@@ -335,7 +343,7 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">Paint Protcetion Film</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>Paint protection film is a transparent film that can be installed on the exterior of the vehicle to protect the exterior from scratches and other damages. Getting the PPF installed also increases your vehicle's shine and restores its look.</p>
 										<Link to="/services/body-shop/paint-protection-film" className="btn-link">Read More</Link>
 									</div>
 								</div>
@@ -347,12 +355,12 @@ The problems with the engine control unit may arrive due to various reasons but 
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">WindShield Repair</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<p>Any cracks or chips on the windshield will reduce the visibility while driving. So any issues with the windshields must be fixed at the earliest before it turns out to be the major one. At Royal Swiss Auto Services we do provide the best windshield repair and replacement services in a fast and convenient way as per the original specifications so that you can be at peace of mind.</p>
 										<Link to="/services/body-shop/wind-shield-repair" className="btn-link">Read More</Link>
 									</div>
 								</div>
 							</div>
-							<div className="col-xl-3 col-lg-4 col-md-6">
+							{/* <div className="col-xl-3 col-lg-4 col-md-6">
 								<div className="feature-container bg-gray-alt feature-bx1">
 									<div className="icon-lg mb-10 text-primary">
 									<span className='serviceicon service23'>&nbsp;</span>
@@ -363,7 +371,7 @@ The problems with the engine control unit may arrive due to various reasons but 
 										<Link to="/services/body-shop/classic-car-restoration" className="btn-link">Read More</Link>
 									</div>
 								</div>
-							</div>
+							</div> */}
 							
 						</div>
 					</div>
