@@ -77,19 +77,24 @@ class aboutSection extends Component{
 				<header className="header header-transparent rs-nav">
 					<div className='announcement-bar desk-only'>
 						<div className='container'>
-							<div className='AnnouncementIcons'>
-								<a href='#' className='AnnonceLink1 call'>
-									+971 52 599 5503
-								</a>
-								<a href='#' className='AnnonceLink1 whatsapp'>
-									WhatsApp Us
-								</a>
-								<a href='#' className='AnnonceLink1 location'>
-									Get Direction
-								</a>
-								<a href='javascript:void(0);' className='AnnonceLink1 email'>
-									info@swissauto.ae
-								</a>
+							<div className='row'>
+								<div className='col-md-5'>Your trusted partner for auto repair services</div>
+								<div className='col-md-7'>
+									<div className='AnnouncementIcons'>
+										<a href='tel:966 53 969 9984' className='AnnonceLink1 call'>
+											+966 53 969 9984
+										</a>
+										<a href='https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0' className='AnnonceLink1 whatsapp'>
+											WhatsApp Us
+										</a>
+										<a href='#' className='AnnonceLink1 location'>
+											Get Direction
+										</a>
+										<a href='mailto:hello@swissauto.ae' className='AnnonceLink1 email'>
+										hello@swissauto.ae
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>

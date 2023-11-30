@@ -33,7 +33,7 @@ class AboutUsTwoSection extends Component{
 								<div className="heading-bx">
 									<h6 className="title-ext text-primary">about Us</h6>
 									<h2 className="title">WE'RE A COMPANY OF TALENTED ENGINEERS & MECHANICS</h2>
-									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									<p>Royal Swiss Auto Services - A premium car service center with unparalleled automotive expertise offering the precise services and auto repairs for the customers</p>
 								</div>
 								<div className="row">
 									<div className="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-6">
@@ -92,7 +92,7 @@ class AboutUsTwoSection extends Component{
 					</div>
 				</section>
 			
-				<ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='PkkV1vLHUvQ' onClose={() => this.setState({isOpen: false})} />
+				<ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='FGtIwbzIS7k' onClose={() => this.setState({isOpen: false})} />
 				
 			</>
 		);
