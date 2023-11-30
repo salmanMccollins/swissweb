@@ -78,7 +78,7 @@ class aboutSection extends Component{
 					<div className='announcement-bar desk-only'>
 						<div className='container'>
 							<div className='row'>
-								<div className='col-md-5'>Your trusted partner for auto repair services</div>
+								<div className='col-md-5'>Your trusted partner for auto repair services in saudi arabia</div>
 								<div className='col-md-7'>
 									<div className='AnnouncementIcons'>
 										<a href='tel:966 53 969 9984' className='AnnonceLink1 call'>
