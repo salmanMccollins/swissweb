@@ -2,6 +2,7 @@
 	background-color: $primary;
 	color: #fff;
 	padding: 10px 0px;
+	font-size: 14px;
 }
 .AnnouncementIcons{
 	display: flex;
@@ -16,7 +17,6 @@
 		display: inline-block;
 		position: relative;
 		padding-left: 28px;
-		font-size: 14px;
 		&::before{
 			content: "";
 			display: inline-block;
