@@ -168,18 +168,6 @@ class aboutSection extends Component{
 													</ul>
 												</li>
 												<li>
-													<Link to="/services">Electrical Repair</Link>
-													<ul>
-														<li><Link to="/services/electrical-repair/ac-repair"><span>AC Repair</span></Link></li>
-														<li><Link to="/services/electrical-repair/camera-radar-calibration"><span>Camera / Radar Calibration</span></Link></li>
-														<li><Link to="/services/electrical-repair/car-repair-and-software-programming"><span>Car Software Repair & Programming</span></Link></li>
-														<li><Link to="/services/electrical-repair/comfort-system-repair"><span>Comfort System Repair</span></Link></li>
-														<li><Link to="/services/electrical-repair/engine-control-unit-repair"><span>Engine Control Unit Repair</span></Link></li>
-														{/* <li><Link to="/services/electrical-repair/navigation-update"><span>Navigation Update</span></Link></li>
-														<li><Link to="/services/electrical-repair/retrofit"><span>Retrofit</span></Link></li> */}
-													</ul>
-												</li>
-												<li>
 													<Link to="/services">BodyShop</Link>
 													<ul>
 														<li><Link to="/services/body-shop/smart-body-repair"><span>Smart Body Repair</span></Link></li>
@@ -193,6 +181,19 @@ class aboutSection extends Component{
 														<li><Link to="/services/body-shop/classic-car-restoration"><span>Classic Car Restoration</span></Link></li>
 													</ul>
 												</li>
+												<li>
+													<Link to="/services">Electrical Repair</Link>
+													<ul>
+														<li><Link to="/services/electrical-repair/ac-repair"><span>AC Repair</span></Link></li>
+														<li><Link to="/services/electrical-repair/camera-radar-calibration"><span>Camera / Radar Calibration</span></Link></li>
+														<li><Link to="/services/electrical-repair/car-repair-and-software-programming"><span>Car Software Repair & Programming</span></Link></li>
+														<li><Link to="/services/electrical-repair/comfort-system-repair"><span>Comfort System Repair</span></Link></li>
+														<li><Link to="/services/electrical-repair/engine-control-unit-repair"><span>Engine Control Unit Repair</span></Link></li>
+														{/* <li><Link to="/services/electrical-repair/navigation-update"><span>Navigation Update</span></Link></li>
+														<li><Link to="/services/electrical-repair/retrofit"><span>Retrofit</span></Link></li> */}
+													</ul>
+												</li>
+												
 												<li>
 													<Link to="/services">Other Services</Link>
 													<ul>

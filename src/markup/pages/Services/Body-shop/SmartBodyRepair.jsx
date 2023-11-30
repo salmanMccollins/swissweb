@@ -42,7 +42,7 @@ class SmartBodyRepair extends Component {
                       </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Audi
+                      Smart Body Repair
                     </li>
                   </ul>
                 </nav>
