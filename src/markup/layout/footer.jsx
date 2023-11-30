@@ -165,7 +165,7 @@ class aboutSection extends Component{
 								<div className="col-xl-3 col-md-6">
 									<div className="widget widget_info">
 										<h5 className="footer-title">Subscribe Now</h5>
-										<p className="mb-20">Weekly Breaking News Analysis And Cutting Edge Advices On Job Searching.</p>
+										<p className="mb-20">To get our weekly and monthly updates related to automotive industry subscribe our newsletter at the earliest</p>
 										<form className="subscribe-form subscription-form mb-30">
 											<div className="ajax-message"></div>
 											<div className="input-group">

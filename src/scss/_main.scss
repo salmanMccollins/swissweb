@@ -677,3 +677,13 @@ z-index: 9 !important;
   .btng1{
 	color:#777777 !important;
   }
+
+  .SideNavSocial ul{
+	text-align: right;
+  }
+  @media only screen and (max-width: 1200px) {
+	.menu-links .nav > li > a {
+	  font-size: 15px;
+	  padding: 20px 6px;
+	}
+  }
