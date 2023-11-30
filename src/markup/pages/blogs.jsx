@@ -45,7 +45,7 @@ const BlogGridSidebar = () => {
   useEffect(() => {
     axios.get("https://swiss-backend.vercel.app/api/blogs/blog").then((response) => {
       const totalBlogs = response.data.totalCount;
-      const perPage = 6;
+      const perPage = 8;
       const totalPages = Math.ceil(totalBlogs / perPage);
       setTotalPages(totalPages);
     });
@@ -81,10 +81,10 @@ const BlogGridSidebar = () => {
 								<div className="col-md-12 col-lg-8 col-xl-8 mb-30 mb-md-50">
 									<div className="row">
 										{content && content.map((item) =>(
-											<div className="col-xl-6 col-lg-12 col-md-6">
+											<div className="col-xl-3 col-lg-3 col-md-4">
 												<div className="blog-card style-1 bg-white shadow">
 													<div className="post-media">
-														<Link to={`/blog-details/${item.blogUrl}`}><img src={item.photo} alt=""/></Link>
+														<Link to={`/blog-details/${item.blogUrl}`}><img src={item.photo} style={{height:"250px"}} alt=""/></Link>
 													</div>
 													<div className="post-info">
 														<h4 className="post-title"><Link to={`/blog-details/${item.blogUrl}`}>{item.title}</Link></h4>
