@@ -175,8 +175,8 @@ class aboutSection extends Component{
 														<li><Link to="/services/electrical-repair/car-repair-and-software-programming"><span>Car Software Repair & Programming</span></Link></li>
 														<li><Link to="/services/electrical-repair/comfort-system-repair"><span>Comfort System Repair</span></Link></li>
 														<li><Link to="/services/electrical-repair/engine-control-unit-repair"><span>Engine Control Unit Repair</span></Link></li>
-														<li><Link to="/services/electrical-repair/navigation-update"><span>Navigation Update</span></Link></li>
-														<li><Link to="/services/electrical-repair/retrofit"><span>Retrofit</span></Link></li>
+														{/* <li><Link to="/services/electrical-repair/navigation-update"><span>Navigation Update</span></Link></li>
+														<li><Link to="/services/electrical-repair/retrofit"><span>Retrofit</span></Link></li> */}
 													</ul>
 												</li>
 												<li>

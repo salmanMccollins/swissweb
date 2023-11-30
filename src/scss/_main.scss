@@ -542,6 +542,100 @@
 .list-check-squer.text-left{
 	text-align: left;
 }
+.feature-bx1:hover{
+	background-color: #171a1e !important;
+}
+.serviceicon{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+.service1{
+	background-image: url(../images/serviceicon/Mechanical/axil.png);
+}
+.service2{
+	background-image: url(../images/serviceicon/Mechanical/BrakeRepair.png);
+}
+.service3{
+	background-image: url(../images/serviceicon/Mechanical/EngineCooling.png);
+}
+.service4{
+	background-image: url(../images/serviceicon/Mechanical/Gearbox.png);
+}
+.service5{
+	background-image: url(../images/serviceicon/Mechanical/Pre-Purchase.png);
+}
+.service6{
+	background-image: url(../images/serviceicon/Mechanical/SuspensionRepair.png);
+}
+.service7{
+	background-image: url(../images/serviceicon/Mechanical/TransmissioRepair.png);
+}
+.service8{
+	background-image: url(../images/serviceicon/ElectricalRepair/ACRepair.png);
+}
+
+.service9{
+	background-image: url(../images/serviceicon/ElectricalRepair/CarCameraRadarCalibration.png);
+}
+.service10{
+	background-image: url(../images/serviceicon/ElectricalRepair/CarSoftwareRepandProgramming.png);
+}
+.service11{
+	background-image: url(../images/serviceicon/ElectricalRepair/ComfortSystemRepair.png);
+}
+.service12{
+	background-image: url(../images/serviceicon/ElectricalRepair/EngineControlUniRepair.png);
+}
+.service13{
+	background-image: url(../images/serviceicon/ElectricalRepair/NavigationUpdate.png);
+}
+.service14{
+	background-image: url(../images/serviceicon/ElectricalRepair/Retrofit.png);
+}
+.service15{
+	background-image: url(../images/serviceicon/ElectricalRepair/ACRepair.png);
+}
+.service16{
+	background-image: url(../images/serviceicon/BodyShop/SmartBodyRepair.png);
+}
+.service17{
+	background-image: url(../images/serviceicon/BodyShop/CarDetailing.png);
+}
+.service18{
+	background-image: url(../images/serviceicon/BodyShop/CarTinting.png);
+}
+.service19{
+	background-image: url(../images/serviceicon/BodyShop/CarDIPColor.png);
+}
+.service20{
+	background-image: url(../images/serviceicon/BodyShop/CeramicCoating.png);
+}
+.service21{
+	background-image: url(../images/serviceicon/BodyShop/BrakeCaliper.png);
+}
+.service22{
+	background-image: url(../images/serviceicon/BodyShop/PaintProtectionFilm.png);
+}
+.service23{
+	background-image: url(../images/serviceicon/BodyShop/WindshieldRepair.png);
+}
+.service24{
+	background-image: url(../images/serviceicon/OtherServices/CarRecovery.png);
+}
+.service25{
+	background-image: url(../images/serviceicon/OtherServices/FleetManagement.png);
+}
+.service26{
+	background-image: url(../images/serviceicon/OtherServices/ElectricCarRepair.png);
+}
+.icon-content p {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+  }
 @media only screen and (max-width: 1000px) {
 	.mb-25{
 		margin-bottom: 15px;
