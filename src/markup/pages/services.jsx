@@ -13,6 +13,7 @@ import TeamOneSection from "../elements/team-1";
 import TestimonialSection from "../elements/testimonial";
 import { useTranslation } from 'react-i18next';
 import HeroBanner from '../elements/widget/HeroBanner';
+import InstagramBox from '../elements/widget/InstagramBox';
 
 import bg2 from "../../images/background/bg2.png";
 
@@ -394,6 +395,19 @@ function ServicesBox() {
 									</div>
 								</div>
 							</div>
+							
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+										<i className="flaticon-brake"></i>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Electric Car Repair</h5>
+										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<Link to="/services/other-services/electric-car-repair" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -401,10 +415,12 @@ function ServicesBox() {
 				
 				<ChooseUsSection />
 				
-				<ScheduleServiceSection />
+				
 				
 				
 				<TestimonialSection />
+				<ScheduleServiceSection />
+				<InstagramBox/>
 				
 				<Footer />
 				

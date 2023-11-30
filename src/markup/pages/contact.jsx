@@ -74,7 +74,7 @@ function ContactUs() {
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Contact Us 1</li>
+										<li className="breadcrumb-item active" aria-current="page">Contact Us</li>
 									</ul>
 								</nav>
 							</div>
@@ -97,8 +97,8 @@ function ContactUs() {
 								<div className="col-lg-4 col-md-4 col-sm-6">
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-id-badge"></i>Email & Phone</h6>		
-										<a to="mailto:hello@swissauto.ae">hello@swissauto.ae</a>
-										<div><a to="tel: 966 53 969 9984"> +966 53 969 9984</a></div>
+										<a href="mailto:hello@swissauto.ae" className='btng1'>hello@swissauto.ae</a>
+										<div><a href="tel: 966 53 969 9984" className='btng1'> +966 53 969 9984</a></div>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-4 col-sm-12">

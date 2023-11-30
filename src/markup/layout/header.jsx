@@ -187,7 +187,7 @@ class aboutSection extends Component{
 														<li><Link to="/services/other-services/car-recovery"><span>Car Recovery</span></Link></li>
 														<li><Link to="/services/other-services/fleet-management"><span>Fleet Management</span></Link></li>
 														<li><Link to="/services/other-services/electric-car-repair"><span>Electric Car Repair</span></Link></li>
-														<li><Link to="/services/other-services/pre-purchase-inspection"><span>Pre Purchase Inspection</span></Link></li>
+														
 													</ul>
 												</li>
 											</ul>
@@ -207,7 +207,6 @@ class aboutSection extends Component{
 										<li><Link to="/aboutus">Who We Are <i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu left">
 												<li><Link to="/aboutus"><span>About Us</span></Link></li>
-												<li><Link to="/gallery"><span>Our Gallery</span></Link></li>
 												<li><Link to="/careers"><span>Careers</span></Link></li>
 												</ul>
 										</li>
