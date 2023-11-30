@@ -69,7 +69,7 @@ const BlogDetails = () =>{
 						</div>
 					</div>
 					
-					<section className="section-area section-sp1 bg-white">
+					<section className="section-area section-sp2 bg-white">
 						<div className="container">
 							<div className="row">
 								<div className="col-md-12 col-lg-8 col-xl-8 mb-30 mb-md-60">

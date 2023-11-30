@@ -75,13 +75,13 @@ const BlogGridSidebar = () => {
 						</div>
 					</div>
 					
-					<section className="section-area section-sp1">
+					<section className="section-area section-sp2">
 					   <div className="container">
 							<div className="row">
-								<div className="col-md-12 col-lg-8 col-xl-8 mb-30 mb-md-50">
+								<div className="col-md-8 col-lg-8 col-xl-8 mb-30 mb-md-50">
 									<div className="row">
 										{content && content.map((item) =>(
-											<div className="col-xl-3 col-lg-3 col-md-4">
+											<div className="col-xl-6 col-lg-6 col-md-6">
 												<div className="blog-card style-1 bg-white shadow">
 													<div className="post-media">
 														<Link to={`/blog-details/${item.blogUrl}`}><img src={item.photo} style={{height:"250px"}} alt=""/></Link>
@@ -137,7 +137,7 @@ const BlogGridSidebar = () => {
 										</div>
 									</div>
 								</div>
-								<div className="col-md-12 col-lg-4 col-xl-4 mb-30">
+								<div className="col-md-4 col-lg-4 col-xl-4 mb-30">
 									<aside className="side-bar sticky-top aside-bx">
 										
 										<WidgetSearch />
