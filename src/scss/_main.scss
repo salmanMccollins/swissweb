@@ -536,7 +536,16 @@
 .BrandBoxMega .row .col-md-2 img:hover{
 	transform: scale(1.05);
 }
+.mb-25{
+	margin-bottom: 25px;
+}
+.list-check-squer.text-left{
+	text-align: left;
+}
 @media only screen and (max-width: 1000px) {
+	.mb-25{
+		margin-bottom: 15px;
+	}
 	.OurBrandsRow .BrandBoxMega .row .col-md-2 img {
 		height: 45px;
 	  }
@@ -558,6 +567,13 @@
 }
 .MaskWrap{
 	padding-bottom: 0px !important;
+	background-image:url(../images/background/n.png) !important;
+	background-repeat: repeat !important;
+}
+.heading-bx.full{
+	max-width: 1000px !important;
+}
+.MaskWrap11{
 	background-image:url(../images/background/n.png) !important;
 	background-repeat: repeat !important;
 }

@@ -47,7 +47,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Mechanical Services</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -58,7 +58,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Electrical Service</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -69,7 +69,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Programming & Retrofit</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -80,7 +80,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Engine Repair & Service</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -91,7 +91,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Bodyshop</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -102,7 +102,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Car Warranty</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -113,7 +113,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Service Contract</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
@@ -124,7 +124,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Mechanical Services</div>
                       
-                      <Link class="SerT2 btn btn-primary" href="/services">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
