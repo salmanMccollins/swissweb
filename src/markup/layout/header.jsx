@@ -211,8 +211,8 @@ class aboutSection extends Component{
 												<li className="add-menu-left">
 													<ul>
 														<li><Link to="/packages/service-contract"><span>Service Contract</span> </Link></li>
-														<li><Link to="/packages/minor-service"><span>Major Service</span></Link></li>
-														<li><Link to="/packages/major-service"><span>Minor Service</span></Link></li>
+														<li><Link to="/packages/major-service"><span>Major Service</span></Link></li>
+														<li><Link to="/packages/minor-service"><span>Minor Service</span></Link></li>
 													</ul>
 												</li>
 											</ul>

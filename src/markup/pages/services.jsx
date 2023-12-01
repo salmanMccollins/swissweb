@@ -147,107 +147,7 @@ Whether it may be manual or automatic gearbox systems, proper care from the expe
 						</div>
 					</div>
 				</section>
-                <section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
-					<div className="container">
-						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
-							<div className="clearfix">
-								<h6 className="title-ext">OUR SERVICES</h6>
-								<h2 className="title mb-0">Electrical Repair</h2>
-							</div>
-						</div>
-						<div className="row spno">
-							<div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service15'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">AC Repair</h5>
-										<p>A regular car air conditioning system service ensures that it stays in top condition! As we all know a properly functioning car AC system is essential to enhance the comfort of the drivers on the road.</p>
-										<Link to="/services/electrical-repair/ac-repair" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service9'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">Camera / Radar Calibration</h5>
-										<p>Camera/radar calibration is essential for the smooth driving of your car and ensures safety. In the initial days “driver assistance system” was designed to provide smarter control to vehicle owners like anti-lock braking system, electronic stability control, windshield wipers with rain sensor detection and many more. But nowadays the cameras and sensors in the car are advanced with various tools that help the drivers to map out the surroundings, switch lanes, stop in traffic, vehicle parking and many more.</p>
-										<Link to="/services/electrical-repair/camera-radar-calibration" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service10'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">Car Software Repair & Programming</h5>
-										<p>Just like any other mechanical or electrical issues in the car, software repairs also require the proper diagnosis and troubleshooting, the bugs must be fixed at the earliest. In modern cars, the software in the car enhances the performance and security of your car. </p>
-										<Link to="/services/electrical-repair/car-repair-and-software-programming" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service11'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">Comfort System Repair</h5>
-										<p>Everyone who owns a car wants their ride to be more comfortable and enjoyable. The comfort system in your car includes everything like radio, navigation control, temperature control, locking systems, lighting systems and all other infotainment systems that are helpful to make your ride even more comfortable than you think.</p>
-										<Link to="/services/electrical-repair/comfort-system-repair" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service12'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">Engine Control Unit Repair</h5>
-										<p>The engine control unit has greater responsibility like determining the performance of your vehicle and ensuring a safer ride.
-
-The problems with the engine control unit may arrive due to various reasons but regularly inspecting the engine control unit of the car can save you both time and money. The engine control unit of the car is highly intricate and it is always good to rely on experienced technicians to handle it.</p>
-										<Link to="/services/electrical-repair/engine-control-unit-repair" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div>
-							{/* <div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service13'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">Navigation Update</h5>
-										<p>The engine control unit has greater responsibility like determining the performance of your vehicle and ensuring a safer ride.
-
-The problems with the engine control unit may arrive due to various reasons but regularly inspecting the engine control unit of the car can save you both time and money. The engine control unit of the car is highly intricate and it is always good to rely on experienced technicians to handle it.</p>
-										<Link to="/services/electrical-repair/navigation-update" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-4 col-md-6">
-								<div className="feature-container active feature-bx1 mb-sm-30">
-									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service14'>&nbsp;</span>
-									</div>
-									<div className="icon-content">
-										<h5 className="ttr-tilte text-uppercase">Retrofit</h5>
-										<p>There are many variations of passages of Lorem Ipsum available.</p>
-										<Link to="/services/electrical-repair/retrofit" className="btn-link">Read More</Link>
-									</div>
-								</div>
-							</div> */}
-						</div>
-					</div>
-				</section>
-                <section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+				<section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix">
@@ -376,6 +276,107 @@ But it is important to choose the experts to get the brake calipers painted to a
 						</div>
 					</div>
 				</section>
+                <section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+					<div className="container">
+						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
+							<div className="clearfix">
+								<h6 className="title-ext">OUR SERVICES</h6>
+								<h2 className="title mb-0">Electrical Repair</h2>
+							</div>
+						</div>
+						<div className="row spno">
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service15'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">AC Repair</h5>
+										<p>A regular car air conditioning system service ensures that it stays in top condition! As we all know a properly functioning car AC system is essential to enhance the comfort of the drivers on the road.</p>
+										<Link to="/services/electrical-repair/ac-repair" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service9'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Camera / Radar Calibration</h5>
+										<p>Camera/radar calibration is essential for the smooth driving of your car and ensures safety. In the initial days “driver assistance system” was designed to provide smarter control to vehicle owners like anti-lock braking system, electronic stability control, windshield wipers with rain sensor detection and many more. But nowadays the cameras and sensors in the car are advanced with various tools that help the drivers to map out the surroundings, switch lanes, stop in traffic, vehicle parking and many more.</p>
+										<Link to="/services/electrical-repair/camera-radar-calibration" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service10'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Car Software Repair & Programming</h5>
+										<p>Just like any other mechanical or electrical issues in the car, software repairs also require the proper diagnosis and troubleshooting, the bugs must be fixed at the earliest. In modern cars, the software in the car enhances the performance and security of your car. </p>
+										<Link to="/services/electrical-repair/car-repair-and-software-programming" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service11'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Comfort System Repair</h5>
+										<p>Everyone who owns a car wants their ride to be more comfortable and enjoyable. The comfort system in your car includes everything like radio, navigation control, temperature control, locking systems, lighting systems and all other infotainment systems that are helpful to make your ride even more comfortable than you think.</p>
+										<Link to="/services/electrical-repair/comfort-system-repair" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service12'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Engine Control Unit Repair</h5>
+										<p>The engine control unit has greater responsibility like determining the performance of your vehicle and ensuring a safer ride.
+
+The problems with the engine control unit may arrive due to various reasons but regularly inspecting the engine control unit of the car can save you both time and money. The engine control unit of the car is highly intricate and it is always good to rely on experienced technicians to handle it.</p>
+										<Link to="/services/electrical-repair/engine-control-unit-repair" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
+							{/* <div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service13'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Navigation Update</h5>
+										<p>The engine control unit has greater responsibility like determining the performance of your vehicle and ensuring a safer ride.
+
+The problems with the engine control unit may arrive due to various reasons but regularly inspecting the engine control unit of the car can save you both time and money. The engine control unit of the car is highly intricate and it is always good to rely on experienced technicians to handle it.</p>
+										<Link to="/services/electrical-repair/navigation-update" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div>
+							<div className="col-xl-3 col-lg-4 col-md-6">
+								<div className="feature-container active feature-bx1 mb-sm-30">
+									<div className="icon-lg mb-10 text-primary">
+									<span className='serviceicon service14'>&nbsp;</span>
+									</div>
+									<div className="icon-content">
+										<h5 className="ttr-tilte text-uppercase">Retrofit</h5>
+										<p>There are many variations of passages of Lorem Ipsum available.</p>
+										<Link to="/services/electrical-repair/retrofit" className="btn-link">Read More</Link>
+									</div>
+								</div>
+							</div> */}
+						</div>
+					</div>
+				</section>
+                
                 <section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
