@@ -15,7 +15,7 @@ import WidgetBrochure from "../../elements/widget/widget-brochure";
 import WidgetHelp from "../../elements/widget/widget-help";
 
 // Images
-import bnrImg from "../../../images/newimages/package-banner.webp";
+import bnrImg from "../../../images/cover.jpg";
 import Pic3 from "../../../images/service-section/pic3.jpg";
 import Pic6 from "../../../images/service-section/pic6.jpg";
 
@@ -77,8 +77,8 @@ class OurPackeges extends Component{
 										</div>
 									</div>
 									<div className="head-text mb-30">
-										<h4 className="title mb-10">Our Packages</h4>
-										<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+										<h4 className="title mb-10">GET BENEFITED WITH OUR PREMIUM VEHICLE SERVICE CONTRACTS IN SAUDI ARABIA</h4>
+										<p className="mb-0">All of us want to provide our car with dealership-level care but at a nominal pricing, in such cases having a service contract from a reliable car service center around you would be highly helpful and make vehicle maintenance easier.</p>
 									</div>
 									<div className="row mb-10">
 										
@@ -89,7 +89,7 @@ class OurPackeges extends Component{
 												</div>
 												<div className="icon-content">
 													<h5 className="ttr-tilte">Major Service</h5>
-													<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+													<p>Looking for a reliable car service center in Saudi Arabia, to get the major services done for your car, then trust Royal Swiss Auto Services without any second thoughts.</p>
 													<Link to="/packages/major-service" className="btn-link">READ MORE</Link>
 												</div>
 											</div>
@@ -101,7 +101,7 @@ class OurPackeges extends Component{
 												</div>
 												<div className="icon-content">
 													<h5 className="ttr-tilte">Minor Service</h5>
-													<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+													<p>At Royal Swiss Auto Services with our years of experience in the auto repair industry, we provide the most comprehensive minor services needed for your vehicle when you contact us, to preserve your car’s performance and enhance its value.</p>
 													<Link to="/packages/minor-service" className="btn-link">READ MORE</Link>
 												</div>
 											</div>
@@ -113,33 +113,13 @@ class OurPackeges extends Component{
 												</div>
 												<div className="icon-content">
 													<h5 className="ttr-tilte">Sevice Contract</h5>
-													<p>When an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+													<p>At Royal Swiss Auto Services, we completely understand that the automotive maintenance needs of each customer vary greatly, which is why we come up with personalized vehicle service contract packages in Saudi Arabia.</p>
 													<Link to="/packages/service-contract" className="btn-link text-secondary">READ MORE</Link>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div className="head-text mb-30">
-										<h4 className="title mb-10">POWER AND ENERGY BENEFITS</h4>
-										<p className="mb-0">Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-									</div>
-									<div className="row mb-15">
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Then along come two they</li>
-												<li>Lorem Ipsum is simply dummy</li>
-												<li>That’s just a little bit more than</li>
-											</ul>
-										</div>
-										<div className="col-lg-6">
-											<ul className="list-check-squer mb-0">
-												<li>Standard dummy text ever since</li>
-												<li>Simply dummy text of the printing</li>
-												<li>Make a type specimen book</li>
-											</ul>
-										</div>
-									</div>
-									<p className="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+									
 								</div>
 							</div>
 						</div>

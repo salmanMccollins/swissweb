@@ -2,17 +2,21 @@
 	background-color: $primary;
 	color: #fff;
 	padding: 10px 0px;
+	font-size: 14px;
 }
 .AnnouncementIcons{
 	display: flex;
-  justify-content: space-between;
+  justify-content: end;
   width: 100%;
 	.AnnonceLink1{
+		&:last-child{
+			margin-right: 0;
+		}
+		margin-right: 15px;
 		color: #fff;
 		display: inline-block;
 		position: relative;
 		padding-left: 28px;
-		font-size: 14px;
 		&::before{
 			content: "";
 			display: inline-block;
