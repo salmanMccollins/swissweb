@@ -10,6 +10,7 @@ import WidgetContact from "../elements/widget/widget-contact";
 
 // Images
 import bnrImg from "../../images/banner/bnr2.jpg";
+import JobApplicationForm from '../elements/job-app';
 
 class JobCareer extends Component{
 	
@@ -44,6 +45,7 @@ class JobCareer extends Component{
 										<h2 className="title mb-0">CHOOSE THE CAREER THAT FITS YOU PERFECTLY</h2>
 										<p className="head-px2">Our purpose follow leading design, engineering and industrial manufacturing company specialising in mining, oil, gas and engineering services.</p>
 									</div>
+									<JobApplicationForm />
 									<div className="row">
 										<div className="col-md-12 mb-30">
 											<div className="job-career-box">

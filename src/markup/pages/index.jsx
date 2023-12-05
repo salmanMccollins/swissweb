@@ -18,6 +18,10 @@ import AboutUsFourSection from "../elements/about-us-4";
 import ServicesNew from '../elements/widget/Services-new';
 import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
 import InstagramBox from '../elements/widget/InstagramBox';
+import { Helmet } from "react-helmet";
+import { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 function Index() {
 
@@ -28,10 +32,24 @@ function Index() {
 	const handleRefresh = (url) => {
 		window.location.href = url;
 	};
+
+	const [data, setData] = useState()
+
+	useEffect(() => {
+    axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+	  const meta = response.data.data.filter(i => i.name === "index")
+	  setData(meta[0])
+      console.log(meta[0]);
+    });
+  }, []);
 	
 		
 		return (
 			<>
+          <Helmet>
+            <title>{data?.title}</title>
+            <meta name="description" content={data?.content} />
+          </Helmet>
 			
 				<Header />
 				

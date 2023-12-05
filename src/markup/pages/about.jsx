@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -15,12 +15,28 @@ import LatestBlogSection from "../elements/latest-blog-slider";
 
 // Images
 import bnrImg from "../../images/banner/bnr1.jpg";
+import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
-class AboutUs extends Component{
+function AboutUs(){
+
+	const [data, setData] = useState()
+
+	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+		const meta = response.data.data.filter(i => i.name === "aboutus")
+		setData(meta[0])
+		console.log(meta[0]);
+		});
+  	}, []);
 	
-	render(){
+	
 		return (
 			<>
+			<Helmet>
+				<title>{data?.title}</title>
+				<meta name="description" content={data?.content} />
+			</Helmet>
 				
 				<Header />
 				
@@ -54,7 +70,6 @@ class AboutUs extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default AboutUs;

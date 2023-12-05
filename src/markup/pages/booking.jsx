@@ -67,7 +67,7 @@ const formData = new FormData(event.target);
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE YEAR</h6>
 													<div className="input-group">
-														<input type="number" name='year' className="form-control" placeholder='2008'/>
+														<input type="number" name='year' className="form-control" placeholder='2008' required/>
 													</div>
 												</div>
 											</div>
@@ -103,46 +103,41 @@ const formData = new FormData(event.target);
 											<div className="col-lg-12">
 												<div className="form-group">
 													<h6 className="form-title">SELECT SERVICES NEEDED</h6>
-													<div className="row">
-														<div className="col-md-12 col-lg-4">
-															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" name='ac' className="form-check-input" id="customControlAutosizing1"/>
-																<label className="form-check-label" for="customControlAutosizing1">Air Conditioning</label>
-															</div>
-														</div>
-														<div className="col-md-12 col-lg-4">
-															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" name='break' className="form-check-input" id="customControlAutosizing2"/>
-																<label className="form-check-label" for="customControlAutosizing2">Brakes Repair</label>
-															</div>
-														</div>
-														<div className="col-md-12 col-lg-4">
-															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" name='engine' className="form-check-input" id="customControlAutosizing3"/>
-																<label className="form-check-label" for="customControlAutosizing3">Engine Diagnostics</label>
-															</div>
-														</div>
-														<div className="col-md-12 col-lg-4">
-															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" name='hc' className="form-check-input" id="customControlAutosizing4"/>
-																<label className="form-check-label" for="customControlAutosizing4">Heating &amp; Cooling</label>
-															</div>
-														</div>
-														<div className="col-md-12 col-lg-4">
-															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" className="form-check-input" id="customControlAutosizing5"/>
-																<label className="form-check-label" for="customControlAutosizing5">Oil, Lube &amp; Filters</label>
-															</div>
-														</div>
-														<div className="col-md-12 col-lg-4">
-															<div className="form-check custom-checkbox mb-10">
-																<input type="checkbox" name='transmission' className="form-check-input" id="customControlAutosizing6"/>
-																<label className="form-check-label" for="customControlAutosizing6">Transmission Repair</label>
-															</div>
-														</div>
-													</div>										
-												</div>										
+													<div className="input-group">
+														<select className="form-control" name='service'>
+															<option value="" selected="selected">Choose...</option>
+															<option value="Axle/Drive Shaft Repair">Axle/Drive Shaft Repair</option>
+															<option value="Brake Repair">Brake Repair</option>
+															<option value="Engine Cooling System Repair">Engine Cooling System Repair</option>
+															<option value="Gearbox Repair">Gearbox Repair</option>
+															<option value="Pre-Purchase Inspection">Pre-Purchase Inspection</option>
+															<option value="Suspension Repair">Suspension Repair</option>
+															<option value="Transmission Repair">Transmission Repair</option>
+															<option value="Touchless Wheel Alignment">Touchless Wheel Alignment</option>
+															<option value="AC Repair">AC Repair</option>
+															<option value="Camera / Radar Calibration">Camera / Radar Calibration</option>
+															<option value="Car Software Repair & Programming">Car Software Repair & Programming</option>
+															<option value="Comfort System Repair">Comfort System Repair</option>
+															<option value="Engine Control Unit Repair">Engine Control Unit Repair</option>
+															<option value="Navigation Update">Navigation Update</option>
+															<option value="Retrofit">Retrofit</option>
+															<option value="Smart Body Repair">Smart Body Repair</option>
+															<option value="Car Detailing">Car Detailing</option>
+															<option value="Car Tinting">Car Tinting</option>
+															<option value="Car DIP Color">Car DIP Color</option>
+															<option value="Ceramic Coating">Ceramic Coating</option>
+															<option value="Brake Caliper painting">Brake Caliper painting</option>
+															<option value="Paint Protcetion Film">Paint Protcetion Film</option>
+															<option value="WindShield Repair">WindShield Repair</option>
+															<option value="Classic Car Restoration">Classic Car Restoration</option>
+															<option value="Car Recovery">Car Recovery</option>
+															<option value="Fleet Management">Fleet Management</option>
+															<option value="Electric Car Repair">Electric Car Repair</option>
+														</select>
+													</div>
+												</div>
 											</div>
+											
 											<div className="col-lg-12">
 												<div className="form-group">
 													<h6 className="form-title">PERSONAL INFO</h6>
