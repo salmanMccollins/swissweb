@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
@@ -8,9 +8,20 @@ import icon2 from '../../images/icon/contact/icon2.png';
 import icon3 from '../../images/icon/contact/icon3.png';
 import recentBlogPic1 from '../../images/blog/recent-blog/pic1.jpg';
 import recentBlogPic2 from '../../images/blog/recent-blog/pic2.jpg';
+import axios from 'axios';
 
-class aboutSection extends Component{
-	render(){
+function AboutSection() {
+
+	const [content, setContent] = useState([]);
+  	const [currentPage, setCurrentPage] = useState(1);
+
+	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/blogs/blog?page=${currentPage}`).then((response) => {
+		setContent(response.data.data);
+		console.log(response.data.data);
+		});
+	}, [currentPage]);
+
 		return(
 			<>
 				
@@ -127,7 +138,7 @@ class aboutSection extends Component{
 											<li><Link to="/aboutus">Who we are</Link></li>
 											<li><Link to="/careers">Careers</Link></li>
 											<li><Link to="/booking">Booking</Link></li>
-											<li><Link to="/blogs">Media Center</Link></li>
+											<li><Link to="/blogs">Blogs</Link></li>
 											<li><Link to="/services">Our Services</Link></li>
 											<li><Link to="/contact">Contact Us</Link></li>
 										</ul>							
@@ -135,30 +146,35 @@ class aboutSection extends Component{
 								</div>
 								<div className="col-xl-3 col-md-6">
 									<div className="widget recent-posts-entry">
-										<h5 className="footer-title">Latest news</h5>
+										<h5 className="footer-title">Latest Blogs</h5>
 										<div className="widget-post-bx">
+										<a href={`/en/blog-details/${content[0]?.blogUrl}`}>
 											<div className="widget-post clearfix">
 												<div className="ttr-post-media"> 
-													<img src={recentBlogPic1} alt=""/> 
+													<img src={content && content[0]?.photo} width={"120px"} height={"96px"} style={{objectFit:"cover"}} alt=""/> 
 												</div>
 												<div className="ttr-post-info">
-													<h6 className="post-title"><Link to="/blog-details">Precious Tips To Help You Get Better.</Link></h6>
+													<h6 className="post-title"><Link to="/blog-details">{content && content[0]?.title}</Link></h6>
 													<ul className="post-meta">
-														<li className="date"><Link to="/blog-details"><i className="fa fa-calendar"></i> 15 Aug 2021</Link></li>
+														<li className="date"><Link to="/blog-details"><i className="fa fa-calendar"></i>&nbsp;{content && content[0]?.date}</Link></li>
 													</ul>
 												</div>
 											</div>
+										</a>
+										<a href={`/en/blog-details/${content[1]?.blogUrl}`}>
 											<div className="widget-post clearfix">
+												
 												<div className="ttr-post-media"> 
-													<img src={recentBlogPic2} alt=""/> 
+													<img src={content && content[1]?.photo} width={"120px"} height={"96px"} style={{objectFit:"cover"}}  alt=""/> 
 												</div>
 												<div className="ttr-post-info">
-													<h6 className="post-title"><Link to="/blog-details">Ten Doubts You Should Clarify About.</Link></h6>
+													<h6 className="post-title"><Link to="/blog-details">{content && content[1]?.title}</Link></h6>
 													<ul className="post-meta">
-														<li className="date"><Link to="/blog-details"><i className="fa fa-calendar"></i> 15 Aug 2021</Link></li>
+														<li className="date"><Link to="/blog-details"><i className="fa fa-calendar"></i>&nbsp;{content && content[1]?.date}</Link></li>
 													</ul>
 												</div>
 											</div>
+										</a>
 										</div>
 									</div>
 								</div>
@@ -207,7 +223,6 @@ class aboutSection extends Component{
 			
 			</>
 		);
-	}
 }
 
-export default aboutSection;
+export default AboutSection;
