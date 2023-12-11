@@ -7,9 +7,11 @@ import Footer from "../layout/footer";
 
 // Images
 import bnrImg from "../../images/banner/bnr4.jpg";
+import { useHistory } from 'react-router-dom';
 
-class Booking extends Component{
-	handleSubmit = async (event) => {
+function Booking(){
+	const history = useHistory();
+	const handleSubmit = async (event) => {
     event.preventDefault();
 const formData = new FormData(event.target);
 
@@ -26,7 +28,9 @@ const formData = new FormData(event.target);
     if (response.ok) {
       // Successful submission
       console.log("Form submitted successfully");
-	  alert("Form submitted")
+	//   alert("Form submitted")
+	  history.push('/thank-you');
+	  
       event.target.reset();
       // Reset the form or perform other actions
     } else {
@@ -34,8 +38,6 @@ const formData = new FormData(event.target);
       console.error("Form submission failed");
     }
 		}
-	
-	render(){
 		return (
 			<>
 				
@@ -61,7 +63,7 @@ const formData = new FormData(event.target);
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-8 col-md-7 mb-30 mb-md-50">
-									<form className="booking-form" onSubmit={this.handleSubmit} >
+									<form className="booking-form" onSubmit={handleSubmit} >
 										<div className="row">
 											<div className="col-lg-4">
 												<div className="form-group">
@@ -209,7 +211,6 @@ const formData = new FormData(event.target);
 				
 			</>
 		);
-	}
 }
 
 export default Booking;
