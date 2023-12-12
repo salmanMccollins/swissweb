@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { useHistory } from 'react-router-dom';
 
-class ScheduleServiceSection extends Component{
+function ScheduleServiceSection(){
+	const history = useHistory();
 	handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -45,6 +47,7 @@ class ScheduleServiceSection extends Component{
       console.log("Form submitted successfully");
 	  alert("Form submitted")
       event.target.reset();
+	  history.push('/thankyou');
       // Reset the form or perform other actions
     } else {
       // Handle errors
@@ -52,7 +55,6 @@ class ScheduleServiceSection extends Component{
     }
 
   };
-	render(){
 		return(
 			<>
 				<section className="section-area bg-primary form-card">
@@ -115,7 +117,6 @@ class ScheduleServiceSection extends Component{
 				</section>
 			</>
 		);
-	}
 }
 
 export default ScheduleServiceSection;
