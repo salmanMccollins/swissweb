@@ -29,7 +29,7 @@ const formData = new FormData(event.target);
       // Successful submission
       console.log("Form submitted successfully");
 	//   alert("Form submitted")
-	  history.push('/thank-you');
+	  history.push('/thankyou');
 	  
       event.target.reset();
       // Reset the form or perform other actions

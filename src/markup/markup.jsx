@@ -16,7 +16,6 @@ import Gallery2 from './pages/gallery';
 import JobCareer from './pages/job-career';
 import Error from './pages/error-404';
 import { withTranslation } from "react-i18next";
-import Thankyou from './elements/widget/ThankyouPage';
 
 import BrandsAudi from './pages/brands/audi-brands';
 import Bentley from './pages/brands/bentley';
@@ -86,6 +85,7 @@ import MajorServices from './pages/Our-Packages/MajorServices';
 import AboutUs from './pages/about';
 
 import Offers from './pages/Offers';
+import ThankyouPage from './pages/thank-you';
 
 
 class Markup extends Component{
@@ -106,7 +106,7 @@ class Markup extends Component{
 						<Route path='/packages/service-contract' exact component={ServiceContract} />
 						<Route path='/packages/minor-service' exact component={MinorServices} />
 						<Route path='/packages/major-service' exact component={MajorServices} />
-						<Route path='/thankyou' exact component={Thankyou} />
+						<Route path='/thankyou' exact component={ThankyouPage} />
 						
 						
 
