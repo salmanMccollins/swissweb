@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 function ScheduleServiceSection(){
 	const history = useHistory();
-	handleSubmit = async (event) => {
+	const handleSubmit = async (event) => {
     event.preventDefault();
 
     // Fetch API to submit the form data
@@ -67,7 +67,7 @@ function ScheduleServiceSection(){
 								</div>
 							</div>
 							<div className="col-lg-9">
-								<form onSubmit={this.handleSubmit} >
+								<form onSubmit={handleSubmit} >
 									<div className="row sp5">
 										<div className="col-md-4 col-sm-6">
 											<div className="form-group">
