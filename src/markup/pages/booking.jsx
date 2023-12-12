@@ -17,7 +17,7 @@ const formData = new FormData(event.target);
 
     // Send the data to the Google Apps Script
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbyaRgMpAMcvnPaCO-NPk8_h67cs_601LYaNZNW6zmcvzavlkyYpliHI3aDWkEfXSHW-_g/exec",
+      "https://script.google.com/macros/s/AKfycbxPEatfdRJAGBRqYYn7VI08nb6lZnMzF8qSTvToiJFTKqyZEuVeB1ML69FoWqj6-SnmZA/exec",
       {
         method: "POST",
         body: formData,
