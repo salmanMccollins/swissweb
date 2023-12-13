@@ -199,7 +199,7 @@ class BrandsAudi extends Component {
             </div>
           </div>
         </div>
-        <section className="section-area section-sp2 ServiceBox1">
+        <section className="section-area section-sp2 ServiceBox1 IconBox1">
           <div className="container">
             <div class="heading-bx text-center">
               <h6 class="title-ext text-primary">Book Your</h6>
@@ -218,7 +218,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service12">&nbsp;</span>
                         </span>
                         {/* <span>K</span> */}
                       </h2>
@@ -231,7 +231,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service6">&nbsp;</span>
                         </span>
                         {/* <span>+</span> */}
                       </h2>
@@ -244,7 +244,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service7">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -256,7 +256,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service8">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -270,7 +270,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service12">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -282,7 +282,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service10">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -294,33 +294,20 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service8">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
                     <h5 className="counter-text">Audi AC Repair</h5>
                   </div>
                 </div>
+                
                 <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-                      Audi Service & Warranty Packages
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service16">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -332,7 +319,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service4">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -344,7 +331,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service3">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -358,7 +345,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service2">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -370,7 +357,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service9">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -384,7 +371,7 @@ class BrandsAudi extends Component {
                     <div className="text-secondry">
                       <h2 className="text-primary">
                         <span className="counter">
-                          <i class="flaticon-car-4"></i>
+                        <span class="serviceicon service5">&nbsp;</span>
                         </span>
                       </h2>
                     </div>
@@ -393,32 +380,7 @@ class BrandsAudi extends Component {
                     </h5>
                   </div>
                 </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Audi Service Packages</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-                      Audi Extended Warranty Packages
-                    </h5>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>

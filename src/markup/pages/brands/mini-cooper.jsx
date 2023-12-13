@@ -164,7 +164,7 @@ class MiniCooper extends Component {
             </div>
           </div>
         </div>
-        <section className="section-area section-sp2 ServiceBox1">
+        <section className="section-area section-sp2 ServiceBox1 IconBox1">
           <div className="container">
             <div class="heading-bx text-center">
               <h6 class="title-ext text-primary">SCHEDULE YOUR</h6>
@@ -177,190 +177,177 @@ Thank you for choosing us as your trusted Mini Cooper service center. Explore ou
               </p>
             </div>
             <div className="SerGridWrap">
-              <div className="row mb-10">
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                        {/* <span>K</span> */}
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Audi Engine Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                        {/* <span>+</span> */}
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Suspension Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Transmission Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Mini Cooper Touchless Wheel Alignment
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Engine Refurbishment</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Software Programming</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper AC Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Mini Cooper Service & Warranty Packages
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Car Detailing</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Gearbox Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Mini Cooper Engine Cooling System Repair
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Mini Cooper Brake Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Mini Cooper Camera/Radar Calibration
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Mini Cooper Pre-Purchase Inspection
-                    </h5>
-                  </div>
-                </div>
-                
-              </div>
-            </div>
+  <div className="row mb-10">
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service12">&nbsp;</span>
+            </span>
+            {/* <span>K</span> */}
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Engine Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service6">&nbsp;</span>
+            </span>
+            {/* <span>+</span> */}
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Suspension Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service7">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Transmission Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service8">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Mini Cooper Touchless Wheel Alignment
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service12">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Engine Refurbishment</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service10">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Software Programming</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service8">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper AC Repair</h5>
+      </div>
+    </div>
+    
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service16">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Car Detailing</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service4">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Gearbox Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service3">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Mini Cooper Engine Cooling System Repair
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service2">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Mini Cooper Brake Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service9">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Mini Cooper Camera/Radar Calibration
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service5">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Mini Cooper Pre-Purchase Inspection
+        </h5>
+      </div>
+    </div>
+    
+  </div>
+</div>
           </div>
         </section>
         <section className="section-area BrandFaq mbg1">

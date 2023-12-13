@@ -168,7 +168,7 @@ High-end cars like Jaguar comes with the latest technology and advanced computer
             </div>
           </div>
         </div>
-        <section className="section-area section-sp2 ServiceBox1">
+        <section className="section-area section-sp2 ServiceBox1 IconBox1">
           <div className="container">
             <div class="heading-bx text-center">
               <h6 class="title-ext text-primary">Schedule Your</h6>
@@ -179,190 +179,177 @@ High-end cars like Jaguar comes with the latest technology and advanced computer
               </p>
             </div>
             <div className="SerGridWrap">
-              <div className="row mb-10">
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                        {/* <span>K</span> */}
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Engine Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                        {/* <span>+</span> */}
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Gearbox Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Suspension Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Jaguar Transmission Repair
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Touchless Wheel Alignment</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Engine Refurbishment</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Software Programming</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Jaguar AC Repair
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Engine Cooling System Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Brake Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Jaguar Camera/Radar Calibration
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Jaguar Pre-Purchase Inspection</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					JaguarService Packages
-                    </h5>
-                  </div>
-                </div>
-                
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Jaguar Car Detailing
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="row mb-10">
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service12">&nbsp;</span>
+            </span>
+            {/* <span>K</span> */}
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Engine Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service6">&nbsp;</span>
+            </span>
+            {/* <span>+</span> */}
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Suspension Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service7">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Transmission Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service8">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Jaguar Touchless Wheel Alignment
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service12">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Engine Refurbishment</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service10">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Software Programming</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service8">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar AC Repair</h5>
+      </div>
+    </div>
+    
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service16">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Car Detailing</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service4">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Gearbox Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service3">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Jaguar Engine Cooling System Repair
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service2">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Jaguar Brake Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service9">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Jaguar Camera/Radar Calibration
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service5">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Jaguar Pre-Purchase Inspection
+        </h5>
+      </div>
+    </div>
+    
+  </div>
+</div>
           </div>
         </section>
         <section className="section-area BrandFaq mbg1">

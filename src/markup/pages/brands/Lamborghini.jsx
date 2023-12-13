@@ -168,7 +168,7 @@ Our state-of-the-art facility is equipped to handle any electrical or mechanical
             </div>
           </div>
         </div>
-        <section className="section-area section-sp2 ServiceBox1">
+        <section className="section-area section-sp2 ServiceBox1 IconBox1">
           <div className="container">
             <div class="heading-bx text-center">
               <h6 class="title-ext text-primary">TRUST OUR EXPERTS,</h6>
@@ -181,202 +181,177 @@ Our key specialities in Lamborghini service and repair other than routine mainte
               </p>
             </div>
             <div className="SerGridWrap">
-              <div className="row mb-10">
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                        {/* <span>K</span> */}
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Engine Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                        {/* <span>+</span> */}
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Suspension Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Transmission Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Lamborghini Touchless Wheel Alignment
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Engine Refurbishment</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Software Programming</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini AC Repair</h5>
-                  </div>
-                </div>
-               
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Car Detailing</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Gearbox Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Lamborghini Engine Cooling System Repair
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Brake Repair</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Lamborghini Camera/Radar Calibration
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Lamborghini Pre-Purchase Inspection
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Lamborghini Service Packages</h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Lamborghini Extended Warranty Packages
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="row mb-10">
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service12">&nbsp;</span>
+            </span>
+            {/* <span>K</span> */}
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Engine Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service6">&nbsp;</span>
+            </span>
+            {/* <span>+</span> */}
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Suspension Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service7">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Transmission Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service8">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Lamborghini Touchless Wheel Alignment
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service12">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Engine Refurbishment</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service10">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Software Programming</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service8">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini AC Repair</h5>
+      </div>
+    </div>
+    
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service16">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Car Detailing</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service4">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Gearbox Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service3">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Lamborghini Engine Cooling System Repair
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service2">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">Lamborghini Brake Repair</h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service9">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Lamborghini Camera/Radar Calibration
+        </h5>
+      </div>
+    </div>
+    <div className="col-xl-4 col-sm-12 col-12">
+      <div className="counter-style-1">
+        <div className="text-secondry">
+          <h2 className="text-primary">
+            <span className="counter">
+            <span class="serviceicon service5">&nbsp;</span>
+            </span>
+          </h2>
+        </div>
+        <h5 className="counter-text">
+Lamborghini Pre-Purchase Inspection
+        </h5>
+      </div>
+    </div>
+    
+  </div>
+</div>
           </div>
         </section>
         <section className="section-area BrandFaq mbg1">
