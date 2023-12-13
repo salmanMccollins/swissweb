@@ -348,6 +348,20 @@
 	border-radius: 20px;
 	text-align: center;
 	margin-bottom: 30px;
+	&::after{
+		content: "";
+		background-color: rgba(0,0,0,0.2);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 20px;
+	}
+	>div{
+		position: relative;
+		z-index: 1;
+	}
 	.SerT3{
 		display: -webkit-box;
 		-webkit-line-clamp: 2;
@@ -357,19 +371,28 @@
 	}
 	
 	&.service1{
-		background-image: url(../images/1.jpg);
+		background-image: url(../images/homeservices/BodyandPaint.webp);
 	}
 	&.service2{
-		background-image: url(../images/2.jpg);
+		background-image: url(../images/homeservices/Electrical.webp);
 	}
 	&.service3{
-		background-image: url(../images/3.jpg);
+		background-image: url(../images/homeservices/Insurance.webp);
 	}
 	&.service4{
-		background-image: url(../images/1.jpg);
+		background-image: url(../images/homeservices/MajorService.webp);
 	}
 	&.service5{
-		background-image: url(../images/5.jpg);
+		background-image: url(../images/homeservices/Minorervice.webp);
+	}
+	&.service6{
+		background-image: url(../images/homeservices/Mechanical.webp);
+	}
+	&.service7{
+		background-image: url(../images/homeservices/Recovery.webp);
+	}
+	&.service8{
+		background-image: url(../images/homeservices/Warranty.webp);
 	}
 	.SerT1{
 		font-weight: 600;
@@ -382,8 +405,7 @@
 		margin: 0 auto;
 		margin-top: 10px;
 		max-width: 200px;
-			opacity: 0;
-			transition: 0.4s;
+			
 	}
 	&:hover{
 		.SerT2{

@@ -39,13 +39,14 @@ While assuring quality workmanship and superior customer service, we provide eve
                   </p>
                 </div>
               </div>
+
             </div>
             <div className="ServiceWrap">
               <div className="row">
                 <div className="col-md-3">
                   <div className="ServiceBoxR1 service1">
                     <div>
-                      <div className="SerT1">Mechanical Services</div>
+                      <div className="SerT1">Body & Painting</div>
                       
                       <Link class="SerT2 btn btn-primary" to="/services">
                         View More
@@ -67,7 +68,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                 <div className="col-md-3">
                   <div className="ServiceBoxR1 service3">
                     <div>
-                      <div className="SerT1">Programming & Retrofit</div>
+                      <div className="SerT1">Insuarence Services</div>
                       
                       <Link class="SerT2 btn btn-primary" to="/services">
                         View More
@@ -78,7 +79,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                 <div className="col-md-3">
                   <div className="ServiceBoxR1 service4">
                     <div>
-                      <div className="SerT1">Engine Repair & Service</div>
+                      <div className="SerT1">Major Services</div>
                       
                       <Link class="SerT2 btn btn-primary" to="/services">
                         View More
@@ -89,7 +90,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                 <div className="col-md-3">
                   <div className="ServiceBoxR1 service5">
                     <div>
-                      <div className="SerT1">Bodyshop</div>
+                      <div className="SerT1">Minor Services</div>
                       
                       <Link class="SerT2 btn btn-primary" to="/services">
                         View More
@@ -98,31 +99,31 @@ While assuring quality workmanship and superior customer service, we provide eve
                   </div>
                 </div>
                 <div className="col-md-3">
-                  <div className="ServiceBoxR1 service1">
-                    <div>
-                      <div className="SerT1">Car Warranty</div>
-                      
-                      <Link class="SerT2 btn btn-primary" to="/services">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className="ServiceBoxR1 service2">
-                    <div>
-                      <div className="SerT1">Service Contract</div>
-                      
-                      <Link class="SerT2 btn btn-primary" to="/services">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className="ServiceBoxR1 service3">
+                  <div className="ServiceBoxR1 service6">
                     <div>
                       <div className="SerT1">Mechanical Services</div>
+                      
+                      <Link class="SerT2 btn btn-primary" to="/services">
+                        View More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3">
+                  <div className="ServiceBoxR1 service7">
+                    <div>
+                      <div className="SerT1">Car Recovery</div>
+                      
+                      <Link class="SerT2 btn btn-primary" to="/services">
+                        View More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3">
+                  <div className="ServiceBoxR1 service8">
+                    <div>
+                      <div className="SerT1">Warranty Services</div>
                       
                       <Link class="SerT2 btn btn-primary" to="/services">
                         View More
