@@ -288,7 +288,7 @@ But it is important to choose the experts to get the brake calipers painted to a
 							<div className="col-xl-3 col-lg-4 col-md-6">
 								<div className="feature-container bg-gray-alt feature-bx1 mb-sm-30">
 									<div className="icon-lg mb-10 text-primary">
-									<span className='serviceicon service15'>&nbsp;</span>
+									<span className='serviceicon service8'>&nbsp;</span>
 									</div>
 									<div className="icon-content">
 										<h5 className="ttr-tilte text-uppercase">AC Repair</h5>
