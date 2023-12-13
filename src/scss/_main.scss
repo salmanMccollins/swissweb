@@ -415,6 +415,26 @@
 		}
 	}
 }
+.AbtBx1{
+	background-image:url(../images/background/bg-map.png) !important;
+	background-repeat: repeat !important;
+	padding: 60px 0px;
+	.heading-bx.text-center{
+		max-width: 1200px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+.AbtBx2{
+	padding: 60px 0px;
+	background-image:url(../images/background/n.png) !important;
+	background-repeat: repeat !important;
+	.heading-bx.text-center{
+		max-width: 1200px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
 @media only screen and (max-width: 1200px) {
 	.container{
 		max-width: 100%;

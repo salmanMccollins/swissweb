@@ -16,13 +16,12 @@ class widgetContact extends Component{
 						<li>
 							<img src={icon1} alt=""/>
 							<h6 className="contact-title">Contact Number</h6>
-							<p>+001 123 456 790 <br/> (02)  3424 44 00</p>
+							<a href="tel:+966 53 969 9984">+966 53 969 9984</a>
 						</li>
 						<li>
 							<img src={icon2} alt=""/>
 							<h6 className="contact-title">Email Address</h6>
-							<Link to="#">info@yourdomain.com</Link><br/>
-							<Link to="#">example@support.com</Link>
+							<a href="mailto:hello@swissauto.ae">hello@swissauto.ae</a>
 						</li>
 						<li>
 							<img src={icon3} alt=""/>
