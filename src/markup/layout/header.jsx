@@ -108,7 +108,7 @@ class aboutSection extends Component{
 								<Link to="/">Home</Link>
 								<Link to="/aboutus">About us</Link>
 								<Link to="/booking">Book Appointment</Link>
-								<Link to="/blogs">Media Center</Link>
+								<Link to="/blogs">Blogs</Link>
 								<Link to="/services">Our Services</Link>
 								<Link to="/contact">Contact Us</Link>
 							</div>
@@ -230,7 +230,7 @@ class aboutSection extends Component{
 										</li>
 										<li>
 											
-											<Link to="/blogs">Media Center</Link>
+											<Link to="/blogs">Blogs</Link>
 											
 										</li>
 										<li>

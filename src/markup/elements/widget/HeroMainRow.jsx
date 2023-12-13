@@ -31,7 +31,7 @@ const HeroMainRow = (props) => {
                   Your car receives the premium care it deserves with our expertise and cutting-edge tools.
                   </div>
                   <Link class="DiBox1T3" to="/services">
-                    Enquire Now
+                    Book Now
                   </Link>
                 </div>
               </div>

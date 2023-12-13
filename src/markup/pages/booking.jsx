@@ -189,14 +189,13 @@ const formData = new FormData(event.target);
 								<div className="col-lg-4 col-md-5 mb-30">
 									<aside className="sticky-top">
 										<div className="widget">
-											<h5 className="widget-title">Our Inner Pages</h5>
+											<h5 className="widget-title">You May Know</h5>
 											<ul className="service-menu style-1">
 												<li><Link to="/aboutus">About Us <i className="las la-question-circle"></i></Link></li>
 												<li><Link to="/services">Our Services <i className="las la-cog"></i></Link></li>
 												<li><Link to="/careers">Job & Career<i className="las la-user-plus"></i></Link></li>
 												<li><Link to="/ourbrands">Our Partners<i className="las la-user-tie"></i></Link></li>
 												<li className="active"><Link to="/booking">Booking<i className="lab la-wpforms"></i></Link></li>
-												<li><Link to="/faq">Faq<i className="las la-quote-left"></i></Link></li>
 											</ul>
 										</div>
 									</aside>
