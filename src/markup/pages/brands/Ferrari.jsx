@@ -337,46 +337,7 @@ Apart from the vehicle inspection and routine service, we provide the following 
                     <h5 className="counter-text">Ferrari Pre-Purchase Inspection</h5>
                   </div>
                 </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Ferrari Service Packages
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Ferrari Extended Warranty Packages
-                    </h5>
-                  </div>
-                </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Ferrari Service & Warranty Packages</h5>
-                  </div>
-                </div>
+               
                 <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">

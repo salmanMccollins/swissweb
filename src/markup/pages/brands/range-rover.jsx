@@ -279,18 +279,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                     </h5>
                   </div>
                 </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">Range Rover Service & Warranty Packages</h5>
-                  </div>
-                </div>
+                
                 <div className="col-xl-4 col-sm-12 col-12">
                   <div className="counter-style-1">
                     <div className="text-secondry">
@@ -369,20 +358,7 @@ Explore the list of services & repairs that we are specialized in providing for 
                     <h5 className="counter-text">Range Rover Service Packages</h5>
                   </div>
                 </div>
-                <div className="col-xl-4 col-sm-12 col-12">
-                  <div className="counter-style-1">
-                    <div className="text-secondry">
-                      <h2 className="text-primary">
-                        <span className="counter">
-                          <i class="flaticon-car-4"></i>
-                        </span>
-                      </h2>
-                    </div>
-                    <h5 className="counter-text">
-					Range Rover Extended Warranty Packages
-                    </h5>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>

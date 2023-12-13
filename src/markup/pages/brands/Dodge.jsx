@@ -346,32 +346,7 @@ Scheduling your Dodge service appointment with us is quite easy, Dial <a href="t
 						</h5>
 					  </div>
 					</div>
-					<div className="col-xl-4 col-sm-12 col-12">
-					  <div className="counter-style-1">
-						<div className="text-secondry">
-						  <h2 className="text-primary">
-							<span className="counter">
-							  <i class="flaticon-car-4"></i>
-							</span>
-						  </h2>
-						</div>
-						<h5 className="counter-text">
-						Dodge Extended Warranty Packages
-						</h5>
-					  </div>
-					</div>
-					<div className="col-xl-4 col-sm-12 col-12">
-					  <div className="counter-style-1">
-						<div className="text-secondry">
-						  <h2 className="text-primary">
-							<span className="counter">
-							  <i class="flaticon-car-4"></i>
-							</span>
-						  </h2>
-						</div>
-						<h5 className="counter-text">Dodge Service & Warranty Packages</h5>
-					  </div>
-					</div>
+					
 					<div className="col-xl-4 col-sm-12 col-12">
 					  <div className="counter-style-1">
 						<div className="text-secondry">
