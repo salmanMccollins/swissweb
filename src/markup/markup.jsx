@@ -39,6 +39,10 @@ import Porache from './pages/brands/Porache';
 import RangeRover from './pages/brands/range-rover';
 import RollsRoys from './pages/brands/rolls-roys';
 import VolksWagen from './pages/brands/VolksWagen';
+import Pagani from './pages/brands/pagani';
+import Bugatti from './pages/brands/bugatti';
+import Mclaren from './pages/brands/Mclaren';
+import Maybach from './pages/brands/Maybach';
 
 import AxilorDriftShaftRepair from './pages/Services/mechanical-repair/AxilorDriftShaftRepair';
 import BreakRepair from './pages/Services/mechanical-repair/BreakRepair';
@@ -169,6 +173,12 @@ class Markup extends Component{
 						<Route path='/brands/range-rover' exact component={RangeRover} />
 						<Route path='/brands/rolls-roys' exact component={RollsRoys} />
 						<Route path='/brands/volks-wagen' exact component={VolksWagen} />
+						<Route path='/brands/pagani' exact component={Pagani} />
+						<Route path='/brands/bugatti' exact component={Bugatti} />
+						<Route path='/brands/mclaren' exact component={Mclaren} />
+						<Route path='/brands/Maybach' exact component={Maybach} />
+						
+						
 
 						<Route path='/about-1' exact component={AboutUs} />
 						<Route path='/blog-details/:blogUrl' exact component={BlogDetails} />

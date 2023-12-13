@@ -15,7 +15,7 @@ import InstagramBox from "../../elements/widget/InstagramBox";
 import OurBrandsLayout from "../../elements/widget/OurBrandsLayout";
 
 // Images
-import bnrImg from "../../../images/brandsthumb/Mclaren Rover Banner.webp";
+import bnrImg from "../../../images/brandsthumb/Mclaren.webp";
 import serviceSectionPic3 from "../../../images/brandsthumb/MCLAREN body Image.webp";
 
 class Mclaren extends Component {

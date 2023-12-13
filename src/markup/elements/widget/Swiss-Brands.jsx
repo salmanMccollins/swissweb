@@ -26,7 +26,10 @@ import brand18 from "../../../images/brands/gmc.png";
 import brand19 from "../../../images/brands/Jeep.png";
 import brand20 from "../../../images/brands/Infiniti.png";
 import brand21 from "../../../images/brands/Lexus.png";
-
+import brand22 from "../../../images/brands/Pagani.png";
+import brand23 from "../../../images/brands/Bugatti.png";
+import brand24 from "../../../images/brands/mclaren.png";
+import brand25 from "../../../images/brands/Maybach.png";
 const SwissBrands = (props) => {
   return (
     <>
@@ -135,6 +138,26 @@ const SwissBrands = (props) => {
 														<div className='col-md-2'>
 															<Link to="/brands/lexus">
 																<img className='MegaBrandLogo' src={brand21}/>
+															</Link>
+														</div>
+														<div className='col-md-2'>
+															<Link to="/brands/pagani">
+																<img className='MegaBrandLogo' src={brand22}/>
+															</Link>
+														</div>
+														<div className='col-md-2'>
+															<Link to="/brands/bugatti">
+																<img className='MegaBrandLogo' src={brand23}/>
+															</Link>
+														</div>
+														<div className='col-md-2'>
+															<Link to="/brands/mclaren">
+																<img className='MegaBrandLogo' src={brand24}/>
+															</Link>
+														</div>
+														<div className='col-md-2'>
+															<Link to="/brands/Maybach">
+																<img className='MegaBrandLogo' src={brand25}/>
 															</Link>
 														</div>
 													</div>

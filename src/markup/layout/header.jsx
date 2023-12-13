@@ -6,7 +6,7 @@ import Sticky from 'react-stickynode';
 import SwissBrands from '../elements/widget/Swiss-Brands';
 
 // Images
-import logo from "../../images/swissautologo.png";
+import logo from "../../images/Logo_dark_147x54.webp";
 import logoWhite from "../../images/swissautologo.png";
 
 
