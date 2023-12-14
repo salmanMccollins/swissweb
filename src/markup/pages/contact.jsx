@@ -7,9 +7,11 @@ import Footer from "../layout/footer";
 
 // Images
 import bnrImg from "../../images/banner/bnr1.jpg";
+import { useHistory } from 'react-router-dom';
 
 function ContactUs() {
 
+	const history = useHistory();
 	const handleSubmit = async (event) => {
     event.preventDefault(); // Prevent the default form submission behavior
 
@@ -53,6 +55,8 @@ function ContactUs() {
       console.log("Form submitted successfully");
 	  alert("Form submitted")
       event.target.reset();
+	  
+	  history.push('/thankyou');
       // Reset the form or perform other actions
     } else {
       // Handle errors
