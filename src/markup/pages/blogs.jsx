@@ -142,7 +142,7 @@ const BlogGridSidebar = () => {
 										
 										<WidgetSearch />
 										
-										<WidgetRecentPosts />
+										<WidgetRecentPosts content={content} />
 										
 										<WidgetGallery />
 										
