@@ -15,7 +15,7 @@ const HeroMainRow = (props) => {
             <div className="row m-0 p-0">
               <div className="col-md-3 pd-0 row1">
                 <div className="DiBox1">
-                  <div className="DiBox1T1">100% Genuine Parts</div>
+                  <div className="DiBox1T1">100% Genuine<br/> Parts</div>
                   <div className="DiBox1T2">
                   For replacements, we only use high-quality spare parts specified for your brand.
                   </div>
