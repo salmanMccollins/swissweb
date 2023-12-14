@@ -858,3 +858,12 @@ z-index: 9 !important;
 	  padding: 20px 6px;
 	}
   }
+
+  @media only screen and (max-width: 991px) {
+	.page-banner {
+	  height: 80vh;
+	}
+	.page-banner .h1, .page-banner h1 {
+		font-size: 28px;
+	  }
+  }
