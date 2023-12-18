@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Import Images
@@ -6,52 +6,32 @@ import recentBlogImg1 from "../../../images/blog/recent-blog/pic1.jpg";
 import recentBlogImg2 from "../../../images/blog/recent-blog/pic2.jpg";
 import recentBlogImg3 from "../../../images/blog/recent-blog/pic3.jpg";
 
-class WidgetRecentPosts extends Component{
-	render(){
+function WidgetRecentPosts(props){
 		return(
 			<>
 				<div className="widget recent-posts-entry">
 					<h5 className="widget-title">Recent Posts</h5>
 					<div className="widget-post-bx">
+						{props.content.slice(0, 3).map((item)=>(
 						<div className="widget-post clearfix">
-							<div className="ttr-post-media"> <img src={recentBlogImg1} width="200" height="143" alt=""/> </div>
+							<div className="ttr-post-media"> <img src={item.photo} width="200" height="143" alt=""/> </div>
 							<div className="ttr-post-info">
 								<div className="ttr-post-header">
-									<h6 className="post-title"><Link to="/blog-details">Precious Tips To Help You Get Better.</Link></h6>
+									<h6 className="post-title"><Link to={`/blog-details/${item.blogUrl}`}>{item.title}</Link></h6>
 								</div>
 								<ul className="post-meta">
-									<li className="author">By <Link href="#">Thomas deo</Link></li>
+									<li className="author">By <Link href="#">{item.author}</Link></li>
 								</ul>
 							</div>
 						</div>
-						<div className="widget-post clearfix">
-							<div className="ttr-post-media"> <img src={recentBlogImg2} width="200" height="160" alt=""/> </div>
-							<div className="ttr-post-info">
-								<div className="ttr-post-header">
-									<h6 className="post-title"><Link to="/blog-details">Ten Doubts You Should Clarify About.</Link></h6>
-								</div>
-								<ul className="post-meta">
-									<li className="author">By <Link to="#">Merry Desulva</Link></li>
-								</ul>
-							</div>
-						</div>
-						<div className="widget-post clearfix">
-							<div className="ttr-post-media"> <img src={recentBlogImg3} width="200" height="160" alt=""/> </div>
-							<div className="ttr-post-info">
-								<div className="ttr-post-header">
-									<h6 className="post-title"><Link to="/blog-details">The 10 Steps Needed For Putting.</Link></h6>
-								</div>
-								<ul className="post-meta">
-									<li className="author">By <Link to="#"> Mark John</Link></li>
-								</ul>
-							</div>
-						</div>
+						))}
+						
+						
 					</div>
 				</div>
 				
 			</>
 		);
 	}
-}
 
 export default WidgetRecentPosts;
