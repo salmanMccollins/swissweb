@@ -7,7 +7,7 @@ import SwissBrands from '../elements/widget/Swiss-Brands';
 
 // Images
 import logo from "../../images/Logo_dark_147x54.webp";
-import logoWhite from "../../images/swissautologo.png";
+import logoWhite from "../../images/Logo_light_147x54.webp";
 
 
 
