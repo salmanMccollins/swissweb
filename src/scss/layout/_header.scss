@@ -380,13 +380,12 @@ header .active .HamberMenuClick{
 			.mega-menu,
 			.sub-menu {
 				background-color: #fff;
-				display: block;
+				display: none;
 				left: 0;
 				list-style: none;
 				opacity: 0;
 				padding: 5px 0;
 				position: absolute;
-				visibility: hidden;
 				width: 220px;
 				z-index: 10;
 				margin-top: 20px;
@@ -455,7 +454,7 @@ header .active .HamberMenuClick{
 				}				
 			}
 			.mega-menu {
-				display: flex;
+				display: none;
 				right: 0px;
 				width: 100%;
 				z-index: 9;
@@ -526,7 +525,7 @@ header .active .HamberMenuClick{
 					opacity: 1;
 					visibility: visible;
 					margin-top: 0;
-					@include transitionMedium;
+					display: flex;
 					
 					li:hover > .sub-menu{
 						opacity: 1;
