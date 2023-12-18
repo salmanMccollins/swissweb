@@ -337,7 +337,7 @@
   }
 
 .ServiceBoxR1{
-	background-size: 100% 100%;
+	background-size: cover;
 	min-height: 300px;
 	color: #fff;
 	position: relative;
@@ -371,28 +371,28 @@
 	}
 	
 	&.service1{
-		background-image: url(../images/homeservices/BodyandPaint.webp);
+		background-image: url(../images/services1/BodyandPaint.webp);
 	}
 	&.service2{
-		background-image: url(../images/homeservices/Electrical.webp);
+		background-image: url(../images/services1/ElectricCar.webp);
 	}
 	&.service3{
-		background-image: url(../images/homeservices/Insurance.webp);
+		background-image: url(../images/services1/MajorService.webp);
 	}
 	&.service4{
-		background-image: url(../images/homeservices/MajorService.webp);
+		background-image: url(../images/services1/MinorService.webp);
 	}
 	&.service5{
 		background-image: url(../images/homeservices/Minorervice.webp);
 	}
 	&.service6{
-		background-image: url(../images/homeservices/Mechanical.webp);
+		background-image: url(../images/services1/Mechanical.webp);
 	}
 	&.service7{
-		background-image: url(../images/homeservices/Recovery.webp);
+		background-image: url(../images/services1/Recovery.webp);
 	}
 	&.service8{
-		background-image: url(../images/homeservices/Warranty.webp);
+		background-image: url(../images/services1/ProgrammingandRetrofit.webp);
 	}
 	.SerT1{
 		font-weight: 600;
