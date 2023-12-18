@@ -872,8 +872,9 @@ z-index: 9 !important;
 		font-size: 28px;
 	  }
   }
-
-  .menu-links .nav > li:hover > .sub-menu {
-	
-	display: block !important;
+  @media only screen and (min-width: 991px) {
+	.menu-links .nav > li:hover > .sub-menu {
+		display: block !important;
+	  }
   }
+  
