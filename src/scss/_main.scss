@@ -877,4 +877,17 @@ z-index: 9 !important;
 		display: block !important;
 	  }
   }
-  
+  .ttr-post-media img {
+	width: 100%;
+	height: 75px !important;
+  }
+  .widget-post-bx a{
+	margin-bottom: 10px;
+	display: block;
+  }
+  footer .recent-posts-entry .ttr-post-info .post-title a {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+  }

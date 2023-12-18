@@ -16,7 +16,7 @@ import HeroBanner from '../elements/widget/HeroBanner';
 import InstagramBox from '../elements/widget/InstagramBox';
 
 import bg2 from "../../images/background/bg2.png";
-
+import bnrImg from "../../images/newimages/package-banner.webp";
 function ServicesBox() {
 
 	const { t } = useTranslation();
@@ -33,7 +33,19 @@ function ServicesBox() {
 			
 				<Header />
 				
-				<HeroBanner />
+				<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
+						<div className="container">
+							<div className="page-banner-entry text-center">
+								<h1><span>Our Services</span></h1>
+								<nav aria-label="breadcrumb" className="breadcrumb-row">
+									<ul className="breadcrumb">
+										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
+										<li className="breadcrumb-item active" aria-current="page">Our Services</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
 				
 				
 				
