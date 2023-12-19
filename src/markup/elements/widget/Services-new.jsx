@@ -57,6 +57,17 @@ While assuring quality workmanship and superior customer service, we provide eve
                 <div className="col-md-3">
                   <div className="ServiceBoxR1 service2">
                     <div>
+                      <div className="SerT1">Electrical Repair</div>
+                      
+                      <Link class="SerT2 btn btn-primary" to="/services/other-services/electric-car-repair">
+                        View More
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3">
+                  <div className="ServiceBoxR1 service8">
+                    <div>
                       <div className="SerT1">Electrical Car Repair</div>
                       
                       <Link class="SerT2 btn btn-primary" to="/services/other-services/electric-car-repair">
@@ -87,17 +98,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
-                  <div className="ServiceBoxR1 service5">
-                    <div>
-                      <div className="SerT1">Minor Services</div>
-                      
-                      <Link class="SerT2 btn btn-primary" to="/services">
-                        View More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+                
                 <div className="col-md-3">
                   <div className="ServiceBoxR1 service6">
                     <div>
@@ -121,11 +122,11 @@ While assuring quality workmanship and superior customer service, we provide eve
                   </div>
                 </div>
                 <div className="col-md-3">
-                  <div className="ServiceBoxR1 service8">
+                  <div className="ServiceBoxR1 service5">
                     <div>
-                      <div className="SerT1">Programming & Retrofit</div>
+                      <div className="SerT1">Service Contract</div>
                       
-                      <Link class="SerT2 btn btn-primary" to="/services/electrical-repair/car-repair-and-software-programming">
+                      <Link class="SerT2 btn btn-primary" to="/services">
                         View More
                       </Link>
                     </div>
