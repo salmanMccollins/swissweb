@@ -26,7 +26,8 @@ class widgetContact extends Component{
 						<li>
 							<img src={icon3} alt=""/>
 							<h6 className="contact-title">Address</h6>
-							<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+							<p>3547 Al Emem Soad Abdelaziz Bin Mohamed_street 8306 Al Khlidiya, 
+Riyadh Saudi Arabia</p>
 						</li>
 					</ul>
 				</div>

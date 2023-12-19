@@ -69,7 +69,7 @@ const formData = new FormData(event.target);
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE YEAR</h6>
 													<div className="input-group">
-														<input type="number" name='year' className="form-control" placeholder='2008' required/>
+														<input type="text" name='year' className="form-control" placeholder='2008' required/>
 													</div>
 												</div>
 											</div>
@@ -169,7 +169,7 @@ const formData = new FormData(event.target);
 											<div className="col-lg-6">
 												<div className="form-group">
 													<div className="input-group">
-														<input name="subject" type="text" required="" className="form-control"  placeholder="Subject"/>
+														<input name="subject" type="text" required="" className="form-control"  placeholder="Location"/>
 													</div>
 												</div>
 											</div>
@@ -194,7 +194,6 @@ const formData = new FormData(event.target);
 												<li><Link to="/aboutus">About Us <i className="las la-question-circle"></i></Link></li>
 												<li><Link to="/services">Our Services <i className="las la-cog"></i></Link></li>
 												<li><Link to="/careers">Job & Career<i className="las la-user-plus"></i></Link></li>
-												<li><Link to="/ourbrands">Our Partners<i className="las la-user-tie"></i></Link></li>
 												<li className="active"><Link to="/booking">Booking<i className="lab la-wpforms"></i></Link></li>
 											</ul>
 										</div>
