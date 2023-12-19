@@ -902,3 +902,12 @@ z-index: 9 !important;
 	-webkit-box-orient: vertical;  
 	overflow: hidden;
   }
+  .side-bar .ttr-post-media img {
+	width: 100%;
+	height: 95px !important;
+  }
+@media only screen and (max-width: 991px) {
+  .menu-links .nav > li:hover > .mega-menu, .menu-links .nav > li:hover > .sub-menu {
+	display: block !important;
+  }
+}
