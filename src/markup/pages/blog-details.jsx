@@ -23,31 +23,56 @@ import galleryPic5 from "../../images/gallery/pic5.jpg";
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
+import { EditorState, convertFromRaw, Editor } from "draft-js";
 
-const BlogDetails = () =>{
-	
- const { blogUrl } = useParams(); // Get the blogUrl from the URL
+function BlogDetails() {
+
+	const [editorState, setEditorState] = useState(EditorState.createEmpty());
+  const { blogUrl } = useParams();
   const [content, setContent] = useState([]);
   const [blogData, setBlogData] = useState(null);
+  const [isMounted, setIsMounted] = useState(true); // Add a state variable for tracking mount status
+
+useEffect(() => {
+  loadContent();
+}, [blogData]);
+
+	const loadContent = () => {
+	if (!blogData || !blogData.content) return;
+
+	let content2;
+	try {
+		content2 = convertFromRaw(JSON.parse(blogData.content));
+		console.log('Parsed content:', content2);
+	} catch (error) {
+		console.error('Error parsing content:', error);
+	}
+
+	setEditorState(EditorState.createWithContent(content2));
+	};
+
 
   useEffect(() => {
     axios.get('https://swiss-backend.vercel.app/api/blogs/blog/ind').then((response) => {
-      setContent(response.data);
+      if (isMounted) {
+        setContent(response.data);
+      }
     });
-  }, []);
+  }, [isMounted]);
 
   useEffect(() => {
-    // Filter the content array to find the matching blog object
     const matchingBlog = content.find((blog) => blog.blogUrl === blogUrl);
-    setBlogData(matchingBlog);
-	console.log(matchingBlog);
-  }, [content, blogUrl]);
+    if (isMounted) {
+      setBlogData(matchingBlog);
+      loadContent();
+    }
+
+    console.log(matchingBlog);
+  }, [content, blogUrl, isMounted]);
 
   if (!blogData) {
-    // If the blog data is not found, you can handle this case here
     return <div>Loading...</div>;
   }
-
 		return (
 			<>
 				
@@ -88,10 +113,11 @@ const BlogDetails = () =>{
 											<div className="ttr-post-text">
 												{blogData.video && (
 													<>
-													<video autoplay controls src={blogData.video} width={"100%"} />
+													<video autoplay controls src={blogData.video} width={"100%"} style={{marginBottom:"30px"}} />
 													</>
 												)}
-												{blogData.description}
+												{/* {blogData.content} */}
+												<Editor editorState={editorState} readOnly />
 											</div>
 											<div className="ttr-post-footer">
 												<div className="post-tags">
