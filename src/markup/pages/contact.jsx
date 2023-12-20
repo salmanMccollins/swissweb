@@ -95,7 +95,8 @@ function ContactUs() {
 								<div className="col-lg-4 col-md-4 col-sm-6">
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-map-alt"></i>Location</h6>		
-										<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+										<p>3547 Al Emem Soad Abdelaziz Bin Mohamed_street 8306 Al Khlidiya, 
+Riyadh Saudi Arabia</p>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-4 col-sm-6">

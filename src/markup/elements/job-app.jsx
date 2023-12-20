@@ -128,7 +128,7 @@ const history = useHistory();
 												</div>
 											</div>
 											<div className="col-lg-12">
-												<button name="submit" type="submit" disabled={loading} value="Submit" className="btn btn-primary btn-lg"> Send Message</button>
+												<button name="submit" type="submit" disabled={loading} value="Submit" className="btn btn-primary btn-lg"> Send CV</button>
 											</div>
 										</div>
 									</form>

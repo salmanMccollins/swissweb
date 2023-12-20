@@ -337,7 +337,7 @@
   }
 
 .ServiceBoxR1{
-	background-size: 100% 100%;
+	background-size: cover;
 	min-height: 300px;
 	color: #fff;
 	position: relative;
@@ -371,28 +371,28 @@
 	}
 	
 	&.service1{
-		background-image: url(../images/homeservices/BodyandPaint.webp);
+		background-image: url(../images/n1/BodyandPaint.webp);
 	}
 	&.service2{
-		background-image: url(../images/homeservices/Electrical.webp);
+		background-image: url(../images/n1/ElectricCar.webp);
 	}
 	&.service3{
-		background-image: url(../images/homeservices/Insurance.webp);
+		background-image: url(../images/n1/MajorService.webp);
 	}
 	&.service4{
-		background-image: url(../images/homeservices/MajorService.webp);
+		background-image: url(../images/n1/MinorService.webp);
 	}
 	&.service5{
-		background-image: url(../images/homeservices/Minorervice.webp);
+		background-image: url(../images/n1/ServiceContract.webp);
 	}
 	&.service6{
-		background-image: url(../images/homeservices/Mechanical.webp);
+		background-image: url(../images/n1/Mechanical.webp);
 	}
 	&.service7{
-		background-image: url(../images/homeservices/Recovery.webp);
+		background-image: url(../images/n1/Recovery.webp);
 	}
 	&.service8{
-		background-image: url(../images/homeservices/Warranty.webp);
+		background-image: url(../images/n1/ElectricalRepair.webp);
 	}
 	.SerT1{
 		font-weight: 600;
@@ -486,7 +486,8 @@
 				padding: 0px;
 				text-align: center;
 				.DiBox1T1{
-					font-size: 20px;
+					font-size: 19px;
+    				text-transform: capitalize;
 				}
 				.DiBox1T3{
 					margin-top: 15px;
@@ -758,8 +759,8 @@
 		flex: 0 0 49%;
 		max-width: 49%;
 		margin: 0 !important;
-		font-size: 13px;
-		padding: 10px 5px;
+		font-size: 11px;
+		padding: 10px 2px;
 	}
 
 }
@@ -872,3 +873,44 @@ z-index: 9 !important;
 		font-size: 28px;
 	  }
   }
+  @media only screen and (min-width: 991px) {
+	.menu-links .nav > li:hover > .sub-menu {
+		display: block !important;
+	  }
+  }
+  .ttr-post-media img {
+	width: 100%;
+	height: 75px !important;
+  }
+  .widget-post-bx a{
+	margin-bottom: 10px;
+	display: block;
+  }
+  footer .recent-posts-entry .ttr-post-info .post-title a ,
+  .recent-posts-entry .ttr-post-info .post-title a {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+  }
+  .post-media img {
+	object-fit: cover;
+  }
+  .post-info .post-content p{
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
+  }
+  .side-bar .ttr-post-media img {
+	width: 100%;
+	height: 95px !important;
+  }
+@media only screen and (max-width: 991px) {
+  .menu-links .nav > li:hover > .mega-menu, .menu-links .nav > li:hover > .sub-menu {
+	display: block !important;
+  }
+  .page-banner {
+    background-position: left top;
+  }
+}
