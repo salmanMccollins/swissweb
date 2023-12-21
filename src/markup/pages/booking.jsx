@@ -77,19 +77,33 @@ const formData = new FormData(event.target);
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE MAKE</h6>
 													<div className="input-group">
-														<select className="form-control" name='make'>
+														<select className="form-control" name='make' required>
 															<option value="" selected="selected">Choose...</option>
-															<option value="General Motors">General Motors</option>
-															<option value="Land Rover">Land Rover</option>
-															<option value="Lexus">Lexus</option>
-															<option value="Lincoln">Lincoln</option>
-															<option value="Mazda">Mazda</option>
-															<option value="Mercury">Mercury</option>
-															<option value="Nissan">Nissan</option>
-															<option value="Renault">Renault</option>
-															<option value="Plymouth">Plymouth</option>
-															<option value="Rover">Rover</option>
-															<option value="Saab">Saab</option>
+															<option value="Bentley">Bentley</option>
+															<option value="jaguar">Jaguar</option>
+															<option value="range-rover">Range Rover</option>
+															<option value="mini-cooper">Mini Cooper</option>
+															<option value="rolls-roys">Rolls Roys</option>
+															<option value="audi">Audi</option>
+															<option value="bmw">BMW</option>
+															<option value="mercedes">Mercedes</option>
+															<option value="porache">Porache</option>
+															<option value="volks-wagen">Volks Wagen</option>
+															<option value="ferrari">Ferrari</option>
+															<option value="lamborghini">Lamborghini</option>
+															<option value="maserati">Maserati</option>
+															<option value="cadillac">Cadillac</option>
+															<option value="chevrolet">Chevrolet</option>
+															<option value="dodge">Dodge</option>
+															<option value="ford">Ford</option>
+															<option value="gmc">GMC</option>
+															<option value="jeep">Jeep</option>
+															<option value="infinitty">Infinitty</option>
+															<option value="lexus">Lexus</option>
+															<option value="pagani">Pagani</option>
+															<option value="bugatti">Bugatti</option>
+															<option value="mclaren">Mclaren</option>
+															<option value="maybach">Maybach</option>
 														</select>
 													</div>
 												</div>
@@ -98,7 +112,7 @@ const formData = new FormData(event.target);
 												<div className="form-group">
 													<h6 className="form-title">VEHICLE MILEAGE</h6>
 													<div className="input-group">
-														<input type="number" name='mileage' className="form-control"/>
+														<input type="number" name='mileage' className="form-control" required/>
 													</div>
 												</div>
 											</div>
@@ -106,7 +120,7 @@ const formData = new FormData(event.target);
 												<div className="form-group">
 													<h6 className="form-title">SELECT SERVICES NEEDED</h6>
 													<div className="input-group">
-														<select className="form-control" name='service'>
+														<select className="form-control" name='service' required>
 															<option value="" selected="selected">Choose...</option>
 															<option value="Axle/Drive Shaft Repair">Axle/Drive Shaft Repair</option>
 															<option value="Brake Repair">Brake Repair</option>
@@ -169,14 +183,14 @@ const formData = new FormData(event.target);
 											<div className="col-lg-6">
 												<div className="form-group">
 													<div className="input-group">
-														<input name="subject" type="text" required="" className="form-control"  placeholder="Location"/>
+														<input name="subject" type="text" required className="form-control"  placeholder="Location"/>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-12">
 												<div className="form-group">
 													<div className="input-group">
-														<textarea name="message" rows="4" className="form-control" required=""  placeholder="Type Message"></textarea>
+														<textarea name="message" rows="4" className="form-control" required  placeholder="Type Message" ></textarea>
 													</div>
 												</div>
 											</div>
