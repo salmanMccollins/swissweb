@@ -83,12 +83,12 @@ const formData = new FormData(event.target);
 															<option value="jaguar">Jaguar</option>
 															<option value="range-rover">Range Rover</option>
 															<option value="mini-cooper">Mini Cooper</option>
-															<option value="rolls-roys">Rolls Roys</option>
+															<option value="rolls-Royce">Rolls Royce</option>
 															<option value="audi">Audi</option>
 															<option value="bmw">BMW</option>
 															<option value="mercedes">Mercedes</option>
-															<option value="porache">Porache</option>
-															<option value="volks-wagen">Volks Wagen</option>
+															<option value="porache">Porsche</option>
+															<option value="volkswagen">Volkswagen</option>
 															<option value="ferrari">Ferrari</option>
 															<option value="lamborghini">Lamborghini</option>
 															<option value="maserati">Maserati</option>
@@ -102,7 +102,7 @@ const formData = new FormData(event.target);
 															<option value="lexus">Lexus</option>
 															<option value="pagani">Pagani</option>
 															<option value="bugatti">Bugatti</option>
-															<option value="mclaren">Mclaren</option>
+															<option value="mclaren">McLaren</option>
 															<option value="maybach">Maybach</option>
 														</select>
 													</div>
@@ -147,7 +147,7 @@ const formData = new FormData(event.target);
 															<option value="WindShield Repair">WindShield Repair</option>
 															<option value="Classic Car Restoration">Classic Car Restoration</option>
 															<option value="Car Recovery">Car Recovery</option>
-															<option value="Fleet Management">Fleet Management</option>
+															<option value="Fleet Maintenance">Fleet Maintenance</option>
 															<option value="Electric Car Repair">Electric Car Repair</option>
 														</select>
 													</div>
