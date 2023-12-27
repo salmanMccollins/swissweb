@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 // Images
 
-
-
 import brand1 from "../../../images/brands/Bentley.png";
 import brand2 from "../../../images/brands/Jaguar.png";
 import brand3 from "../../../images/brands/landrover.png";
@@ -33,135 +31,159 @@ import brand25 from "../../../images/brands/Maybach.png";
 const SwissBrands = (props) => {
   return (
     <>
-      <div className='BrandBoxMega'>
-													<div className='row'>
-														<div className='col-md-2'>
-															<Link to="/brands/bentley">
-																<img className='MegaBrandLogo' src={brand1}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/jaguar">
-																<img className='MegaBrandLogo' src={brand2}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/range-rover">
-																<img className='MegaBrandLogo' src={brand3}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/mini-cooper">
-																<img className='MegaBrandLogo' src={brand4}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/rolls-roys">
-																<img className='MegaBrandLogo' src={brand5}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/audi">
-																<img className='MegaBrandLogo' src={brand6}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/bmw">
-																<img className='MegaBrandLogo' src={brand7}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/mercedes">
-																<img className='MegaBrandLogo' src={brand8}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/porache">
-																<img className='MegaBrandLogo' src={brand9}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/volks-wagen">
-																<img className='MegaBrandLogo' src={brand10}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/ferrari">
-																<img className='MegaBrandLogo' src={brand11}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/lamborghini">
-																<img className='MegaBrandLogo' src={brand12}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/maserati">
-																<img className='MegaBrandLogo' src={brand13}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/cadillac">
-																<img className='MegaBrandLogo' src={brand14}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/chevrolet">
-																<img className='MegaBrandLogo' src={brand15}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/dodge">
-																<img className='MegaBrandLogo' src={brand16}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/ford">
-																<img className='MegaBrandLogo' src={brand17}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/gmc">
-																<img className='MegaBrandLogo' src={brand18}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/jeep">
-																<img className='MegaBrandLogo' src={brand19}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/infinitty">
-																<img className='MegaBrandLogo' src={brand20}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/lexus">
-																<img className='MegaBrandLogo' src={brand21}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/pagani">
-																<img className='MegaBrandLogo' src={brand22}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/bugatti">
-																<img className='MegaBrandLogo' src={brand23}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/mclaren">
-																<img className='MegaBrandLogo' src={brand24}/>
-															</Link>
-														</div>
-														<div className='col-md-2'>
-															<Link to="/brands/Maybach">
-																<img className='MegaBrandLogo' src={brand25}/>
-															</Link>
-														</div>
-													</div>
-												</div>
+      <div className="BrandBoxMega">
+        <div className="FilterTabWrap">
+          <div className="FilterTabFlex">
+            <div className="FilterTabColumn">
+              <div className="FilterItem">European</div>
+            </div>
+            <div className="FilterTabColumn">
+              <div className="FilterItem">German</div>
+            </div>
+            <div className="FilterTabColumn">
+              <div className="FilterItem">American</div>
+            </div>
+            <div className="FilterTabColumn">
+              <div className="FilterItem">Electric Cars</div>
+            </div>
+            <div className="FilterTabColumn">
+              <div className="FilterItem">Others</div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-2">
+            <Link to="/brands/bentley">
+              <img className="MegaBrandLogo" src={brand1} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/jaguar">
+              <img className="MegaBrandLogo" src={brand2} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/range-rover">
+              <img className="MegaBrandLogo" src={brand3} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/mini-cooper">
+              <img className="MegaBrandLogo" src={brand4} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/rolls-roys">
+              <img className="MegaBrandLogo" src={brand5} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/audi">
+              <img className="MegaBrandLogo" src={brand6} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/bmw">
+              <img className="MegaBrandLogo" src={brand7} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/mercedes">
+              <img className="MegaBrandLogo" src={brand8} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/porache">
+              <img className="MegaBrandLogo" src={brand9} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/volks-wagen">
+              <img className="MegaBrandLogo" src={brand10} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/ferrari">
+              <img className="MegaBrandLogo" src={brand11} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/lamborghini">
+              <img className="MegaBrandLogo" src={brand12} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/maserati">
+              <img className="MegaBrandLogo" src={brand13} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/cadillac">
+              <img className="MegaBrandLogo" src={brand14} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/chevrolet">
+              <img className="MegaBrandLogo" src={brand15} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/dodge">
+              <img className="MegaBrandLogo" src={brand16} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/ford">
+              <img className="MegaBrandLogo" src={brand17} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/gmc">
+              <img className="MegaBrandLogo" src={brand18} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/jeep">
+              <img className="MegaBrandLogo" src={brand19} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/infinitty">
+              <img className="MegaBrandLogo" src={brand20} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/lexus">
+              <img className="MegaBrandLogo" src={brand21} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/pagani">
+              <img className="MegaBrandLogo" src={brand22} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/bugatti">
+              <img className="MegaBrandLogo" src={brand23} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/mclaren">
+              <img className="MegaBrandLogo" src={brand24} />
+            </Link>
+          </div>
+          <div className="col-md-2">
+            <Link to="/brands/Maybach">
+              <img className="MegaBrandLogo" src={brand25} />
+            </Link>
+          </div>
+		  <div className="col-md-2">
+            <Link to="/ourbrands">
+              View All
+            </Link>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

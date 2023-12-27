@@ -914,7 +914,25 @@ z-index: 9 !important;
     background-position: left top;
   }
 }
-
+.FilterTabFlex{
+	display: flex;
+	margin: 0 -15px;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #e4e4e4;
+}
+.FilterTabColumn{
+	flex: 0 0 20%;
+	max-width: 20%;
+	padding: 0 15px;
+	text-align: center;
+}
+.FilterItem{
+	padding: 10px;
+	font-weight: 500;
+  color: #000;
+  cursor: pointer;
+  background-color: #e4e4e4;
+}
 @media only screen and (max-width: 991px) {
 	.page-banner {
 	  height: 50vh;
