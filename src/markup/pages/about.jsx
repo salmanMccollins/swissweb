@@ -308,8 +308,6 @@ function AboutUs() {
         </section>
         <TestimonialSection />
         <ScheduleServiceSection />
-
-        <LatestBlogSection />
       </div>
 
       <Footer />
