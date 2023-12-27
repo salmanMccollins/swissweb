@@ -33,7 +33,7 @@ const SwissBrands = (props) => {
     <>
       <div className="BrandBoxMega">
         <div className="FilterTabWrap">
-          <div className="FilterTabFlex">
+          <div className="FilterTabFlex ">
             <div className="FilterTabColumn">
               <div className="FilterItem">European</div>
             </div>
@@ -177,7 +177,7 @@ const SwissBrands = (props) => {
               <img className="MegaBrandLogo" src={brand25} />
             </Link>
           </div>
-		  <div className="col-md-2">
+		  <div className="col-md-2 ViewAllButtonBox">
             <Link to="/ourbrands">
               View All
             </Link>

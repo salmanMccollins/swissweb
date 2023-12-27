@@ -32,7 +32,7 @@ function OurBrands() {
 			<>
 			
 				<Header />
-                <div className="page-content bg-white">
+                <div className="page-content bg-white BrandPage">
 					
 					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
