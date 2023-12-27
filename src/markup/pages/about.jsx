@@ -13,7 +13,7 @@ import TestimonialSection from "../elements/testimonial";
 import LatestBlogSection from "../elements/latest-blog-slider";
 
 // Images
-import bnrImg from "../../images/banner/bnr1.jpg";
+import bnrImg from "../../images/banner/aboutus.jpg";
 import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";

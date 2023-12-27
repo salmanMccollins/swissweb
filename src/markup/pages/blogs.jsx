@@ -12,7 +12,7 @@ import WidgetGallery from "../elements/widget/widget-gallery";
 import WidgetTag from "../elements/widget/widget-tag";
 
 // Images
-import bnrImg from "../../images/banner/bnr2.jpg";
+import bnrImg from "../../images/banner/Blogs.jpg";
 import blogGridPic1 from "../../images/blog/grid/pic1.jpg";
 import blogGridPic2 from "../../images/blog/grid/pic2.jpg";
 import blogGridPic3 from "../../images/blog/grid/pic3.jpg";
@@ -140,13 +140,11 @@ const BlogGridSidebar = () => {
 								<div className="col-md-4 col-lg-4 col-xl-4 mb-30">
 									<aside className="side-bar sticky-top aside-bx">
 										
-										<WidgetSearch />
-										
 										<WidgetRecentPosts content={content} />
 										
 										<WidgetGallery />
 										
-										<WidgetTag />
+										
 										
 									</aside>
 								</div>

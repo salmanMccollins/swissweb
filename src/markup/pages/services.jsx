@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, { useRef, useEffect }  from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -23,10 +23,20 @@ function ServicesBox() {
 
 
 
-	const handleRefresh = (url) => {
-		window.location.href = url;
-	};
+	// const handleRefresh = (url) => {
+	// 	window.location.href = url;
+	// };
 	
+	const myRef = useRef();
+
+  function scrollToComponent() {
+    if (window.location.hash === '#s1') {
+      myRef.current.scrollIntoView();
+      myRef.current.focus();
+    }
+  }
+
+  useEffect( () => scrollToComponent(), [] )
 		
 		return (
 			<>
@@ -49,7 +59,7 @@ function ServicesBox() {
 				
 				
 				
-				<section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+				<section id="s1" ref={myRef} className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix">
@@ -157,7 +167,7 @@ function ServicesBox() {
 						</div>
 					</div>
 				</section>
-				<section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+				<section id="s2" className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix">
@@ -278,7 +288,7 @@ function ServicesBox() {
 						</div>
 					</div>
 				</section>
-                <section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+                <section id="s3" className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix">
@@ -377,7 +387,7 @@ The problems with the engine control unit may arrive due to various reasons but 
 					</div>
 				</section>
                 
-                <section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+                <section id="s4" className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix">

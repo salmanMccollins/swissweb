@@ -103,13 +103,13 @@ useEffect(() => {
 											<img src={defaultPic1} alt=""/>
 										</div> */}
 										<div className="info-bx">
-											<ul className="post-meta">
+											{/* <ul className="post-meta">
 												<li className="author"><img src={testPic1} alt=""/>By <Link to="#">{blogData.author}</Link></li>
 												<li className="date"><Link to="#">{blogData.date}</Link></li>
 											</ul>
 											<div className="ttr-post-title">
 												<h3 className="post-title">{blogData.title}</h3>
-											</div>
+											</div> */}
 											<div className="ttr-post-text">
 												{blogData.video && (
 													<>
@@ -119,14 +119,14 @@ useEffect(() => {
 												{/* {blogData.content} */}
 												<Editor editorState={editorState} readOnly />
 											</div>
-											<div className="ttr-post-footer">
+											{/* <div className="ttr-post-footer">
 												<div className="post-tags">
 													<strong>TAGS:</strong>
 													<Link to="#">{blogData.tags}</Link> 
-													{/* <Link to="#">REPAIRING</Link> 
-													<Link to="#">TECHNICIALS</Link>  */}
+													<Link to="#">REPAIRING</Link> 
+													<Link to="#">TECHNICIALS</Link> 
 												</div>
-												{/* <div className="share-post ms-auto">
+												<div className="share-post ms-auto">
 													<ul className="social-media">
 														<li><strong>SHARE:</strong></li>
 														<li><a target="_blank" href="https://www.facebook.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-facebook"></i></a></li>
@@ -134,8 +134,8 @@ useEffect(() => {
 														<li><a target="_blank" href="https://www.linkedin.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-linkedin"></i></a></li>
 														<li><a target="_blank" href="https://twitter.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-twitter"></i></a></li>
 													</ul>
-												</div> */}
-											</div>
+												</div>
+											</div> */}
 										</div>
 									</div>
 									
@@ -157,13 +157,13 @@ useEffect(() => {
 								<div className="col-md-12 col-lg-4 col-xl-4 mb-30">
 									<aside className="side-bar sticky-top aside-bx">
 										
-										<WidgetSearch />
 										
-										{/* <WidgetRecentPosts /> */}
+										
+										<WidgetRecentPosts content={content} />
 										
 										<WidgetGallery />
 										
-										{/* <WidgetTag /> */}
+										
 										
 									</aside>
 								</div>

@@ -241,8 +241,8 @@
     z-index: 8;
     box-shadow: 0 0 9px #0000001f;
     transition: transform .6s;
-    background: #fff;
-    border: 1px solid #fff;
+    background: #171a1e;
+    border: 1px solid #171a1e;
     overflow: hidden;
   }
   .bottom-bar {
@@ -262,7 +262,7 @@
     display: block;
     pointer-events: auto;
     text-align: center;
-    color: #212121;
+    color: #ed1b2f;
   }
   .bottom-bar--list .icon img {
     max-width: 25px;
@@ -914,3 +914,19 @@ z-index: 9 !important;
     background-position: left top;
   }
 }
+
+@media only screen and (max-width: 991px) {
+	.page-banner {
+	  height: 50vh;
+	}
+	.page-banner .page-banner-entry {
+		padding-top: 30px;
+		height: 100%;
+	}
+	.DiagonalRowWrap .col-md-3 .DiBox1 .DiBox1T3 {
+		display: none;
+	  }
+	  .DiagonalRowWrap .col-md-3 {
+		min-height: 200px;
+	  }
+  }

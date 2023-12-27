@@ -6,7 +6,7 @@ import Header from "../layout/header";
 import Footer from "../layout/footer";
 
 // Images
-import bnrImg from "../../images/banner/bnr4.jpg";
+import bnrImg from "../../images/banner/booking.jpg";
 import { useHistory } from 'react-router-dom';
 
 function Booking(){
