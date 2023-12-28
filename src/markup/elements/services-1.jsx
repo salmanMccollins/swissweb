@@ -8,7 +8,7 @@ class ServicesSection extends Component{
 	render(){
 		return(
 			<>
-				<section className="section-area bg-primary service-wraper1 section-sp2" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
+				<section className="section-area bg-primary service-wraper1 section-sp2" id="secBS" style={{backgroundImage: "url("+bg2+")", backgroundRepeat: "no-repeat", backgroundPosition: "right top"}}>
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix">
