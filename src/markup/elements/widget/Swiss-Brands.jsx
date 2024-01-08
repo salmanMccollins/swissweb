@@ -36,6 +36,9 @@ const SwissBrands = (props) => {
         <div className="FilterTabWrap">
           <div className="FilterTabFlex ">
             <div className="FilterTabColumn">
+              <div className="FilterItem active" onClick={()=>setBrandCnt("all")}>All</div>
+            </div>
+            <div className="FilterTabColumn">
               <div className="FilterItem" onClick={()=>setBrandCnt("European")}>European</div>
             </div>
             <div className="FilterTabColumn">

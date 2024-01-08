@@ -48,7 +48,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Body & Painting</div>
                       
-                      <Link class="SerT2 btn btn-primary" to="/services/body-shop/smart-body-repair#secBS">
+                      <Link class="SerT2 btn btn-primary" to="/services/#s2">
                         View More
                       </Link>
                     </div>
@@ -59,7 +59,7 @@ While assuring quality workmanship and superior customer service, we provide eve
                     <div>
                       <div className="SerT1">Electrical Repair</div>
                       
-                      <Link class="SerT2 btn btn-primary" to="/services/other-services/electric-car-repair">
+                      <Link class="SerT2 btn btn-primary" to="/services/#s3">
                         View More
                       </Link>
                     </div>
