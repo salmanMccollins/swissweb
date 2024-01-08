@@ -29,7 +29,7 @@ import brand23 from "../../../images/brands/Bugatti.png";
 import brand24 from "../../../images/brands/mclaren.png";
 import brand25 from "../../../images/brands/Maybach.png";
 const SwissBrands = (props) => {
-  const [brandCnt, setBrandCnt] = useState("European")
+  const [brandCnt, setBrandCnt] = useState("all")
   return (
     <>
       <div className="BrandBoxMega">
@@ -56,128 +56,128 @@ const SwissBrands = (props) => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-2" style={{display:brandCnt === "European" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "European" ? "flex" : "none"}}>
             <Link to="/brands/bentley">
               <img className="MegaBrandLogo" src={brand1} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "European" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "European" ? "flex" : "none"}}>
             <Link to="/brands/jaguar">
               <img className="MegaBrandLogo" src={brand2} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "European" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "European" ? "flex" : "none"}}>
             <Link to="/brands/range-rover">
               <img className="MegaBrandLogo" src={brand3} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "European" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "European" ? "flex" : "none"}}>
             <Link to="/brands/mini-cooper">
               <img className="MegaBrandLogo" src={brand4} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "European" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "European" ? "flex" : "none"}}>
             <Link to="/brands/rolls-roys">
               <img className="MegaBrandLogo" src={brand5} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "European" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "European" ? "flex" : "none"}}>
             <Link to="/brands/mclaren">
               <img className="MegaBrandLogo" src={brand24} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "German"  || brandCnt === "Electric Cars" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "German"  || brandCnt === "Electric Cars" ? "flex" : "none"}}>
             <Link to="/brands/audi">
               <img className="MegaBrandLogo" src={brand6} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "German" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "German" ? "flex" : "none"}}>
             <Link to="/brands/bmw">
               <img className="MegaBrandLogo" src={brand7} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "German" || brandCnt === "Electric Cars" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "German" || brandCnt === "Electric Cars" ? "flex" : "none"}}>
             <Link to="/brands/mercedes">
               <img className="MegaBrandLogo" src={brand8} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "German" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "German" ? "flex" : "none"}}>
             <Link to="/brands/porache">
               <img className="MegaBrandLogo" src={brand9} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "German" || brandCnt === "Electric Cars" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "German" || brandCnt === "Electric Cars" ? "flex" : "none"}}>
             <Link to="/brands/volks-wagen">
               <img className="MegaBrandLogo" src={brand10} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/ferrari">
               <img className="MegaBrandLogo" src={brand11} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/lamborghini" >
               <img className="MegaBrandLogo" src={brand12} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/maserati" >
               <img className="MegaBrandLogo" src={brand13} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "American" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "American" ? "flex" : "none"}}>
             <Link to="/brands/cadillac" >
               <img className="MegaBrandLogo" src={brand14} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "American" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "American" ? "flex" : "none"}}>
             <Link to="/brands/chevrolet" >
               <img className="MegaBrandLogo" src={brand15} />
             </Link>
           </div>
-          <div className="col-md-2"   style={{display:brandCnt === "American" ? "flex" : "none"}}>
+          <div className="col-md-2"   style={{display:brandCnt === "all"  || brandCnt === "American" ? "flex" : "none"}}>
             <Link to="/brands/dodge">
               <img className="MegaBrandLogo" src={brand16} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "American" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "American" ? "flex" : "none"}}>
             <Link to="/brands/ford"  >
               <img className="MegaBrandLogo" src={brand17} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "American" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "American" ? "flex" : "none"}}>
             <Link to="/brands/gmc" >
               <img className="MegaBrandLogo" src={brand18} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "American" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "American" ? "flex" : "none"}}>
             <Link to="/brands/jeep">
               <img className="MegaBrandLogo" src={brand19} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/infinitty">
               <img className="MegaBrandLogo" src={brand20} />
             </Link>
           </div>
-          <div className="col-md-2"   style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2"   style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/lexus">
               <img className="MegaBrandLogo" src={brand21} />
             </Link>
           </div>
-          <div className="col-md-2"  style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/pagani">
               <img className="MegaBrandLogo" src={brand22} />
             </Link>
           </div>
-          <div className="col-md-2" style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2" style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/bugatti"   >
               <img className="MegaBrandLogo" src={brand23} />
             </Link>
           </div>
           
-          <div className="col-md-2"  style={{display:brandCnt === "Others" ? "flex" : "none"}}>
+          <div className="col-md-2"  style={{display:brandCnt === "all"  || brandCnt === "Others" ? "flex" : "none"}}>
             <Link to="/brands/Maybach" >
               <img className="MegaBrandLogo" src={brand25} />
             </Link>
