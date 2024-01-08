@@ -36,22 +36,22 @@ const SwissBrands = (props) => {
         <div className="FilterTabWrap">
           <div className="FilterTabFlex ">
             <div className="FilterTabColumn">
-              <div className="FilterItem active" onClick={()=>setBrandCnt("all")}>All</div>
+              <div className={`FilterItem ${brandCnt === "all" && "active"} `} onClick={()=>setBrandCnt("all")}>All</div>
             </div>
             <div className="FilterTabColumn">
-              <div className="FilterItem" onClick={()=>setBrandCnt("European")}>European</div>
+              <div className={`FilterItem ${brandCnt === "European" && "active"}`} onClick={()=>setBrandCnt("European")}>European</div>
             </div>
             <div className="FilterTabColumn">
-              <div className="FilterItem" onClick={()=>setBrandCnt("German")}>German</div>
+              <div className={`FilterItem ${brandCnt === "German" && "active"}`}  onClick={()=>setBrandCnt("German")}>German</div>
             </div>
             <div className="FilterTabColumn">
-              <div className="FilterItem" onClick={()=>setBrandCnt("American")}>American</div>
+              <div className={`FilterItem ${brandCnt === "American" && "active"}`}  onClick={()=>setBrandCnt("American")}>American</div>
             </div>
             <div className="FilterTabColumn">
-              <div className="FilterItem" onClick={()=>setBrandCnt("Electric Cars")}>Electric Cars</div>
+              <div className={`FilterItem ${brandCnt === "Electric Cars" && "active"}`}  onClick={()=>setBrandCnt("Electric Cars")}>Electric Cars</div>
             </div>
             <div className="FilterTabColumn">
-              <div className="FilterItem" onClick={()=>setBrandCnt("Others")}>Others</div>
+              <div className={`FilterItem ${brandCnt === "Others" && "active"}`}  onClick={()=>setBrandCnt("Others")}>Others</div>
             </div>
           </div>
         </div>
