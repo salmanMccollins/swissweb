@@ -28,12 +28,24 @@ import authorThumbPic6 from "../../images/testimonials/pic6.jpg";
 import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 const BlogGridSidebar = () => {
 
   const [content, setContent] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
+
+
+  const [data, setData] = useState();
+
+  useEffect(() => {
+    axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+      const meta = response.data.data.filter((i) => i.name === "aboutus");
+      setData(meta[0]);
+      console.log(meta[0]);
+    });
+  }, []);
 
   useEffect(() => {
     axios.get(`https://swiss-backend.vercel.app/api/blogs/blog?page=${currentPage}`).then((response) => {
@@ -56,7 +68,10 @@ const BlogGridSidebar = () => {
 	
 		return (
 			<>
-				
+				<Helmet>
+						<title>{data?.title}</title>
+						<meta name="description" content={data?.content} />
+				</Helmet>
 				<Header />
 				
 				<div className="page-content bg-gray">
