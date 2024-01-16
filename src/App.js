@@ -26,6 +26,7 @@ import { Suspense } from "react";
 
 import translationEN from "./locales/en/translation.json";
 import translationAR from "./locales/ar/translation.json";
+import { Helmet } from "react-helmet";
 
 function App() {
   const fallbackLng = ["en"];

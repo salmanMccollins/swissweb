@@ -19,9 +19,8 @@ import bnrImg from "../../../images/cover.jpg";
 import Pic3 from "../../../images/service-section/pic3.jpg";
 import Pic6 from "../../../images/service-section/pic6.jpg";
 
-class OurPackeges extends Component{
+function OurPackeges() {
 	
-	render(){
 		return (
 			<>
 				
@@ -136,7 +135,6 @@ class OurPackeges extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default OurPackeges;

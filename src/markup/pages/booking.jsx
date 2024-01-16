@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -8,9 +8,19 @@ import Footer from "../layout/footer";
 // Images
 import bnrImg from "../../images/banner/booking.jpg";
 import { useHistory } from 'react-router-dom';
+import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 function Booking(){
 	const history = useHistory();
+	const [data, setData] = useState();
+	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+		const meta = response.data.data.filter((i) => i.name === "booking");
+		setData(meta[0]);
+		console.log(meta[0]);
+		});
+	}, []);
 	const handleSubmit = async (event) => {
     event.preventDefault();
 const formData = new FormData(event.target);
@@ -40,6 +50,11 @@ const formData = new FormData(event.target);
 		}
 		return (
 			<>
+
+				<Helmet>
+					<title>{data?.title}</title>
+					<meta name="description" content={data?.content} />
+				</Helmet>
 				
 				<Header />
 				

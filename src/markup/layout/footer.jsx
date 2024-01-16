@@ -220,7 +220,7 @@ function AboutSection() {
 						</div>
 					</div>
 				</footer>
-			
+				
 			</>
 		);
 }

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -10,13 +10,26 @@ import GallerySection from "../elements/gallery/content2";
 
 // Images
 import bnrImg from "../../images/banner/bnr1.jpg";
+import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
-class Gallery2 extends Component{
+function Gallery2() {
+
+	const [data, setData] = useState();
+	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+		const meta = response.data.data.filter((i) => i.name === "services");
+		setData(meta[0]);
+		console.log(meta[0]);
+		});
+	}, []);
 	
-	render(){
 		return (
 			<>
-				
+				<Helmet>
+					<title>{data?.title}</title>
+					<meta name="description" content={data?.content} />
+				</Helmet>
 				<Header />
 				
 				<div className="page-content bg-white">
@@ -47,7 +60,6 @@ class Gallery2 extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default Gallery2;

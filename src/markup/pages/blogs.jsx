@@ -64,11 +64,11 @@ const BlogGridSidebar = () => {
 					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
-								<h1><span>Media Center</span></h1>
+								<h1><span>Blogs</span></h1>
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Media Center</li>
+										<li className="breadcrumb-item active" aria-current="page">Blogs</li>
 									</ul>
 								</nav>
 							</div>

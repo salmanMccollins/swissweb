@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -16,8 +16,19 @@ import bnrImg from "../../images/newimages/ourbrands.webp";
 import ScheduleServiceSection from "../elements/schedule-service";
 import HeroBanner from '../elements/widget/HeroBanner';
 import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
+import axios from 'axios';
+import { Helmet } from 'react-helmet';
 
 function OurBrands() {
+  const [data, setData] = useState();
+
+	useEffect(() => {
+    axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+      const meta = response.data.data.filter((i) => i.name === "ourbrands");
+      setData(meta[0]);
+      console.log(meta[0]);
+    });
+  }, []);
 
 	const { t } = useTranslation();
 
@@ -31,6 +42,10 @@ function OurBrands() {
 		return (
 			<>
 			
+			    <Helmet>
+					<title>{data?.title}</title>
+					<meta name="description" content={data?.content} />
+				</Helmet>
 				<Header />
                 <div className="page-content bg-white BrandPage">
 					

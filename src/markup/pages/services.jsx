@@ -1,4 +1,4 @@
-import React, { useRef, useEffect }  from 'react';
+import React, { useRef, useEffect, useState }  from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -17,7 +17,18 @@ import InstagramBox from '../elements/widget/InstagramBox';
 
 import bg2 from "../../images/background/bg2.png";
 import bnrImg from "../../images/newimages/package-banner.webp";
+import axios from 'axios';
+import { Helmet } from 'react-helmet';
 function ServicesBox() {
+	
+  const [data, setData] = useState();
+	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+		const meta = response.data.data.filter((i) => i.name === "services");
+		setData(meta[0]);
+		console.log(meta[0]);
+		});
+	}, []);
 
 	const { t } = useTranslation();
 
@@ -40,6 +51,11 @@ function ServicesBox() {
 		
 		return (
 			<>
+
+				<Helmet>
+					<title>{data?.title}</title>
+					<meta name="description" content={data?.content} />
+				</Helmet>
 			
 				<Header />
 				

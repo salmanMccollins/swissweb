@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 
 import { Link } from 'react-router-dom';
 import Sticky from 'react-stickynode';
@@ -8,14 +8,35 @@ import SwissBrands from '../elements/widget/Swiss-Brands';
 // Images
 import logo from "../../images/Logo_dark_147x54.webp";
 import logoWhite from "../../images/Logo_light_147x54.webp";
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
 
 
-class aboutSection extends Component{
+function AboutSection(){
+
 	
+	const { t } = useTranslation();
+
+
+
+	const handleRefresh = (url) => {
+		window.location.href = url;
+	};
+
+	const currentLanguage = i18next.language; // "en" or "ar"
+
 	
-	componentDidMount(){
+	if (currentLanguage === "en") {
+	// Render English content
+	console.log("en");
+	} else if (currentLanguage === "ar") {
+	// Render Arabic content
+	console.log("ar");
+	}
 		
+	useEffect(() => {
+	
 		// Mobile Menu Open
 		var menuIcon = document.querySelector(".menuicon")
 		var menuLinks = document.querySelector(".menu-links")
@@ -68,9 +89,11 @@ class aboutSection extends Component{
 				console.log("close")
 			}
 		}
-	}
+
+		
+	}, [])
+
 	
-	render(){
 		return(
 			<>
 				
@@ -137,7 +160,7 @@ class aboutSection extends Component{
 									<span></span>
 								</button>
 								<div className="secondary-menu">
-									<Link to="/login" className="btn btn-language">عربي<span className="flag1">&nbsp;</span></Link>
+									<div onClick={()=>handleRefresh(currentLanguage=== "en" ? "/ar" : "/en")}  className="btn btn-language">{currentLanguage === "en" ? "عربي" : "English"}<span className="flag1">&nbsp;</span></div>
 									<Link to="/booking" className="btn btn-primary ms-3">Book Appointment</Link>
 									<div className='HamberMenuClick  desk-only' id='HamberMenuClick'>&nbsp;</div>
 								</div>
@@ -262,7 +285,6 @@ class aboutSection extends Component{
 			
 			</>
 		);
-	}
 }
 
-export default aboutSection;
+export default AboutSection;

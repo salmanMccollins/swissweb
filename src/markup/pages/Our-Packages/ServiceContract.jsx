@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Accordion } from "react-bootstrap";
 
@@ -13,11 +13,26 @@ import WidgetHelp from "../../elements/widget/widget-help";
 // Images
 import bnrImg from "../../../images/newimages/package-banner.webp";
 import Pic1 from "../../../images/service-section/pic1.jpg";
+import axios from "axios";
+import { Helmet } from "react-helmet";
 
-class ServiceContract extends Component {
-  render() {
+function ServiceContract() {
+  const [data, setData] = useState();
+  	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+		const meta = response.data.data.filter((i) => i.name === "service-contract");
+		setData(meta[0]);
+		console.log(meta[0]);
+		});
+	}, []);
     return (
       <>
+
+				<Helmet>
+					<title>{data?.title}</title>
+					<meta name="description" content={data?.content} />
+				</Helmet>
+
         <Header />
 
         <div className="page-content bg-white">
@@ -201,7 +216,6 @@ class ServiceContract extends Component {
         <Footer />
       </>
     );
-  }
 }
 
 export default ServiceContract;
