@@ -12,7 +12,7 @@ function WidgetRecentPosts(props){
 				<div className="widget recent-posts-entry">
 					<h5 className="widget-title">Recent Posts</h5>
 					<div className="widget-post-bx">
-						{props.content.slice(0, 3).map((item)=>(
+						{props.content.slice(-3).reverse().map((item)=>(
 						<div className="widget-post clearfix">
 							<div className="ttr-post-media"> <img src={item.photo} width="200" height="143" alt=""/> </div>
 							<div className="ttr-post-info">

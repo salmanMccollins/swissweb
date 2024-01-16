@@ -80,7 +80,7 @@ const BlogGridSidebar = () => {
 							<div className="row">
 								<div className="col-md-8 col-lg-8 col-xl-8 mb-30 mb-md-50">
 									<div className="row">
-										{content && content.map((item) =>(
+										{content && content.slice().reverse().map((item) =>(
 											<div className="col-xl-6 col-lg-6 col-md-6">
 												<div className="blog-card style-1 bg-white shadow">
 													<div className="post-media">
