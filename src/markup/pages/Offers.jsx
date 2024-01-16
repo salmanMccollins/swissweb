@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -26,6 +26,8 @@ import TestimonialSection from '../elements/testimonial';
 import OurBrandsLayout from '../elements/widget/OurBrandsLayout';
 import ChooseUsSection from '../elements/choose-us';
 import InstagramBox from '../elements/widget/InstagramBox';
+import axios from 'axios';
+import { Helmet } from 'react-helmet';
 const content = [
 	{ 
 		thumb: blogGridPic1,
@@ -85,11 +87,23 @@ const content = [
 	},
 ]
 
-class Offers extends Component{
+function Offers(){
+	const [data, setData] = useState();
+	useEffect(() => {
+		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+		const meta = response.data.data.filter((i) => i.name === "offers");
+		setData(meta[0]);
+		console.log(meta[0]);
+		});
+	}, []);
 	
-	render(){
 		return (
 			<>
+
+				<Helmet>
+					<title>{data?.title}</title>
+					<meta name="description" content={data?.content} />
+				</Helmet>
 				
 				<Header />
 				
@@ -150,7 +164,6 @@ class Offers extends Component{
 				
 			</>
 		);
-	}
 }
 
 export default Offers;
