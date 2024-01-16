@@ -41,7 +41,7 @@ const BlogGridSidebar = () => {
 
   useEffect(() => {
     axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
-      const meta = response.data.data.filter((i) => i.name === "aboutus");
+      const meta = response.data.data.filter((i) => i.name === "blogs");
       setData(meta[0]);
       console.log(meta[0]);
     });
