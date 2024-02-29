@@ -62,7 +62,7 @@ class TestimonialSection extends Component{
 		return(
 			<>
 				
-				<section className='section-area section-sp2 ov-hidden TestWrap position-relative MaskWrap bg-gray'>
+				<section className='section-area section-sp2 ov-hidden TestWrap position-relative MaskWrap bg-gray MaskWrap120'>
 					<div className='container'>
 					<div className="heading-bx text-center">
 							<h6 className="title-ext text-primary">Our Reviews</h6>

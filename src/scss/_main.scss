@@ -746,7 +746,17 @@
 .No-index .halo-sticky-toolbar-mobile{
 	z-index:9 !important;
 }
+.MaskWrap.MaskWrap120 {
+	.Mask{
+		margin-top: -120px !important;
+	}
+}
 @media only screen and (max-width: 1000px) {
+	.MaskWrap.MaskWrap120 {
+		.Mask{
+			margin-top: -60px !important;
+		}
+	}
 	.Mask{
 		height: 30px;
 	}
