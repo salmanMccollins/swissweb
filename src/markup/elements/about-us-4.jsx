@@ -44,7 +44,7 @@ As a reputed auto repair facility in Saudi Arabia, our goal is to provide high-q
 									<li>Personalized care that your car deserves</li>
 									<li>Assuring peace of mind on the roads</li>
 								</ul>
-								<Link to="/about-2" className="btn btn-primary btn-lg">READ MORE</Link>
+								<Link to="/aboutus" className="btn btn-primary btn-lg">READ MORE</Link>
 							</div>
 						</div>
 					</div>
