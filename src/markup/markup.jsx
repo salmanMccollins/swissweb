@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 // Elements
 import BackToTop from './elements/back-top';
@@ -97,11 +97,12 @@ class Markup extends Component{
 		
 		return(
 			<>
-				<BrowserRouter basename={`/${this.props.i18n.language}`}>
+				<BrowserRouter>
 				
 					<Switch>
 					
-						<Route path='/' exact component={Index} />
+						<Route path={`/${this.props.i18n.language}`} exact component={Index} />
+						<Route path='/' exact render={() => <Redirect to="/en" />} />
 						<Route path='/ourbrands' exact component={OurBrands} />
 						<Route path='/aboutus' exact component={AboutUs} />
 						<Route path='/services' exact component={ServicesBox} />
@@ -111,7 +112,6 @@ class Markup extends Component{
 						<Route path='/packages/minor-service' exact component={MinorServices} />
 						<Route path='/packages/major-service' exact component={MajorServices} />
 						<Route path='/thankyou' exact component={ThankyouPage} />
-						
 						
 
 						<Route path='/services/mechanical-repair/axil-or-drift-shaft-repair' exact component={AxilorDriftShaftRepair} />
@@ -187,8 +187,10 @@ class Markup extends Component{
 						<Route path='/contact' exact component={ContactUs} />
 						{/* <Route path='/gallery' exact component={Gallery2} /> */}
 						<Route path='/offers' exact component={Offers} />
+						<Route path='/error' exact component={Offers} />
 						
 						<Route component={Error} />
+
 						
 					</Switch>
 					

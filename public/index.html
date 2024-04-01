@@ -16,6 +16,22 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    <script>
+      // Function to check the current path and redirect if necessary
+      function redirectToErrorIfNotUnderEnOrAr() {
+        const currentPath = window.location.pathname;
+        if (!currentPath.startsWith("/en") && !currentPath.startsWith("/ar")) {
+          window.location.href = "/en/error"; // Redirect to the error page
+        }
+      }
+
+      // Call the function when the page loads
+      document.addEventListener(
+        "DOMContentLoaded",
+        redirectToErrorIfNotUnderEnOrAr
+      );
+    </script>
+
     <!-- META ============================================= -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
