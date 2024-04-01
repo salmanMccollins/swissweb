@@ -69,8 +69,8 @@ class TestimonialSection extends Component{
 							<h2 className="title mb-0">What our customers say</h2>
 							<p>Check out the reviews from our huge number of satisfied customers to know more about our  quality of servicing and transparency</p>
 						</div>
-						<div style={{minHeight:"760px"}}>
-						<ElfsightWidget widgetId={"a4fa245b-d2eb-4a8c-ac98-db1a9734c6aa"} lazy />
+						<div>
+						<ElfsightWidget widgetId={"dc7ae3c6-7779-477a-a278-1727ec233127"} lazy />
 						</div>
 					</div>
 					<div className='Mask'>&nbsp;</div>

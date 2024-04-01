@@ -38,7 +38,7 @@ class InstagramBox extends Component{
 							<h2 className="title mb-0">Follow us on Instagram</h2>
 							<p>To stay at the top of all automotive updates, car care tips and offers on car services and repairs, stay tuned to our Instagram handle.</p>
 						</div>
-						<ElfsightWidget widgetId={"9fb2aae0-0f80-4e25-b739-146573a7766a"} lazy />
+						<ElfsightWidget widgetId={"207bee3c-8a36-4b6e-8104-282d2f172946"} lazy />
 					</div>
 					<div className='Mask'>&nbsp;</div>
 				</section>
