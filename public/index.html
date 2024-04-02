@@ -20,7 +20,12 @@
       // Function to check the current path and redirect if necessary
       function redirectToErrorIfNotUnderEnOrAr() {
         const currentPath = window.location.pathname;
-        if (!currentPath.startsWith("/en") && !currentPath.startsWith("/ar")) {
+        console.log(currentPath);
+        if (
+          !currentPath.startsWith("/en") &&
+          !currentPath.startsWith("/ar") &&
+          currentPath != "/"
+        ) {
           window.location.href = "/en/error"; // Redirect to the error page
         }
       }

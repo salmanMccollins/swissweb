@@ -97,12 +97,12 @@ class Markup extends Component{
 		
 		return(
 			<>
-				<BrowserRouter>
+				<BrowserRouter basename={`/${this.props.i18n.language}`}>
 				
 					<Switch>
 					
-						<Route path={`/${this.props.i18n.language}`} exact component={Index} />
-						<Route path='/' exact render={() => <Redirect to="/en" />} />
+						<Route path={`/`} exact component={Index} />
+						{/* <Route path='/' exact render={() => <Redirect to="/en" />} /> */}
 						<Route path='/ourbrands' exact component={OurBrands} />
 						<Route path='/aboutus' exact component={AboutUs} />
 						<Route path='/services' exact component={ServicesBox} />
@@ -187,7 +187,7 @@ class Markup extends Component{
 						<Route path='/contact' exact component={ContactUs} />
 						{/* <Route path='/gallery' exact component={Gallery2} /> */}
 						<Route path='/offers' exact component={Offers} />
-						<Route path='/error' exact component={Offers} />
+						<Route path='/error' exact component={Error} />
 						
 						<Route component={Error} />
 
