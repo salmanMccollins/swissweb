@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /sitemap/
+Disallow: /cgi-bin/
+Sitemap: https://swissauto.me/sitemap.xml
