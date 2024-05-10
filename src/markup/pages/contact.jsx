@@ -14,14 +14,6 @@ import { Helmet } from 'react-helmet';
 function ContactUs() {
 
 	const history = useHistory();
-	const [data, setData] = useState();
-	useEffect(() => {
-		axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
-		const meta = response.data.data.filter((i) => i.name === "contact");
-		setData(meta[0]);
-		console.log(meta[0]);
-		});
-	}, []);
 	const handleSubmit = async (event) => {
     event.preventDefault(); // Prevent the default form submission behavior
 
@@ -77,10 +69,6 @@ function ContactUs() {
 		return (
 			<>
 
-				<Helmet>
-					<title>{data?.title}</title>
-					<meta name="description" content={data?.content} />
-				</Helmet>
 				
 				<Header />
 				

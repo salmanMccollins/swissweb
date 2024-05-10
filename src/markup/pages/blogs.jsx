@@ -37,15 +37,6 @@ const BlogGridSidebar = () => {
   const [totalPages, setTotalPages] = useState(1);
 
 
-  const [data, setData] = useState();
-
-  useEffect(() => {
-    axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
-      const meta = response.data.data.filter((i) => i.name === "blogs");
-      setData(meta[0]);
-      console.log(meta[0]);
-    });
-  }, []);
 
   useEffect(() => {
     axios.get(`https://swiss-backend.vercel.app/api/blogs/blog?page=${currentPage}`).then((response) => {
@@ -68,10 +59,6 @@ const BlogGridSidebar = () => {
 	
 		return (
 			<>
-				<Helmet>
-						<title>{data?.title}</title>
-						<meta name="description" content={data?.content} />
-				</Helmet>
 				<Header />
 				
 				<div className="page-content bg-gray">

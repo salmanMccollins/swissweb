@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Markup from "./markup/markup";
 
 // Slick Carousel
@@ -27,10 +27,23 @@ import { Suspense } from "react";
 import translationEN from "./locales/en/translation.json";
 import translationAR from "./locales/ar/translation.json";
 import { Helmet } from "react-helmet";
+import axios from "axios";
 
 function App() {
   const fallbackLng = ["en"];
   const availableLanguages = ["en", "ar"];
+
+  const pathname = window.location.pathname;
+  console.log(pathname);
+
+  const [data, setData] = useState();
+  useEffect(() => {
+    axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
+      const meta = response.data.data.filter((i) => i.name === pathname);
+      setData(meta[0]);
+      console.log(meta[0]);
+    });
+  }, []);
 
   const resources = {
     en: {
@@ -62,6 +75,10 @@ function App() {
     <I18nextProvider i18n={i18n}>
       <Suspense fallback={<div>Loading...</div>}>
         <div className="page-wraper">
+          <Helmet>
+            <title>{data?.title}</title>
+            <meta name="description" content={data?.content} />
+          </Helmet>
           <Markup i18n={i18n} />
         </div>
       </Suspense>

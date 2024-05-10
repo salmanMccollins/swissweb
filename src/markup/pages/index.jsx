@@ -33,23 +33,10 @@ function Index() {
 		window.location.href = url;
 	};
 
-	const [data, setData] = useState()
-
-	useEffect(() => {
-    axios.get(`https://swiss-backend.vercel.app/api/meta`).then((response) => {
-	  const meta = response.data.data.filter(i => i.name === "index")
-	  setData(meta[0])
-      console.log(meta[0]);
-    });
-  }, []);
 	
 		
 		return (
 			<>
-          <Helmet>
-            <title>{data?.title}</title>
-            <meta name="description" content={data?.content} />
-          </Helmet>
 			
 				<Header />
 				
