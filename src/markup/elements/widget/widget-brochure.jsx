@@ -13,7 +13,7 @@ class widgetBrochure extends Component{
 				<div className="widget">
 					<div className="brochure-bx">
 						<h5 className="title-head">Quick Links</h5>
-						<a target='_blank' href="https://wa.me/966539699984?text=Hi%20Swiss%20Auto%20%2C%20%0AI%20would%20like%20to%20know%20more%20about%20your%20products" className="download-link">
+						<a target='_blank' href="https://wa.me/+966557835647?text=Hi%20Swiss%20Auto%20%2C%20%0AI%20would%20like%20to%20know%20more%20about%20your%20products" className="download-link">
 							<img src={iconPDF} alt=""/>
 							<h5 className="title">Whatsapp Us</h5>
 							<span>+966 55 783 5647
