@@ -178,7 +178,8 @@ Further, the Maserati specialists at our workshop in KSA are trained to provide 
               <h6 class="title-ext text-primary">WE ARE READY</h6>
               <h2 class="title mb-0">TO SERVE YOUR MASERATI</h2>
               <p>
-			  Whether you require routine maintenance, have specific concerns about your Maserati repairs, or wish to explore our Maserati after-sales services, our team is ready to assist you. Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a>.
+			  Whether you require routine maintenance, have specific concerns about your Maserati repairs, or wish to explore our Maserati after-sales services, our team is ready to assist you. Dial <a href="tel:966557835647">+966 55 783 5647
+</a>.
 
 Our Maserati services & repairs that we specialise in are listed below,
               </p>

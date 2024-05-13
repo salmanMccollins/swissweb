@@ -174,7 +174,8 @@ Our state-of-the-art facility is equipped to handle any electrical or mechanical
               <h6 class="title-ext text-primary">TRUST OUR EXPERTS,</h6>
               <h2 class="title mb-0">TO KEEP YOUR LAMBORGHINI PERFORMING AT ITS BEST</h2>
               <p>
-			  Whether you need routine maintenance or have a specific concern about your Lamborghini, our team is here to help. Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to have a talk with our service advisor and get expert assistance.
+			  Whether you need routine maintenance or have a specific concern about your Lamborghini, our team is here to help. Dial <a href="tel:966557835647">+966 55 783 5647
+</a> to have a talk with our service advisor and get expert assistance.
 
 Our key specialities in Lamborghini service and repair other than routine maintenance tasks include,
 

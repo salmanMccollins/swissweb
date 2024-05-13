@@ -170,7 +170,8 @@ class Pagani extends Component {
               <h6 class="title-ext text-primary">Schedule Your</h6>
               <h2 class="title mb-0">PAGANI SERVICE IN SAUDI ARABIA WITH OUR EXPERTS</h2>
               <p>
-              We have specifically tailored our Pagani service and repair process in accordance with the manufacturer's guidelines to ensure the longevity and optimal performance of your car. Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> to get premium care and preserve the elegance of your Pagani on the roads.
+              We have specifically tailored our Pagani service and repair process in accordance with the manufacturer's guidelines to ensure the longevity and optimal performance of your car. Dial <a href="tel:966557835647">+966 55 783 5647
+</a> to get premium care and preserve the elegance of your Pagani on the roads.
 
 From engine diagnostics to paint and body shop service, we cover everything. The maintenance and repair services that we specialize in providing for your Pagani are listed below,
 

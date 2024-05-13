@@ -123,7 +123,7 @@ class TouchlessWheelAlignment extends Component {
 						Never get confused, we are the ideal place to get your wheels aligned in no time from the experts.
                         </p>
 						<p className="mb-15">
-						Dial us at 966 53 969 9984 to know more about wheel alignment services and to make bookings.
+						Dial us at 966557835647 to know more about wheel alignment services and to make bookings.
                         </p>
                       </div>
                     </div>

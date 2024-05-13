@@ -104,10 +104,11 @@ function AboutSection(){
 								<div className='col-md-5'>Your trusted partner for auto repair services in saudi arabia</div>
 								<div className='col-md-7'>
 									<div className='AnnouncementIcons'>
-										<a href='tel:966 53 969 9984' className='AnnonceLink1 call'>
-											+966 53 969 9984
+										<a href='tel:966557835647' className='AnnonceLink1 call'>
+											+966 55 783 5647
+
 										</a>
-										<a href='https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0' className='AnnonceLink1 whatsapp'>
+										<a href='https://wa.me/966557835647?text=Hi%2C%20Swiss%20Auto%20Services' className='AnnonceLink1 whatsapp'>
 											WhatsApp Us
 										</a>
 										<a href='#' className='AnnonceLink1 location'>
@@ -140,7 +141,7 @@ function AboutSection(){
 											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/swissautosa/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/swissautosa/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCIDHmzSK6mFQykqrG_SjVig" className="btn button-sm"><i className="fa fa-youtube"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://wa.me/966557835647?text=Hi%2C%20Swiss%20Auto%20Services" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
 										</ul>
 							</div>
 						</div>
@@ -272,7 +273,7 @@ function AboutSection(){
 											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/swissautosa/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/swissautosa/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCIDHmzSK6mFQykqrG_SjVig" className="btn button-sm"><i className="fa fa-youtube"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://wa.me/966557835647?text=Hi%2C%20Swiss%20Auto%20Services" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
 										</ul>
 									<div className="menu-close" id="menuClose">
 										<i className="ti-close"></i>

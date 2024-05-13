@@ -54,7 +54,8 @@ function AboutSection() {
 									</Link>
 								</li>
 								<li>
-									<a href="tel:+966 53 969 9984">
+									<a href="tel:+966 55 783 5647
+">
 										<div class="icon">
 										<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEqUlEQVR4nO1ZXWgcVRQ+sWq1/qCtbTLnbLKigZY0c86s6y8oKgpKH1TUKIjWn0KlIj755A8ikoda36o+6IMPRajEIqJWxKpFLILSoiJSUQlWY0zm3EkaFbVaR+7OnWRddtNNzLRXyQf7snvn7r1zz/nOd74LsIhF/L8x2ROek2B0n0EZUpRPFXlSUYwhfiLt7V0KPiOFy483FA0Ykl1K8pchSZt+kN/T5ReeDr4hBehQ4psMyf66BU8p8raY+I6kFIYTZTkjJrnSoHznft871RWtBF8Ql6ILDPJHdRv4MkHeFK9YfVqz8UlXpTy9YeSPRzv5FDiWsHFuUAaV+A+3qO8NyUYbXkd69sdV/Z2K8rV9TpFfb+eZQjAehOcpyme1hRD/qcSbR4LqsrnMMVaq9CrxeDaHbIGjDQ14g6L85sJov8HKJfOdKwn4UkU+VCOGEl8LRwNptXqCEj8zkwu89UDp4pP/7bwG+UF3snugaIx28ioleT/LBflVidcv1NyTPeGZ7uX8DEUixnC1En/rYvlA3F05fyFfkCF+JadjKAoTyBVDMuaO/gPLNgs1t0G5ZTrZbdUnvgiKgEvECfdHb8yWD2Mr+05td96xcl+XQdlRl2tvJ0G1B4qAKfE1hvgXF07bbaI3G5fCwBJFeThjMX4h7q7gbPMq8fpMb9U2cDCrO9BRyCaU+EZF+d2dxHN2sa2LGu9u0FE/2Y01nl7SVSkrypv5OEXZaXBtNxQFy+XTmyDZ0uptmRL3K/GwY7HRpBTdVh8ulhwUozutltJA7re6y32vVntBkbA5URdOLSttjOFVLiysLHm3ngBikiuUZF8zxask2y1LFboJy06WOdyxP9/yJChaZ+uIC7ttaV/fiY1jUoDjFOUuuyElOazIn8QYXgdFw9aJOop9qVVO/CN3SJ4qLEnng1rC5sUOZWezN2xhkG+dUbkyCD4hrWmnTHbYYtdKvcZBdL0Vdi6cHgPfoCTPuoT9oRX/K0ZX5zlhSB4H36ABb8gFoO3wmo1JgvCyGRbjJ8E3jGdNUa2fsFzfUijOVOCt4BvS3t6leWdniJ9uNuYgrllhkL9yJzZk6RR8g0EZzDu7ZiLQLtqKuLzRGS6XTwI/Q4ptW3nYVvFmY5TCh9wmxrUkBL4hBejILZtWiWvtmzx3EpLbwUcohTc7qh2Zze2wUtzlxg7wDSkMLDHEX7jc2HikSp8LQltDwCeYzIutOYDtGGGK8ojTU/u8YixDsqsW98ib2hlv2WxGfzWvM8fE2tfMFZ9q5cU2gyLfU7izMRfU7idc7zB3myazQ8EHGJSh+dCpEj/gXsDn4APUyRF7P9HuMxOdcrY1EexzcSA3gA8wjkqtLdl+4ZR33Gm8CL5AieMsaaN17Yw3JPe6JB+bCqpngS9Q5Edzy2aye+25s421PtO0O0LRAPjWzhrit1xP/s1sTmDNNMs2/TL4iJGgusz25I5Oh+Ogf03jGEW5OzfQFtKoXnBMlvqWG5QP88XaNjb/bbynGihK4rXqbTwZQ/KqY6RD9qbIXbJk35G8Bv8VpNY9J97ceJlfu5/wsZFqy6wm3uNckr2FXbIsYhHgHf4GBPIMAyA7YvYAAAAASUVORK5CYII="/>
 										</div>
@@ -123,7 +124,8 @@ function AboutSection() {
 										<div className="ft-content">
 											<i className="fa fa-phone"></i>
 											<span>Talk To Our Support</span>
-											<h4>+966 53 969 9984 </h4>
+											<h4>+966 55 783 5647
+ </h4>
 										</div>
 									</div>
 								</div>
@@ -195,7 +197,7 @@ function AboutSection() {
 											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/swissautosa/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/swissautosa/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCIDHmzSK6mFQykqrG_SjVig" className="btn button-sm"><i className="fa fa-youtube"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://wa.me/966557835647?text=Hi%2C%20Swiss%20Auto%20Services" className="btn button-sm"><i className="fa fa-whatsapp"></i></a></li>
 										</ul>
 									</div>
 								</div>

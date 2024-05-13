@@ -173,7 +173,8 @@ class Dodge extends Component{
 				  <h2 class="title mb-0">SERVICE OR REPAIR IN SAUDI ARABIA WITH US</h2>
 				  <p className='mb-10'>
 				 
-Scheduling your Dodge service appointment with us is quite easy, Dial <a href="tel:966 53 969 9984">+966 53 969 9984</a> or visit us directly at our Dodge service center in Saudi Arabia, our technicians are ready to provide the premium care that your car deserves.
+Scheduling your Dodge service appointment with us is quite easy, Dial <a href="tel:966557835647">+966 55 783 5647
+</a> or visit us directly at our Dodge service center in Saudi Arabia, our technicians are ready to provide the premium care that your car deserves.
 
 				  </p>
 				  <p>We have the necessary experience and expertise to provide the following services for your Dodge,</p>

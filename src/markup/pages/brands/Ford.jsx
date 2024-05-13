@@ -168,7 +168,8 @@ class Ford extends Component {
               <h6 class="title-ext text-primary">SCHEDULE YOUR</h6>
               <h2 class="title mb-0">FORD SERVICE IN SAUDI ARABIA WITH US</h2>
               <p>
-			  Is your Ford not performing at its best due to a lack of service or sudden repairs? Call us at <a href="tel:966 53 969 9984">+966 53 969 9984</a>. With the highest level of precision, we offer the following Ford service & repair.
+			  Is your Ford not performing at its best due to a lack of service or sudden repairs? Call us at <a href="tel:966557835647">+966 55 783 5647
+</a>. With the highest level of precision, we offer the following Ford service & repair.
               </p>
             </div>
             <div className="SerGridWrap">

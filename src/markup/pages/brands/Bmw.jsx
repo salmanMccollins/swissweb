@@ -174,7 +174,8 @@ class Bmw extends Component {
               <h6 class="title-ext text-primary">FOR BMW SERVICE</h6>
               <h2 class="title mb-0">IN SAUDI ARABIA, GIVE US A TRYS</h2>
               <p>
-			  Our profound knowledge of luxury cars and experience in the auto repair industry would give you the confidence that your cars are in safer hands. So if your BMW is due for the service just give us a call at <a href="tel:966 53 969 9984">+966 53 969 9984</a>. With the utmost precision, we provide the following BMW service & repair.
+			  Our profound knowledge of luxury cars and experience in the auto repair industry would give you the confidence that your cars are in safer hands. So if your BMW is due for the service just give us a call at <a href="tel:966557835647">+966 55 783 5647
+</a>. With the utmost precision, we provide the following BMW service & repair.
               </p>
             </div>
             <div className="SerGridWrap">

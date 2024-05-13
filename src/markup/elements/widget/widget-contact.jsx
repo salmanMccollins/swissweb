@@ -16,7 +16,9 @@ class widgetContact extends Component{
 						<li>
 							<img src={icon1} alt=""/>
 							<h6 className="contact-title">Contact Number</h6>
-							<a href="tel:+966 53 969 9984">+966 53 969 9984</a>
+							<a href="tel:+966 55 783 5647
+">+966 55 783 5647
+</a>
 						</li>
 						<li>
 							<img src={icon2} alt=""/>

@@ -106,7 +106,8 @@ Riyadh Saudi Arabia</p>
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-id-badge"></i>Email & Phone</h6>		
 										<a href="mailto:hello@swissauto.ae" className='btng1'>hello@swissauto.ae</a>
-										<div><a href="tel: 966 53 969 9984" className='btng1'> +966 53 969 9984</a></div>
+										<div><a href="tel: 966557835647" className='btng1'> +966 55 783 5647
+</a></div>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-4 col-sm-12">
@@ -116,7 +117,7 @@ Riyadh Saudi Arabia</p>
 											<li><a target="_blank" href="https://www.facebook.com/swissautosa/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-facebook"></i></a></li>
 											<li><a target="_blank" href="https://www.instagram.com/swissautosa/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-instagram"></i></a></li>
 											<li><a target="_blank" href="https://www.youtube.com/channel/UCIDHmzSK6mFQykqrG_SjVig" rel="noreferrer" className="btn btn-primary"><i className="fa fa-youtube"></i></a></li>
-											<li><a target="_blank" href="https://api.whatsapp.com/send/?phone=966563110154&text=Hi%2C+Swiss+Auto+Services&type=phone_number&app_absent=0" rel="noreferrer" className="btn btn-primary"><i className="fa fa-whatsapp"></i></a></li>
+											<li><a target="_blank" href="https://wa.me/966557835647?text=Hi%2C%20Swiss%20Auto%20Services" rel="noreferrer" className="btn btn-primary"><i className="fa fa-whatsapp"></i></a></li>
 										</ul>
 									</div>
 								</div>

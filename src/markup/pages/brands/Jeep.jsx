@@ -173,7 +173,8 @@ Our goal is to ensure the dealership's range of Jeep services for all current an
 				<div class="heading-bx text-center">
 				  <h6 class="title-ext text-primary">SCHEDULE YOUR JEEP</h6>
 				  <h2 class="title mb-0">SERVICE OR REPAIR IN SAUDI ARABIA WITH US</h2>
-				  <p className='mb-10'>We look forward to providing you with the care and dedication your Jeep deserves. Schedule your next Jeep service or repair appointment with us today by dialling us at <a href="tel:966 53 969 9984">+966 53 969 9984</a> or visiting us directly at our workshop.
+				  <p className='mb-10'>We look forward to providing you with the care and dedication your Jeep deserves. Schedule your next Jeep service or repair appointment with us today by dialling us at <a href="tel:966557835647">+966 55 783 5647
+</a> or visiting us directly at our workshop.
 
 				  </p>
 				</div>

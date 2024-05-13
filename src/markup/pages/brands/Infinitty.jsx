@@ -176,7 +176,8 @@ class Infinitty extends Component {
               <h6 class="title-ext text-primary">CONTACT US TO</h6>
               <h2 class="title mb-0">SCHEDULE YOUR INFINITI SERVICE WITH US</h2>
               <p>
-			  Ready to experience the best in Infiniti car service? Schedule your appointment by just dialing us at <a href="tel:966 53 969 9984">+966 53 969 9984</a> or visiting us directly at our car service center.
+			  Ready to experience the best in Infiniti car service? Schedule your appointment by just dialing us at <a href="tel:966557835647">+966 55 783 5647
+</a> or visiting us directly at our car service center.
 
 
               </p>
