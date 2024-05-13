@@ -111,7 +111,7 @@ function AboutSection(){
 										<a href='https://wa.me/966557835647?text=Hi%2C%20Swiss%20Auto%20Services' className='AnnonceLink1 whatsapp'>
 											WhatsApp Us
 										</a>
-										<a href='#' className='AnnonceLink1 location'>
+										<a href='https://maps.app.goo.gl/9N6WWe1bhbDYKh4MA' className='AnnonceLink1 location'>
 											Get Direction
 										</a>
 										<a href='mailto:hello@swissauto.me' className='AnnonceLink1 email'>
