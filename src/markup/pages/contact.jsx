@@ -105,7 +105,7 @@ Riyadh Saudi Arabia</p>
 								<div className="col-lg-4 col-md-4 col-sm-6">
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-id-badge"></i>Email & Phone</h6>		
-										<a href="mailto:hello@swissauto.ae" className='btng1'>hello@swissauto.ae</a>
+										<a href="mailto:hello@swissauto.me" className='btng1'>hello@swissauto.me</a>
 										<div><a href="tel: 966557835647" className='btng1'> +966 55 783 5647
 </a></div>
 									</div>

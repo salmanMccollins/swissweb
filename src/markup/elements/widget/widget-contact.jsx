@@ -23,7 +23,7 @@ class widgetContact extends Component{
 						<li>
 							<img src={icon2} alt=""/>
 							<h6 className="contact-title">Email Address</h6>
-							<a href="mailto:hello@swissauto.ae">hello@swissauto.ae</a>
+							<a href="mailto:hello@swissauto.me">hello@swissauto.me</a>
 						</li>
 						<li>
 							<img src={icon3} alt=""/>

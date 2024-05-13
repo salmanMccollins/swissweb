@@ -114,8 +114,8 @@ function AboutSection(){
 										<a href='#' className='AnnonceLink1 location'>
 											Get Direction
 										</a>
-										<a href='mailto:hello@swissauto.ae' className='AnnonceLink1 email'>
-										hello@swissauto.ae
+										<a href='mailto:hello@swissauto.me' className='AnnonceLink1 email'>
+										hello@swissauto.me
 										</a>
 									</div>
 								</div>
