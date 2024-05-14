@@ -98,7 +98,7 @@ function ContactUs() {
 								<div className="col-lg-4 col-md-4 col-sm-6">
 									<div className="icon-box">
 										<h6 className="title"><i className="ti-map-alt"></i>Location</h6>		
-										<p>Najran  st, Al Faisaliyyah, Riyadh 12896</p>
+										<p>Najran  st, Al Faisaliyyah, <br/>Riyadh 12896</p>
 									</div>
 								</div>
 								<div className="col-lg-4 col-md-4 col-sm-6">
