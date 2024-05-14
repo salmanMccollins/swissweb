@@ -125,7 +125,7 @@ function ContactUs() {
 					</section>
 					
 					<div className="section-area">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7431414.506738114!2d45.37588874782855!3d24.567777841144483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d24.379392!2d54.4899072!4m5!1s0x3e2f09007f265b95%3A0x6262d28ca1839502!2sswiss%20aUTO%20SAUDI!3m2!1d24.629660899999998!2d46.7961296!5e0!3m2!1sen!2sin!4v1715652895091!5m2!1sen!2sin" className="align-self-stretch d-flex"
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14507.312763839946!2d46.7959579!3d24.6296058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f09007f265b95%3A0x6262d28ca1839502!2sRoyal%20Swiss%20Auto%20Service!5e0!3m2!1sen!2sin!4v1715668657520!5m2!1sen!2sin" className="align-self-stretch d-flex"
 							style={{width: "100%", minHeight: "450px"}} title="map" allowfullscreen></iframe>
 					</div>
 					
